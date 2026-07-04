@@ -17,7 +17,7 @@ export const categories = [
   {
     name: 'Hometax Guides',
     description: 'Step-by-step guides for signing up, filing, paying, and checking refund status on Hometax.',
-    href: '/procedures/how-to-file-income-tax-on-hometax/'
+    href: '/guides/hometax-guide-foreigners/'
   },
   {
     name: 'Tax Documents',
@@ -34,8 +34,8 @@ export const categories = [
 export const startCards = [
   { label: 'I am an employee', href: '/guides/year-end-tax-settlement-foreigners/' },
   { label: 'I am a freelancer', href: '/guides/freelancer-3-3-tax-refund-korea/' },
-  { label: 'I am a student', href: '/guides/do-foreigners-pay-tax-in-korea/' },
-  { label: 'I need a tax document', href: '/guides/tax-documents-visa-extension-korea/' },
+  { label: 'I am a student', href: '/guides/d2-student-part-time-work-tax-korea/' },
+  { label: 'I need a tax document', href: '/guides/korean-tax-documents-visa-extension/' },
   { label: 'I need a refund', href: '/procedures/how-to-check-tax-refund-status/' },
-  { label: 'I need help with Hometax', href: '/guides/hometax-sign-up-foreigner/' }
+  { label: 'I need help with Hometax', href: '/guides/hometax-guide-foreigners/' }
 ];

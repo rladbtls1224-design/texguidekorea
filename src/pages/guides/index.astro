@@ -7,6 +7,31 @@ import { categories as categoryCards } from '../../data/categories';
 
 const guides = (await getCollection('guides')).sort((a, b) => b.data.updatedDate.valueOf() - a.data.updatedDate.valueOf());
 const categories = [...new Set(guides.map((guide) => guide.data.category))];
+const expandedGuideSlugs = [
+  'korea-tax-refund-e2-teachers',
+  'korea-year-end-settlement-documents-foreign-workers',
+  'certificate-of-income-korea',
+  'korea-33-tax-refund-english-teachers',
+  'd2-student-part-time-work-tax-korea',
+  'f6-visa-income-proof-tax-documents',
+  'korea-tax-residency-183-day-rule',
+  'korea-local-income-tax-foreigners',
+  'pay-korean-tax-from-abroad',
+  'hometax-login-problems-foreigners',
+  'year-end-settlement-vs-tax-filing-korea',
+  'what-is-33-tax-korea',
+  'd4-language-student-tax-korea',
+  'korean-withholding-tax-foreign-freelancers',
+  'withholding-tax-receipt-korea',
+  'korean-tax-documents-visa-extension',
+  'global-income-tax-filing-korea-foreigners',
+  'korean-tax-refund-timeline-foreigners',
+  'hometax-guide-foreigners',
+  'korean-tax-glossary-foreigners'
+];
+const expandedGuides = expandedGuideSlugs
+  .map((slug) => guides.find((guide) => guide.slug === slug))
+  .filter(Boolean);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -38,6 +63,15 @@ const jsonLd = {
             <h3>{category.name}</h3>
             <p>{category.description}</p>
           </a>
+        ))}
+      </div>
+    </section>
+    <section>
+      <h2>Expanded guides for 2026</h2>
+      <p class="meta">New practical guides for E-2 teachers, D-2 and D-4 students, F-6 visa holders, Hometax users, freelancers, refunds, certificates, and Korean tax terms.</p>
+      <div class="grid cards">
+        {expandedGuides.map((guide) => (
+          <GuideCard entry={guide} />
         ))}
       </div>
     </section>
