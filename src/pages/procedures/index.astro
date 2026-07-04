@@ -2,9 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import GuideCard from '../../components/GuideCard.astro';
+import OfficialSources from '../../components/OfficialSources.astro';
+import DisclaimerBlock from '../../components/DisclaimerBlock.astro';
 import { getCollection } from 'astro:content';
 
 const procedures = await getCollection('procedures');
+const officialSources = [
+  { title: 'Hometax - Online Tax Filing and Certificates', url: 'https://www.hometax.go.kr/', type: 'official' },
+  { title: 'National Tax Service - English Website', url: 'https://www.nts.go.kr/english/main.do', type: 'official' },
+  { title: 'Government24 - Government Services and Certificates', url: 'https://www.gov.kr/', type: 'official' }
+];
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -21,6 +28,10 @@ const jsonLd = {
     <h1>Korea Tax Procedures for Foreigners</h1>
     <p class="meta">Use these pages to understand the usual sequence of Hometax tasks. Menu names and screen layouts may change, so always confirm with official sources.</p>
     <section class="summary-box">
+      <h2>Who this section is for</h2>
+      <p>Use these procedures if you already know the topic you need and want a cautious navigation checklist for Hometax filing, income certificates, tax payment, or refund status checks.</p>
+    </section>
+    <section class="summary-box">
       <h2>Before you use a procedure</h2>
       <p>Start with the explanatory guide that matches your situation, then use the procedure page as a navigation checklist. Hometax, Sontax, and official service screens may change.</p>
       <ul>
@@ -29,8 +40,20 @@ const jsonLd = {
         <li><a href="/guides/freelancer-3-3-tax-refund-korea/">Korea 3.3% freelancer tax guide</a></li>
       </ul>
     </section>
+    <section class="summary-box">
+      <h2>Recommended order</h2>
+      <ol>
+        <li><a href="/procedures/how-to-file-income-tax-on-hometax/">Review the Hometax income tax filing procedure</a>.</li>
+        <li><a href="/procedures/how-to-get-income-certificate/">Check how income certificates are usually issued</a>.</li>
+        <li><a href="/procedures/how-to-pay-korean-tax-online/">Review online tax payment steps</a>.</li>
+        <li><a href="/procedures/how-to-check-tax-refund-status/">Check refund status only after filing or tax office processing</a>.</li>
+      </ol>
+      <p>For vocabulary, use the <a href="/glossary/">Korean tax glossary</a>.</p>
+    </section>
     <div class="grid cards">
       {procedures.map((entry) => <GuideCard entry={entry} type="procedure" />)}
     </div>
+    <OfficialSources sources={officialSources} />
+    <DisclaimerBlock />
   </main>
 </BaseLayout>

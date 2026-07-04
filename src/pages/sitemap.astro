@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const guides = (await getCollection('guides')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const procedures = (await getCollection('procedures')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const corePages = [
+  { title: 'Home', href: '/' },
+  { title: 'Guides', href: '/guides/' },
+  { title: 'Procedures', href: '/procedures/' },
+  { title: 'Do I Need to File Tax in Korea?', href: '/tools/do-i-need-to-file-tax/' },
+  { title: 'Glossary', href: '/glossary/' },
+  { title: 'About', href: '/about/' },
+  { title: 'Privacy Policy', href: '/privacy/' },
+  { title: 'Editorial Policy', href: '/editorial-policy/' },
+  { title: 'Disclaimer', href: '/disclaimer/' },
+  { title: 'Contact', href: '/contact/' }
+];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://taxguidekorea.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Sitemap', item: 'https://taxguidekorea.com/sitemap/' }
+  ]
+};
+---
+<BaseLayout title="Sitemap" description="Browse all public Korea Tax Guide pages, guides, procedures, glossary, RSS feed, and XML sitemap links." canonical="/sitemap/" jsonLd={jsonLd}>
+  <main class="section container article">
+    <Breadcrumbs items={[{ label: 'Sitemap' }]} />
+    <p class="eyebrow">Sitemap</p>
+    <h1>Korea Tax Guide Sitemap</h1>
+    <p class="meta">Use this page to find public pages on Korea Tax Guide for Foreigners. Search engines should use the <a href="/sitemap.xml">XML sitemap</a>.</p>
+    <section>
+      <h2>Main Pages</h2>
+      <ul>{corePages.map((page) => <li><a href={page.href}>{page.title}</a></li>)}</ul>
+    </section>
+    <section>
+      <h2>Guides</h2>
+      <ul>{guides.map((entry) => <li><a href={`/guides/${entry.slug}/`}>{entry.data.title}</a></li>)}</ul>
+    </section>
+    <section>
+      <h2>Procedures</h2>
+      <ul>{procedures.map((entry) => <li><a href={`/procedures/${entry.slug}/`}>{entry.data.title}</a></li>)}</ul>
+    </section>
+    <section>
+      <h2>Feeds and XML</h2>
+      <ul>
+        <li><a href="/rss.xml">RSS feed</a></li>
+        <li><a href="/sitemap.xml">XML sitemap</a></li>
+      </ul>
+    </section>
+  </main>
+</BaseLayout>

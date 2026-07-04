@@ -1,7 +1,15 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import OfficialSources from '../../components/OfficialSources.astro';
+import DisclaimerBlock from '../../components/DisclaimerBlock.astro';
 import { glossaryTerms } from '../../data/glossary';
+const officialSources = [
+  { title: 'National Tax Service - English Website', url: 'https://www.nts.go.kr/english/main.do', type: 'official' },
+  { title: 'Hometax - Online Tax Filing and Certificates', url: 'https://www.hometax.go.kr/', type: 'official' },
+  { title: 'Government24 - Government Services and Certificates', url: 'https://www.gov.kr/', type: 'official' },
+  { title: 'Hi Korea - Immigration and Visa Information', url: 'https://www.hikorea.go.kr/', type: 'official' }
+];
 const jsonLd = [
   {
     '@context': 'https://schema.org',
@@ -30,6 +38,18 @@ const jsonLd = [
     <p class="eyebrow">Glossary</p>
     <h1>Korean Tax Glossary in Simple English</h1>
     <p class="meta">Use this glossary before reading Hometax, income tax, visa document, and refund guides. Terms are simplified for orientation and should be verified with official sources for decisions.</p>
+    <section class="summary-box">
+      <h2>Who this glossary is for</h2>
+      <p>This glossary is for foreigners reading Korean tax documents, Hometax screens, payslips, certificate requests, or visa-related income proof instructions for the first time.</p>
+    </section>
+    <section class="summary-box">
+      <h2>Recommended reading order</h2>
+      <ol>
+        <li>Start with the term that appears on your document or Hometax screen.</li>
+        <li>Open the related guide or procedure linked under that term.</li>
+        <li>Verify the exact Korean document name or filing requirement with an official source.</li>
+      </ol>
+    </section>
     <div class="grid cards">
       {glossaryTerms.map((item) => (
         <article class="card">
@@ -39,5 +59,7 @@ const jsonLd = [
         </article>
       ))}
     </div>
+    <OfficialSources sources={officialSources} />
+    <DisclaimerBlock />
   </main>
 </BaseLayout>

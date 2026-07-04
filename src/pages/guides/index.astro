@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import GuideCard from '../../components/GuideCard.astro';
+import OfficialSources from '../../components/OfficialSources.astro';
+import DisclaimerBlock from '../../components/DisclaimerBlock.astro';
 import { getCollection } from 'astro:content';
 import { categories as categoryCards } from '../../data/categories';
 
@@ -32,6 +34,12 @@ const expandedGuideSlugs = [
 const expandedGuides = expandedGuideSlugs
   .map((slug) => guides.find((guide) => guide.slug === slug))
   .filter(Boolean);
+const officialSources = [
+  { title: 'National Tax Service - English Website', url: 'https://www.nts.go.kr/english/main.do', type: 'official' },
+  { title: 'Hometax - Online Tax Filing and Certificates', url: 'https://www.hometax.go.kr/', type: 'official' },
+  { title: 'Hi Korea - Immigration and Visa Information', url: 'https://www.hikorea.go.kr/', type: 'official' },
+  { title: 'Government24 - Government Services and Certificates', url: 'https://www.gov.kr/', type: 'official' }
+];
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -48,12 +56,23 @@ const jsonLd = {
     <h1>Korea Tax Guides for Foreigners</h1>
     <p class="meta">Browse practical guides for income tax filing, year-end settlement, 3.3% freelancer withholding, tax residency, flat tax, and visa documents.</p>
     <section class="summary-box">
+      <h2>Who this section is for</h2>
+      <p>Use this guide hub if you are a foreign employee, E-2 teacher, D-2 or D-4 student, freelancer, F-6 resident, or foreign worker trying to understand Korean tax filing, Hometax, refunds, certificates, or visa-related income proof.</p>
+    </section>
+    <section class="summary-box">
       <h2>Suggested reading order</h2>
       <ol>
         <li><a href="/guides/do-foreigners-pay-tax-in-korea/">Start with whether foreigners pay tax in Korea</a>.</li>
         <li><a href="/guides/korea-income-tax-filing-foreigners/">Review income tax filing basics</a>.</li>
+        <li><a href="/guides/year-end-tax-settlement-foreigners/">Check year-end settlement if you are an employee</a>.</li>
+        <li><a href="/guides/freelancer-3-3-tax-refund-korea/">Review 3.3% freelancer withholding if you were paid as a contractor</a>.</li>
+        <li><a href="/guides/korea-tax-residency-foreigners/">Read Korean tax residency rules for complex or cross-border situations</a>.</li>
         <li><a href="/guides/hometax-sign-up-foreigner/">Set up Hometax access</a> before using procedure pages.</li>
       </ol>
+    </section>
+    <section class="summary-box">
+      <h2>Procedures and glossary</h2>
+      <p>For action checklists, use the <a href="/procedures/">Korea tax procedures hub</a>. For terms such as Hometax, Global Income Tax, 3.3% tax, and certificate of income, use the <a href="/glossary/">Korean tax glossary</a>.</p>
     </section>
     <section>
       <h2>Guide hubs</h2>
@@ -89,6 +108,8 @@ const jsonLd = {
         </div>
       ))}
     </div>
+    <OfficialSources sources={officialSources} />
+    <DisclaimerBlock />
   </main>
   <script is:inline>
     const search = document.querySelector('[data-list-search]');
