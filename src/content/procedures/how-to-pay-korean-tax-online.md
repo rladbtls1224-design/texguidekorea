@@ -16,6 +16,10 @@ steps:
   - { title: "Step 4: Save payment proof", text: "Download or screenshot confirmation details and later check whether a tax payment certificate is available if needed." }
 stuck: ["Ask your bank whether online payment is supported.", "Check whether local tax must be paid separately.", "Contact the tax office if the amount or tax type is unclear."]
 mistakes: ["Paying local and national tax incorrectly", "Losing the confirmation record", "Using an unofficial link", "Paying without checking the year or payer name"]
+faqs:
+  - { question: "Can foreigners pay Korean taxes online?", answer: "Many foreigners can pay through official online channels if they can access the required service and payment method, but options may depend on the tax type." }
+  - { question: "Are national tax and local income tax paid in the same place?", answer: "Not always. National tax and local tax can use different official services, so verify the tax type before paying." }
+  - { question: "What proof should I keep after paying tax online?", answer: "Save the confirmation screen, payment receipt, tax year, amount, and tax type. You may need these details for records or certificates later." }
 related:
   - { title: "Korea Income Tax Filing Guide for Foreigners", href: "/guides/korea-income-tax-filing-foreigners/" }
   - { title: "Tax Documents Needed for Visa Extension in Korea", href: "/guides/tax-documents-visa-extension-korea/" }

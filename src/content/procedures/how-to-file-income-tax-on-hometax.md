@@ -16,6 +16,10 @@ steps:
   - { title: "Step 4: Review, save, and submit only when confident", text: "Check the summary, payment or refund information, and any warnings. Save confirmation records after submission." }
 stuck: ["Call or visit the tax office if login or identity verification fails.", "Ask the payer for missing withholding records.", "Use a qualified tax professional if residency, overseas income, or business expenses are involved."]
 mistakes: ["Submitting before checking reported income", "Forgetting income from a second payer", "Assuming a refund estimate is guaranteed", "Using outdated screenshots from unofficial blogs"]
+faqs:
+  - { question: "Can foreigners file Korean income tax on Hometax?", answer: "Many foreigners can use Hometax if they can complete login and identity verification, but the correct filing path depends on income type and current NTS procedures." }
+  - { question: "What should I check before submitting a Hometax filing?", answer: "Compare reported income, withholding records, payer information, refund or payment details, and the tax year before submitting anything." }
+  - { question: "What should I do if Hometax does not show all my income?", answer: "Check your own records, ask the payer for withholding information, and contact the tax office or a qualified professional before filing with incomplete data." }
 related:
   - { title: "Korea Income Tax Filing Guide for Foreigners", href: "/guides/korea-income-tax-filing-foreigners/" }
   - { title: "How to Sign Up for Hometax as a Foreigner", href: "/guides/hometax-sign-up-foreigner/" }

@@ -1,8 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://taxguidekorea.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://taxguidekorea.com/privacy/' }
+  ]
+};
 ---
-<BaseLayout title="Privacy Policy" description="Privacy policy for Korea Tax Guide for Foreigners, a static information website that does not require accounts or collect sensitive tax information.">
+<BaseLayout title="Privacy Policy" description="Privacy policy for Korea Tax Guide for Foreigners, a static information website that does not require accounts or collect sensitive tax information." canonical="/privacy/" jsonLd={jsonLd}>
   <main class="section narrow article">
+    <Breadcrumbs items={[{ label: 'Privacy Policy' }]} />
     <h1>Privacy Policy</h1>
     <p>This website does not require user accounts and does not ask visitors to submit sensitive tax information.</p>
     <p>At this stage, the site is a static information website. It does not currently provide login accounts, payment features, comments, consultation forms, or document uploads.</p>

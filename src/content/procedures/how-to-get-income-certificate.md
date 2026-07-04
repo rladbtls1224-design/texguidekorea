@@ -16,6 +16,10 @@ steps:
   - { title: "Step 4: Issue and review the document", text: "Check your name, period, and income details before submitting it to another institution." }
 stuck: ["Visit a tax office if online issuance fails.", "Ask your employer or payer if income is missing.", "Confirm whether the requesting office will accept alternative documents."]
 mistakes: ["Issuing the wrong year", "Confusing income certificate with payment certificate", "Assuming payslips are enough", "Waiting until the visa appointment date"]
+faqs:
+  - { question: "Can foreigners get a certificate of income in Korea?", answer: "Many foreigners can request income certificates through official channels when income has been reported, but available records depend on the period and reporting status." }
+  - { question: "Is a certificate of income the same as a tax payment certificate?", answer: "No. A certificate of income shows reported income, while a tax payment certificate relates to tax payment status. Confirm the exact document requested." }
+  - { question: "What if the certificate does not show my expected income?", answer: "Check the selected year, payer reporting status, and income category. If the issue affects a deadline, ask the requesting office or tax office what alternative is accepted." }
 related:
   - { title: "Tax Documents Needed for Visa Extension in Korea", href: "/guides/tax-documents-visa-extension-korea/" }
   - { title: "How to Sign Up for Hometax as a Foreigner", href: "/guides/hometax-sign-up-foreigner/" }

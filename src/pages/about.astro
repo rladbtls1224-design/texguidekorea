@@ -1,8 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://taxguidekorea.com/' },
+    { '@type': 'ListItem', position: 2, name: 'About', item: 'https://taxguidekorea.com/about/' }
+  ]
+};
 ---
-<BaseLayout title="About Korea Tax Guide for Foreigners" description="Learn what Korea Tax Guide for Foreigners does, who it helps, and why it is not an official government or personal tax advice website.">
+<BaseLayout title="About Korea Tax Guide for Foreigners" description="Learn what Korea Tax Guide for Foreigners does, who it helps, and why it is not an official government or personal tax advice website." canonical="/about/" jsonLd={jsonLd}>
   <main class="section narrow article">
+    <Breadcrumbs items={[{ label: 'About' }]} />
     <h1>About Korea Tax Guide for Foreigners</h1>
     <p>This website helps foreigners in Korea understand common tax filing procedures, Hometax steps, refund checks, and tax documents. We explain complicated Korean tax terms in simple English and connect each topic to practical step-by-step guides.</p>
     <p>The site is for foreign employees, freelancers, students, long-term residents, and expats who need a clearer starting point for Korean income tax, year-end settlement, 3.3% withholding, tax residency, Hometax, and tax documents.</p>

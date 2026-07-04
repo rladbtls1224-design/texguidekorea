@@ -13,5 +13,5 @@ export const glossaryTerms = [
   { term: 'Flat Tax Rate', definition: 'A special tax option that may be available to some foreign workers depending on eligibility and timing. It is not always the best choice.', links: [{ title: 'Flat tax rate guide', href: '/guides/flat-tax-rate-foreign-workers-korea/' }] },
   { term: 'ARC', definition: 'Alien Registration Card, now commonly described as a foreigner registration card. It is often needed for identity verification.', links: [{ title: 'Hometax sign up guide', href: '/guides/hometax-sign-up-foreigner/' }] },
   { term: 'Visa Extension', definition: 'A process where immigration may ask for income or tax documents depending on visa type and situation.', links: [{ title: 'Tax documents for visa extension', href: '/guides/tax-documents-visa-extension-korea/' }] },
-  { term: 'National Tax Service', definition: 'Korea’s national tax authority. Always check official NTS or Hometax information for current rules and procedures.', links: [{ title: 'Income tax filing guide', href: '/guides/korea-income-tax-filing-foreigners/' }] }
+  { term: 'National Tax Service', definition: "Korea's national tax authority. Always check official NTS or Hometax information for current rules and procedures.", links: [{ title: 'Income tax filing guide', href: '/guides/korea-income-tax-filing-foreigners/' }] }
 ];

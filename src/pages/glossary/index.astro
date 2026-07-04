@@ -1,11 +1,35 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { glossaryTerms } from '../../data/glossary';
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://taxguidekorea.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Glossary', item: 'https://taxguidekorea.com/glossary/' }
+    ]
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTermSet',
+    name: 'Korean Tax Glossary in Simple English',
+    url: 'https://taxguidekorea.com/glossary/',
+    hasDefinedTerm: glossaryTerms.map((item) => ({
+      '@type': 'DefinedTerm',
+      name: item.term,
+      description: item.definition
+    }))
+  }
+];
 ---
-<BaseLayout title="Korean Tax Glossary in Simple English" description="Simple English definitions for common Korean tax terms including Hometax, Global Income Tax, 3.3% tax, certificates, ARC, and tax residency.">
+<BaseLayout title="Korean Tax Glossary in Simple English" description="Simple English definitions for common Korean tax terms including Hometax, Global Income Tax, 3.3% tax, certificates, ARC, and tax residency." canonical="/glossary/" jsonLd={jsonLd}>
   <main class="section container">
+    <Breadcrumbs items={[{ label: 'Glossary' }]} />
     <p class="eyebrow">Glossary</p>
     <h1>Korean Tax Glossary in Simple English</h1>
+    <p class="meta">Use this glossary before reading Hometax, income tax, visa document, and refund guides. Terms are simplified for orientation and should be verified with official sources for decisions.</p>
     <div class="grid cards">
       {glossaryTerms.map((item) => (
         <article class="card">

@@ -1,8 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://taxguidekorea.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://taxguidekorea.com/contact/' }
+  ]
+};
 ---
-<BaseLayout title="Contact" description="Contact Korea Tax Guide for Foreigners for corrections, partnership inquiries, or professional review requests.">
+<BaseLayout title="Contact" description="Contact Korea Tax Guide for Foreigners for corrections, partnership inquiries, or professional review requests." canonical="/contact/" jsonLd={jsonLd}>
   <main class="section narrow article">
+    <Breadcrumbs items={[{ label: 'Contact' }]} />
     <h1>Contact</h1>
     <p>For corrections, source suggestions, partnership inquiries, or professional review requests, contact: <a href="mailto:hello@example.com">hello@example.com</a></p>
     <h2>Correction requests</h2>

@@ -1,8 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://taxguidekorea.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Disclaimer', item: 'https://taxguidekorea.com/disclaimer/' }
+  ]
+};
 ---
-<BaseLayout title="Disclaimer" description="Important disclaimer for Korea Tax Guide for Foreigners: not official government guidance, not tax advice, and no refund or visa guarantees.">
+<BaseLayout title="Disclaimer" description="Important disclaimer for Korea Tax Guide for Foreigners: not official government guidance, not tax advice, and no refund or visa guarantees." canonical="/disclaimer/" jsonLd={jsonLd}>
   <main class="section narrow article">
+    <Breadcrumbs items={[{ label: 'Disclaimer' }]} />
     <h1>Disclaimer</h1>
     <p>Korea Tax Guide for Foreigners is an independent informational website. It is not an official Korean government website, tax agency, law firm, immigration advisory service, accounting firm, or certificate-issuing authority.</p>
     <h2>No personal advice</h2>

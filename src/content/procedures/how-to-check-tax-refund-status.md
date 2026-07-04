@@ -16,6 +16,10 @@ steps:
   - { title: "Step 4: Contact the tax office if status is unclear", text: "If the status does not match your records or bank account, contact the relevant tax office or seek help." }
 stuck: ["Check whether your bank account is valid and under your name.", "Look for messages or notices in Hometax.", "Ask a tax office about processing status if enough time has passed."]
 mistakes: ["Treating an estimate as a guaranteed refund", "Entering the wrong refund account", "Ignoring notices requesting extra review", "Checking the wrong tax year"]
+faqs:
+  - { question: "Can foreigners check tax refund status on Hometax?", answer: "Many foreigners can check refund-related status through Hometax or Sontax if they can log in and the filing or refund record is available." }
+  - { question: "Does a refund amount shown online mean payment is guaranteed?", answer: "No. Refund display can depend on processing, review, and account details. Treat it as status information, not a guarantee." }
+  - { question: "What should I do if my refund is delayed?", answer: "Check notices, bank account information, tax year, and filing status. If the issue remains unclear, contact the relevant tax office." }
 related:
   - { title: "Korea 3.3% Tax Refund Guide for Foreign Freelancers", href: "/guides/freelancer-3-3-tax-refund-korea/" }
   - { title: "How to File Income Tax on Hometax as a Foreigner", href: "/procedures/how-to-file-income-tax-on-hometax/" }

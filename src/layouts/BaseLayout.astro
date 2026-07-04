@@ -14,6 +14,23 @@ const {
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://taxguidekorea.com';
 const canonicalUrl = canonical.startsWith('http') ? canonical : `${siteUrl}${canonical}`;
 const fullTitle = title.includes('Korea Tax Guide') ? title : `${title} | Korea Tax Guide for Foreigners`;
+const globalJsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Korea Tax Guide for Foreigners',
+    url: siteUrl
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Korea Tax Guide for Foreigners',
+    url: siteUrl,
+    inLanguage: 'en'
+  }
+];
+const pageJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+const allJsonLd = [...globalJsonLd, ...pageJsonLd];
 ---
 <!doctype html>
 <html lang="en">
@@ -33,7 +50,7 @@ const fullTitle = title.includes('Korea Tax Guide') ? title : `${title} | Korea 
     <meta name="twitter:description" content={description} />
     <meta name="twitter:url" content={canonicalUrl} />
     <link rel="alternate" type="application/rss+xml" title="Korea Tax Guide for Foreigners RSS" href="/rss.xml" />
-    {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(allJsonLd)} />
   </head>
   <body>
     <Header />

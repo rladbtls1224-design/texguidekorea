@@ -1,8 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://taxguidekorea.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Editorial Policy', item: 'https://taxguidekorea.com/editorial-policy/' }
+  ]
+};
 ---
-<BaseLayout title="Editorial Policy" description="How Korea Tax Guide for Foreigners writes, reviews, updates, and corrects general educational tax content for foreigners in Korea.">
+<BaseLayout title="Editorial Policy" description="How Korea Tax Guide for Foreigners writes, reviews, updates, and corrects general educational tax content for foreigners in Korea." canonical="/editorial-policy/" jsonLd={jsonLd}>
   <main class="section narrow article">
+    <Breadcrumbs items={[{ label: 'Editorial Policy' }]} />
     <h1>Editorial Policy</h1>
     <p>Korea Tax Guide for Foreigners publishes general educational content for foreigners living, working, studying, or freelancing in Korea. Our goal is to explain common Korean tax terms, Hometax procedures, tax document workflows, and related administrative concepts in clear English.</p>
     <h2>How content is prepared</h2>

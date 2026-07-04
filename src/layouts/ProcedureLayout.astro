@@ -4,9 +4,11 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import CategoryPill from '../components/CategoryPill.astro';
 import StepList from '../components/StepList.astro';
 import RelatedGuides from '../components/RelatedGuides.astro';
+import FaqSection from '../components/FaqSection.astro';
 import OfficialSources from '../components/OfficialSources.astro';
 import DisclaimerBlock from '../components/DisclaimerBlock.astro';
 
+type Faq = { question: string; answer: string };
 const { entry } = Astro.props as { entry: any };
 const url = `/procedures/${entry.slug}/`;
 const jsonLd = [
@@ -31,6 +33,15 @@ const jsonLd = [
       { '@type': 'ListItem', position: 2, name: 'Procedures', item: 'https://taxguidekorea.com/procedures/' },
       { '@type': 'ListItem', position: 3, name: entry.data.title, item: `https://taxguidekorea.com${url}` }
     ]
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: entry.data.faqs.map((faq: Faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: { '@type': 'Answer', text: faq.answer }
+    }))
   }
 ];
 ---
@@ -39,7 +50,7 @@ const jsonLd = [
     <Breadcrumbs items={[{ label: 'Procedures', href: '/procedures/' }, { label: entry.data.title }]} />
     <p class="eyebrow">Step-by-step procedure</p>
     <h1>{entry.data.title}</h1>
-    <p class="meta">By {entry.data.author} · Last reviewed: {entry.data.lastReviewed.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} · Last updated: {entry.data.updatedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+    <p class="meta">By {entry.data.author} | Last reviewed: {entry.data.lastReviewed.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} | Last updated: {entry.data.updatedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
     <p><CategoryPill label={entry.data.category} /></p>
     <div class="summary-box"><strong>Short summary:</strong> {entry.data.description}</div>
     <section class="quick-answer">
@@ -58,16 +69,20 @@ const jsonLd = [
     <section>
       <h2>Steps</h2>
       <StepList steps={entry.data.steps} />
-      <slot />
     </section>
     <section>
-      <h2>What to do if you are stuck</h2>
-      <ul>{entry.data.stuck.map((item: string) => <li>{item}</li>)}</ul>
+      <h2>What to check before submitting</h2>
+      <slot />
     </section>
     <section>
       <h2>Common mistakes</h2>
       <ul>{entry.data.mistakes.map((item: string) => <li>{item}</li>)}</ul>
     </section>
+    <section>
+      <h2>What to do if you are stuck</h2>
+      <ul>{entry.data.stuck.map((item: string) => <li>{item}</li>)}</ul>
+    </section>
+    <FaqSection faqs={entry.data.faqs} />
     <RelatedGuides links={entry.data.related} />
     <OfficialSources sources={entry.data.sources} />
     <DisclaimerBlock />

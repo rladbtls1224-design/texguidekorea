@@ -54,6 +54,7 @@ const procedureSchema = z.object({
   })),
   stuck: z.array(z.string()),
   mistakes: z.array(z.string()),
+  faqs: z.array(faqSchema),
   related: z.array(relatedSchema),
   sources: z.array(sourceSchema).min(1)
 });
