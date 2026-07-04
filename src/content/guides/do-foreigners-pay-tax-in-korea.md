@@ -33,13 +33,36 @@ Foreigners often ask whether Korean tax applies to them because their visa, empl
 
 Korean tax can also matter even when you are not trying to calculate tax. Immigration offices, banks, landlords, employers, and schools may ask for income certificates or tax payment certificates. That is why it helps to understand the workflow early, before you need a document urgently.
 
-| Situation | What to check |
-| --- | --- |
-| Salary employee | Whether your employer completes year-end settlement and whether you have other income |
-| Freelancer | Whether 3.3% withholding was applied and whether annual filing should be reviewed |
-| Student worker | Whether work was permitted and how income was reported |
-| Business owner | Whether business registration and annual filing duties apply |
-| Long-term resident | Whether tax residency or treaty rules may affect your situation |
+<table>
+  <thead>
+    <tr>
+      <th>Situation</th>
+      <th>What to check</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Salary employee</td>
+      <td>Whether your employer completes year-end settlement and whether you have other income</td>
+    </tr>
+    <tr>
+      <td>Freelancer</td>
+      <td>Whether 3.3% withholding was applied and whether annual filing should be reviewed</td>
+    </tr>
+    <tr>
+      <td>Student worker</td>
+      <td>Whether work was permitted and how income was reported</td>
+    </tr>
+    <tr>
+      <td>Business owner</td>
+      <td>Whether business registration and annual filing duties apply</td>
+    </tr>
+    <tr>
+      <td>Long-term resident</td>
+      <td>Whether tax residency or treaty rules may affect your situation</td>
+    </tr>
+  </tbody>
+</table>
 
 ### How should foreigners start?
 

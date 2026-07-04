@@ -37,13 +37,36 @@ The important point is that withholding is a prepayment or reporting mechanism, 
 
 Start with a list of clients, payment dates, gross amounts, withheld amounts, and any statements you received. Then compare that list with Hometax records if you can access them. If a client did not report correctly, the system may not match your own records. If you worked for foreign clients or received income outside Korea, the question can become more complex and may require professional advice.
 
-| Question | Why it matters |
-| --- | --- |
-| Which clients paid you? | Missing clients can distort the filing picture |
-| Was 3.3% withheld? | Withheld amounts may affect payment or refund |
-| Were records reported? | Hometax may depend on payer reporting |
-| Are you a tax resident? | Residency may affect income scope |
-| Do you need visa documents? | Income certificates may be reviewed later |
+<table>
+  <thead>
+    <tr>
+      <th>Question</th>
+      <th>Why it matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Which clients paid you?</td>
+      <td>Missing clients can distort the filing picture</td>
+    </tr>
+    <tr>
+      <td>Was 3.3% withheld?</td>
+      <td>Withheld amounts may affect payment or refund</td>
+    </tr>
+    <tr>
+      <td>Were records reported?</td>
+      <td>Hometax may depend on payer reporting</td>
+    </tr>
+    <tr>
+      <td>Are you a tax resident?</td>
+      <td>Residency may affect income scope</td>
+    </tr>
+    <tr>
+      <td>Do you need visa documents?</td>
+      <td>Income certificates may be reviewed later</td>
+    </tr>
+  </tbody>
+</table>
 
 ### How do refunds usually get checked?
 
