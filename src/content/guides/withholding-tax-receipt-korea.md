@@ -37,11 +37,28 @@ If you wait too long, it may become harder to contact the payer or confirm detai
 
 Contact the employer, school, client, or payer and ask for the relevant withholding record for the tax year. If they use Korean terms you do not understand, ask for the document name and year in writing.
 
-| Situation | First step |
-| --- | --- |
-| Employee leaving job | Ask HR or payroll for final withholding records |
-| Freelancer | Ask the client for payment and withholding details |
-| Missing Hometax record | Compare payer records and official records |
+<table>
+  <thead>
+    <tr>
+      <th>Situation</th>
+      <th>First step</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Employee leaving job</td>
+      <td>Ask HR or payroll for final withholding records</td>
+    </tr>
+    <tr>
+      <td>Freelancer</td>
+      <td>Ask the client for payment and withholding details</td>
+    </tr>
+    <tr>
+      <td>Missing Hometax record</td>
+      <td>Compare payer records and official records</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What if the payer does not respond?
 

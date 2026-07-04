@@ -37,11 +37,28 @@ If you received several payments with 3.3% deducted, keep a record of each payer
 
 The withheld amount may reduce tax due or contribute to a refund calculation, but the final result depends on total income and other facts. Do not assume that all withheld tax will be returned.
 
-| Question | Why it matters |
-| --- | --- |
-| Who paid you? | Payer reporting affects official records |
-| Was tax withheld? | Withholding affects the final calculation |
-| Did you have salary too? | Mixed income can need extra review |
+<table>
+  <thead>
+    <tr>
+      <th>Question</th>
+      <th>Why it matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Who paid you?</td>
+      <td>Payer reporting affects official records</td>
+    </tr>
+    <tr>
+      <td>Was tax withheld?</td>
+      <td>Withholding affects the final calculation</td>
+    </tr>
+    <tr>
+      <td>Did you have salary too?</td>
+      <td>Mixed income can need extra review</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What should you read next?
 

@@ -39,12 +39,32 @@ The safest approach is to confirm the exact document name in Korean, the year or
 
 You may see requests for a certificate of income, tax payment certificate, withholding receipt, employment certificate, or business-related records. The correct document depends on whose income is being reviewed and why the document is needed.
 
-| Document | Common use |
-| --- | --- |
-| Certificate of income | Shows reported income for a period |
-| Tax payment certificate | Shows tax payment or status information |
-| Withholding receipt | Shows payer withholding records |
-| Employment certificate | Supports job status but may not replace tax records |
+<table>
+  <thead>
+    <tr>
+      <th>Document</th>
+      <th>Common use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Certificate of income</td>
+      <td>Shows reported income for a period</td>
+    </tr>
+    <tr>
+      <td>Tax payment certificate</td>
+      <td>Shows tax payment or status information</td>
+    </tr>
+    <tr>
+      <td>Withholding receipt</td>
+      <td>Shows payer withholding records</td>
+    </tr>
+    <tr>
+      <td>Employment certificate</td>
+      <td>Supports job status but may not replace tax records</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What should you do first?
 

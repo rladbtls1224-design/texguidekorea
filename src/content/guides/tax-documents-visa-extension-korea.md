@@ -38,12 +38,32 @@ The two documents people often hear about are a certificate of income and a tax 
 
 Ask the requesting office for the exact document name, issue period, and whether online issuance is accepted. Then check whether you can access Hometax and whether the records shown match your expected income.
 
-| Document | Common purpose |
-| --- | --- |
-| Certificate of income | Shows reported income for a period |
-| Tax payment certificate | Shows tax payment or status information |
-| Withholding receipt | Shows employer or payer withholding records |
-| Employment certificate | May support income or job status, but is not a tax certificate |
+<table>
+  <thead>
+    <tr>
+      <th>Document</th>
+      <th>Common purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Certificate of income</td>
+      <td>Shows reported income for a period</td>
+    </tr>
+    <tr>
+      <td>Tax payment certificate</td>
+      <td>Shows tax payment or status information</td>
+    </tr>
+    <tr>
+      <td>Withholding receipt</td>
+      <td>Shows employer or payer withholding records</td>
+    </tr>
+    <tr>
+      <td>Employment certificate</td>
+      <td>May support income or job status, but is not a tax certificate</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What if the document does not show the expected income?
 

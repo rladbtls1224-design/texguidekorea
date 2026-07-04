@@ -37,12 +37,32 @@ The process can feel automatic, but it still depends on correct records. Your em
 
 Your employer may provide instructions and deadlines. You may need identity details, proof of income from a previous employer, or deduction-related documents if you are claiming items allowed under current rules. Foreigners should avoid guessing about deductions. Rules may change, and some items may require specific Korean documents or eligibility.
 
-| Item | Why it matters |
-| --- | --- |
-| Current employer salary record | Main basis for settlement |
-| Previous employer receipt | Helps combine salary if you changed jobs |
-| Deduction documents | May support eligible deductions when allowed |
-| Final withholding receipt | Useful for later certificates and records |
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Why it matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Current employer salary record</td>
+      <td>Main basis for settlement</td>
+    </tr>
+    <tr>
+      <td>Previous employer receipt</td>
+      <td>Helps combine salary if you changed jobs</td>
+    </tr>
+    <tr>
+      <td>Deduction documents</td>
+      <td>May support eligible deductions when allowed</td>
+    </tr>
+    <tr>
+      <td>Final withholding receipt</td>
+      <td>Useful for later certificates and records</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What if the settlement is wrong or incomplete?
 

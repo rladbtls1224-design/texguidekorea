@@ -36,13 +36,36 @@ If a government office asks for a document, confirm the Korean name and year. Th
 
 ### Common terms foreigners see
 
-| Term | Simple meaning |
-| --- | --- |
-| Hometax | Online tax portal |
-| Global Income Tax | Annual filing category for certain income |
-| 3.3% tax | Common freelance withholding pattern |
-| Certificate of income | Official income proof document |
-| Tax residency | Tax concept based on facts and rules |
+<table>
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Simple meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hometax</td>
+      <td>Online tax portal</td>
+    </tr>
+    <tr>
+      <td>Global Income Tax</td>
+      <td>Annual filing category for certain income</td>
+    </tr>
+    <tr>
+      <td>3.3% tax</td>
+      <td>Common freelance withholding pattern</td>
+    </tr>
+    <tr>
+      <td>Certificate of income</td>
+      <td>Official income proof document</td>
+    </tr>
+    <tr>
+      <td>Tax residency</td>
+      <td>Tax concept based on facts and rules</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Where to continue
 

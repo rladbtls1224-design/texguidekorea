@@ -38,12 +38,32 @@ The exact list is not the same for every person. A salary-only employee who work
 
 Ask your employer what they need and when they need it. Keep a personal folder with monthly payslips, final withholding receipts, and any year-end settlement results. If you leave a job, ask for records before your access to internal systems or HR contacts becomes harder.
 
-| Document | Why it may matter |
-| --- | --- |
-| Current employer withholding receipt | Shows salary and tax withheld |
-| Previous employer records | Helps combine salary if you changed jobs |
-| Employer forms | Used for payroll adjustment workflow |
-| Final settlement result | Useful for later tax or document checks |
+<table>
+  <thead>
+    <tr>
+      <th>Document</th>
+      <th>Why it may matter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Current employer withholding receipt</td>
+      <td>Shows salary and tax withheld</td>
+    </tr>
+    <tr>
+      <td>Previous employer records</td>
+      <td>Helps combine salary if you changed jobs</td>
+    </tr>
+    <tr>
+      <td>Employer forms</td>
+      <td>Used for payroll adjustment workflow</td>
+    </tr>
+    <tr>
+      <td>Final settlement result</td>
+      <td>Useful for later tax or document checks</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What if you also have other income?
 

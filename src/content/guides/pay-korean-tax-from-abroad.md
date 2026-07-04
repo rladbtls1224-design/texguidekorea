@@ -38,11 +38,28 @@ The first step is to identify what you are trying to pay. Is it national income 
 
 Review the tax year, amount, taxpayer name, and tax type. If the notice came by email or message, verify it through official channels before paying. Keep a PDF, screenshot, or receipt after payment.
 
-| Problem | Possible next step |
-| --- | --- |
-| Hometax login fails | Check official support or tax office contact |
-| Korean bank account closed | Ask official channels about payment options |
-| Local tax appears unpaid | Check Wetax or official local tax service |
+<table>
+  <thead>
+    <tr>
+      <th>Problem</th>
+      <th>Possible next step</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hometax login fails</td>
+      <td>Check official support or tax office contact</td>
+    </tr>
+    <tr>
+      <td>Korean bank account closed</td>
+      <td>Ask official channels about payment options</td>
+    </tr>
+    <tr>
+      <td>Local tax appears unpaid</td>
+      <td>Check Wetax or official local tax service</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What should you do before leaving Korea?
 

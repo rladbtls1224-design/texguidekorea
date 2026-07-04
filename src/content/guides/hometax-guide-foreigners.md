@@ -35,12 +35,32 @@ The hardest part is often access. If your name, phone, registration details, or 
 
 ### Common tasks on Hometax
 
-| Task | Related guide |
-| --- | --- |
-| Sign up or log in | Hometax sign-up guide |
-| File income tax | Hometax filing procedure |
-| Get income certificate | Income certificate procedure |
-| Check refund | Refund status procedure |
+<table>
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Related guide</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sign up or log in</td>
+      <td>Hometax sign-up guide</td>
+    </tr>
+    <tr>
+      <td>File income tax</td>
+      <td>Hometax filing procedure</td>
+    </tr>
+    <tr>
+      <td>Get income certificate</td>
+      <td>Income certificate procedure</td>
+    </tr>
+    <tr>
+      <td>Check refund</td>
+      <td>Refund status procedure</td>
+    </tr>
+  </tbody>
+</table>
 
 ### How should foreigners use this guide?
 

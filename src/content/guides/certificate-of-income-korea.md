@@ -39,12 +39,32 @@ The most important limitation is that the certificate depends on official record
 
 Ask the requesting office for the exact document name, year, and accepted issue method. Some offices may want a specific period or a recently issued document. If your Korean is limited, compare the requested Korean document name with the English explanation before issuing the wrong certificate.
 
-| Check | Why it matters |
-| --- | --- |
-| Document name | Similar certificates can have different purposes |
-| Year or period | The wrong year may be rejected |
-| Reported income | Missing income may require payer or tax office follow-up |
-| Issue route | Online issue may not work if login fails |
+<table>
+  <thead>
+    <tr>
+      <th>Check</th>
+      <th>Why it matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Document name</td>
+      <td>Similar certificates can have different purposes</td>
+    </tr>
+    <tr>
+      <td>Year or period</td>
+      <td>The wrong year may be rejected</td>
+    </tr>
+    <tr>
+      <td>Reported income</td>
+      <td>Missing income may require payer or tax office follow-up</td>
+    </tr>
+    <tr>
+      <td>Issue route</td>
+      <td>Online issue may not work if login fails</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What if you cannot use Hometax?
 

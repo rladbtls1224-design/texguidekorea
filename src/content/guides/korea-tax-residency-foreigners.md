@@ -37,13 +37,36 @@ Because residency can change the tax analysis, this is a topic where simple inte
 
 Collect entry and exit dates, work contracts, housing records, income records by country, and any documents showing tax residency in another country. If a tax treaty may apply, you may need official documents rather than informal explanations.
 
-| Fact | Why it may matter |
-| --- | --- |
-| Stay period | Helps evaluate connection to Korea |
-| Living base | Housing and family can be relevant facts |
-| Income source | Korean-source and foreign-source income may be treated differently |
-| Treaty country | Treaty provisions can vary by country |
-| Work arrangement | Remote work and business income can be complex |
+<table>
+  <thead>
+    <tr>
+      <th>Fact</th>
+      <th>Why it may matter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stay period</td>
+      <td>Helps evaluate connection to Korea</td>
+    </tr>
+    <tr>
+      <td>Living base</td>
+      <td>Housing and family can be relevant facts</td>
+    </tr>
+    <tr>
+      <td>Income source</td>
+      <td>Korean-source and foreign-source income may be treated differently</td>
+    </tr>
+    <tr>
+      <td>Treaty country</td>
+      <td>Treaty provisions can vary by country</td>
+    </tr>
+    <tr>
+      <td>Work arrangement</td>
+      <td>Remote work and business income can be complex</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What should you do if you are not sure?
 

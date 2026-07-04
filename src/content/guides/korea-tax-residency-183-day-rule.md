@@ -38,12 +38,32 @@ This matters because residency can affect the scope of income reviewed for tax p
 
 Create a basic timeline of your stay in Korea and another list of income by country. Keep entry and exit records, lease records, employment contracts, and any foreign tax documents. Do not wait until filing season to reconstruct the facts.
 
-| Fact | Why it matters |
-| --- | --- |
-| Days in Korea | Helps evaluate physical presence |
-| Housing and family base | May show where your life is centered |
-| Income source | Determines what needs review |
-| Treaty country | Treaty tie-breaker rules may differ |
+<table>
+  <thead>
+    <tr>
+      <th>Fact</th>
+      <th>Why it matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Days in Korea</td>
+      <td>Helps evaluate physical presence</td>
+    </tr>
+    <tr>
+      <td>Housing and family base</td>
+      <td>May show where your life is centered</td>
+    </tr>
+    <tr>
+      <td>Income source</td>
+      <td>Determines what needs review</td>
+    </tr>
+    <tr>
+      <td>Treaty country</td>
+      <td>Treaty tie-breaker rules may differ</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What should you do next?
 

@@ -38,11 +38,28 @@ Start by getting the exact document list. If possible, ask for the Korean names 
 
 The most common tax-related documents include certificate of income, tax payment certificate, and withholding receipt. Employment certificates or bank records may support the application but may not replace official tax certificates.
 
-| Document | What it usually shows |
-| --- | --- |
-| Certificate of income | Reported income for a period |
-| Tax payment certificate | Tax payment or status information |
-| Withholding receipt | Payer-specific income and tax withheld |
+<table>
+  <thead>
+    <tr>
+      <th>Document</th>
+      <th>What it usually shows</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Certificate of income</td>
+      <td>Reported income for a period</td>
+    </tr>
+    <tr>
+      <td>Tax payment certificate</td>
+      <td>Tax payment or status information</td>
+    </tr>
+    <tr>
+      <td>Withholding receipt</td>
+      <td>Payer-specific income and tax withheld</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What should you do next?
 

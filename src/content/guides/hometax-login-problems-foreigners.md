@@ -37,12 +37,32 @@ The most common issue is name format. Your passport, ARC, bank, phone company, a
 
 Prepare your registration card, phone account details, and official name spelling. If a verification screen fails, do not keep guessing blindly. Write down the error message and check official support options.
 
-| Problem | What to check |
-| --- | --- |
-| Name mismatch | Spelling, spacing, order, and capital letters |
-| Phone verification fails | Whether the phone is under your own registered name |
-| Certificate issue | Whether the login method is still supported |
-| Overseas access issue | Whether authentication works outside Korea |
+<table>
+  <thead>
+    <tr>
+      <th>Problem</th>
+      <th>What to check</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name mismatch</td>
+      <td>Spelling, spacing, order, and capital letters</td>
+    </tr>
+    <tr>
+      <td>Phone verification fails</td>
+      <td>Whether the phone is under your own registered name</td>
+    </tr>
+    <tr>
+      <td>Certificate issue</td>
+      <td>Whether the login method is still supported</td>
+    </tr>
+    <tr>
+      <td>Overseas access issue</td>
+      <td>Whether authentication works outside Korea</td>
+    </tr>
+  </tbody>
+</table>
 
 ### When should you get help?
 

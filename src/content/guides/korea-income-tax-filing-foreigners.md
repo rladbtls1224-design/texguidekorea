@@ -37,13 +37,36 @@ Hometax is the main online system, but the system does not replace judgment. It 
 
 Make a simple income map for the year. List each payer, the type of work, the period worked, whether tax was withheld, and whether you received a certificate or statement. For salary income, ask whether year-end settlement was completed. For freelance income, check whether 3.3% withholding appears on records. For business income, review whether business registration or expense records exist.
 
-| Check | Why it matters |
-| --- | --- |
-| Income type | Different income categories can use different reporting methods |
-| Withholding | Tax already withheld may affect final payment or refund |
-| Employer settlement | It may reduce or replace separate filing for some salary-only employees |
-| Residency | It may affect the scope of income and treaty questions |
-| Documents | Missing records can delay filing or certificate requests |
+<table>
+  <thead>
+    <tr>
+      <th>Check</th>
+      <th>Why it matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Income type</td>
+      <td>Different income categories can use different reporting methods</td>
+    </tr>
+    <tr>
+      <td>Withholding</td>
+      <td>Tax already withheld may affect final payment or refund</td>
+    </tr>
+    <tr>
+      <td>Employer settlement</td>
+      <td>It may reduce or replace separate filing for some salary-only employees</td>
+    </tr>
+    <tr>
+      <td>Residency</td>
+      <td>It may affect the scope of income and treaty questions</td>
+    </tr>
+    <tr>
+      <td>Documents</td>
+      <td>Missing records can delay filing or certificate requests</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What are the common filing paths?
 

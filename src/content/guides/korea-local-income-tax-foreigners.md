@@ -36,11 +36,28 @@ If you are not sure what a notice means, identify the tax type first. A payment 
 
 Before paying, confirm the tax year, payer name, amount, and whether the payment is national or local. Save all payment records. If the local tax service uses a separate route, do not assume Hometax alone shows everything.
 
-| Item | What to check |
-| --- | --- |
-| Tax type | National tax, local income tax, or other local tax |
-| Payment route | Hometax, Wetax, bank, or official payment service |
-| Confirmation | Receipt, payment date, amount, and tax year |
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>What to check</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tax type</td>
+      <td>National tax, local income tax, or other local tax</td>
+    </tr>
+    <tr>
+      <td>Payment route</td>
+      <td>Hometax, Wetax, bank, or official payment service</td>
+    </tr>
+    <tr>
+      <td>Confirmation</td>
+      <td>Receipt, payment date, amount, and tax year</td>
+    </tr>
+  </tbody>
+</table>
 
 ### When should you ask for help?
 

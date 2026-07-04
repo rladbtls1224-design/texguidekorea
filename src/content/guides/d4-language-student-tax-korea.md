@@ -37,11 +37,28 @@ If you receive money for work, tutoring, translation, content, or other services
 
 First, check whether the work is permitted under your visa situation. Then check how the income was paid and whether any tax was withheld. If the payer deducted 3.3%, read the [3.3% tax explanation](/guides/what-is-33-tax-korea/).
 
-| Situation | What to verify |
-| --- | --- |
-| Part-time job | Immigration permission and employer records |
-| Tutoring | Payment reporting and withholding |
-| School-related payment | Whether it is scholarship, income, or another category |
+<table>
+  <thead>
+    <tr>
+      <th>Situation</th>
+      <th>What to verify</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Part-time job</td>
+      <td>Immigration permission and employer records</td>
+    </tr>
+    <tr>
+      <td>Tutoring</td>
+      <td>Payment reporting and withholding</td>
+    </tr>
+    <tr>
+      <td>School-related payment</td>
+      <td>Whether it is scholarship, income, or another category</td>
+    </tr>
+  </tbody>
+</table>
 
 ### When should you ask for help?
 

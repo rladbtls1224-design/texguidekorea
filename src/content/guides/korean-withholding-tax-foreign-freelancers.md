@@ -37,12 +37,32 @@ Foreign freelancers should not treat withholding as the end of the process. It i
 
 Keep a simple spreadsheet or folder with payer name, payment date, gross amount, withheld amount, and net amount received. If possible, request a withholding receipt.
 
-| Record | Why it helps |
-| --- | --- |
-| Payer name | Helps match Hometax records |
-| Gross amount | Needed for income review |
-| Withheld amount | Affects payment or refund calculation |
-| Payment date | Helps organize by tax year |
+<table>
+  <thead>
+    <tr>
+      <th>Record</th>
+      <th>Why it helps</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Payer name</td>
+      <td>Helps match Hometax records</td>
+    </tr>
+    <tr>
+      <td>Gross amount</td>
+      <td>Needed for income review</td>
+    </tr>
+    <tr>
+      <td>Withheld amount</td>
+      <td>Affects payment or refund calculation</td>
+    </tr>
+    <tr>
+      <td>Payment date</td>
+      <td>Helps organize by tax year</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What is the next step?
 

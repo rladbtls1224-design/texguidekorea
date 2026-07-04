@@ -38,12 +38,32 @@ The first practical question is whether your income was salary income handled by
 
 Start with your payroll records. Look at gross salary, withheld income tax, local income tax, pension or insurance deductions if applicable, and any year-end settlement result from your employer. If you changed schools, ask whether the new employer received income records from the previous employer. Missing previous income can affect the annual adjustment.
 
-| Situation | What to check |
-| --- | --- |
-| One employer all year | Ask whether year-end settlement was completed |
-| Changed schools | Get withholding records from both employers |
-| Extra teaching income | Check whether it was salary, freelance, or another category |
-| Leaving Korea | Ask about documents before departure |
+<table>
+  <thead>
+    <tr>
+      <th>Situation</th>
+      <th>What to check</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>One employer all year</td>
+      <td>Ask whether year-end settlement was completed</td>
+    </tr>
+    <tr>
+      <td>Changed schools</td>
+      <td>Get withholding records from both employers</td>
+    </tr>
+    <tr>
+      <td>Extra teaching income</td>
+      <td>Check whether it was salary, freelance, or another category</td>
+    </tr>
+    <tr>
+      <td>Leaving Korea</td>
+      <td>Ask about documents before departure</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What if you think the refund is missing?
 

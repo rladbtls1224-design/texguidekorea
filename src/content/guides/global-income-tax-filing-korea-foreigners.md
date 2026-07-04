@@ -37,12 +37,32 @@ The word "global" can be confusing. It does not mean every foreigner automatical
 
 Prepare a full list of income sources and withholding records. Compare your own list with Hometax records. If something is missing, ask the payer for documentation before submitting.
 
-| Income type | What to check |
-| --- | --- |
-| Salary | Was year-end settlement completed? |
-| Freelance | Was 3.3% or other withholding applied? |
-| Business income | Are records and expenses supportable? |
-| Overseas income | Does residency or treaty analysis matter? |
+<table>
+  <thead>
+    <tr>
+      <th>Income type</th>
+      <th>What to check</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Salary</td>
+      <td>Was year-end settlement completed?</td>
+    </tr>
+    <tr>
+      <td>Freelance</td>
+      <td>Was 3.3% or other withholding applied?</td>
+    </tr>
+    <tr>
+      <td>Business income</td>
+      <td>Are records and expenses supportable?</td>
+    </tr>
+    <tr>
+      <td>Overseas income</td>
+      <td>Does residency or treaty analysis matter?</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Where should you start?
 

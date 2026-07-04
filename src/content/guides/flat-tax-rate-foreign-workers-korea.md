@@ -37,13 +37,36 @@ The safest way to think about the flat tax option is as a decision that needs co
 
 Ask your employer or tax professional what information is needed to compare regular taxation and flat tax treatment under current rules. You may need annual salary, expected deductions, employment start date, and whether you meet the definition used by the rule.
 
-| Comparison point | Why it matters |
-| --- | --- |
-| Eligibility | Not every foreigner or income type qualifies |
-| Timing | Election deadlines or employer processes may apply |
-| Deductions | Some benefits may differ under flat treatment |
-| Residency | Broader tax position may still need review |
-| Employer payroll | The employer may need to process the choice correctly |
+<table>
+  <thead>
+    <tr>
+      <th>Comparison point</th>
+      <th>Why it matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Eligibility</td>
+      <td>Not every foreigner or income type qualifies</td>
+    </tr>
+    <tr>
+      <td>Timing</td>
+      <td>Election deadlines or employer processes may apply</td>
+    </tr>
+    <tr>
+      <td>Deductions</td>
+      <td>Some benefits may differ under flat treatment</td>
+    </tr>
+    <tr>
+      <td>Residency</td>
+      <td>Broader tax position may still need review</td>
+    </tr>
+    <tr>
+      <td>Employer payroll</td>
+      <td>The employer may need to process the choice correctly</td>
+    </tr>
+  </tbody>
+</table>
 
 ### When should you ask a professional?
 

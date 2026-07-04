@@ -37,12 +37,32 @@ Year-end settlement is usually handled by an employer for salary income. Income 
 
 Start by identifying your income types. If you had one salary employer and no other income, your employer's process may be the main one. If you had freelance income, two employers, business income, or overseas income, a separate filing review may be needed.
 
-| Situation | Usual starting point |
-| --- | --- |
-| One salary job | Employer year-end settlement |
-| Changed jobs | Employer records plus possible review |
-| Freelance 3.3% income | Income tax filing review |
-| Salary plus freelance income | Both workflows may matter |
+<table>
+  <thead>
+    <tr>
+      <th>Situation</th>
+      <th>Usual starting point</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>One salary job</td>
+      <td>Employer year-end settlement</td>
+    </tr>
+    <tr>
+      <td>Changed jobs</td>
+      <td>Employer records plus possible review</td>
+    </tr>
+    <tr>
+      <td>Freelance 3.3% income</td>
+      <td>Income tax filing review</td>
+    </tr>
+    <tr>
+      <td>Salary plus freelance income</td>
+      <td>Both workflows may matter</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What should you do next?
 

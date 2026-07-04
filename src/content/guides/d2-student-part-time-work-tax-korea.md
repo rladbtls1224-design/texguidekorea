@@ -39,12 +39,32 @@ Tax should not be separated from visa conditions. If the work itself is not clea
 
 List each payer, work period, gross payment, tax withheld, and contract type. If the payer is a school, cafe, company, private client, or platform, the reporting method may differ. Keep screenshots or documents, but remember that official tax records may depend on what the payer reports.
 
-| Work type | What to check |
-| --- | --- |
-| Part-time job | Salary withholding and employer records |
-| Tutoring | Whether 3.3% or another withholding was applied |
-| Campus work | School payment records |
-| Freelance project | Contract, payer, and reported income |
+<table>
+  <thead>
+    <tr>
+      <th>Work type</th>
+      <th>What to check</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Part-time job</td>
+      <td>Salary withholding and employer records</td>
+    </tr>
+    <tr>
+      <td>Tutoring</td>
+      <td>Whether 3.3% or another withholding was applied</td>
+    </tr>
+    <tr>
+      <td>Campus work</td>
+      <td>School payment records</td>
+    </tr>
+    <tr>
+      <td>Freelance project</td>
+      <td>Contract, payer, and reported income</td>
+    </tr>
+  </tbody>
+</table>
 
 ### When should a D-2 student ask for help?
 

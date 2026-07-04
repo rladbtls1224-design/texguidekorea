@@ -37,12 +37,32 @@ The hardest part is often not the tax concept but login setup. Names, registrati
 
 Prepare your foreigner registration information, the spelling of your name as used by Korean institutions, and any authentication options available to you. If you have a Korean mobile phone under your own name, it may help with verification. If not, check current Hometax guidance or ask the tax office what alternatives are available.
 
-| Item | Why it helps |
-| --- | --- |
-| Foreigner registration details | Used for identity matching |
-| Name spelling | Korean systems can be sensitive to spacing and order |
-| Authentication method | Needed for login or certificate issuance |
-| Contact details | May be used for alerts or verification |
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Why it helps</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Foreigner registration details</td>
+      <td>Used for identity matching</td>
+    </tr>
+    <tr>
+      <td>Name spelling</td>
+      <td>Korean systems can be sensitive to spacing and order</td>
+    </tr>
+    <tr>
+      <td>Authentication method</td>
+      <td>Needed for login or certificate issuance</td>
+    </tr>
+    <tr>
+      <td>Contact details</td>
+      <td>May be used for alerts or verification</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What should you do after creating access?
 

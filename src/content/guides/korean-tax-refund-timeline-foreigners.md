@@ -37,11 +37,28 @@ Avoid comparing your timeline too closely with a coworker's or friend's timeline
 
 Check whether the filing was submitted, whether the refund bank account is correct, and whether any notice asks for more information. Use Hometax or Sontax if available.
 
-| Status issue | Possible check |
-| --- | --- |
-| No payment yet | Review official status and bank account |
-| Amount changed | Compare filing summary and notices |
-| No record found | Confirm tax year and filing route |
+<table>
+  <thead>
+    <tr>
+      <th>Status issue</th>
+      <th>Possible check</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>No payment yet</td>
+      <td>Review official status and bank account</td>
+    </tr>
+    <tr>
+      <td>Amount changed</td>
+      <td>Compare filing summary and notices</td>
+    </tr>
+    <tr>
+      <td>No record found</td>
+      <td>Confirm tax year and filing route</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What is the next step?
 

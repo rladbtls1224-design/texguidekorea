@@ -38,12 +38,32 @@ Do not assume that the payer's short explanation is enough. Ask for a payment st
 
 Make a list of all teaching income for the year. Include the payer name, amount before withholding, amount received, and tax withheld. If you had both salary employment and 3.3% income, both may need to be considered.
 
-| Income situation | What to review |
-| --- | --- |
-| One freelance school | Confirm reported income and withholding |
-| Several tutoring clients | Check whether each payer reported payments |
-| Salary plus tutoring | Review year-end settlement and separate filing |
-| Leaving Korea | Check records before you lose access to payers |
+<table>
+  <thead>
+    <tr>
+      <th>Income situation</th>
+      <th>What to review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>One freelance school</td>
+      <td>Confirm reported income and withholding</td>
+    </tr>
+    <tr>
+      <td>Several tutoring clients</td>
+      <td>Check whether each payer reported payments</td>
+    </tr>
+    <tr>
+      <td>Salary plus tutoring</td>
+      <td>Review year-end settlement and separate filing</td>
+    </tr>
+    <tr>
+      <td>Leaving Korea</td>
+      <td>Check records before you lose access to payers</td>
+    </tr>
+  </tbody>
+</table>
 
 ### How should teachers proceed?
 
