@@ -1,0 +1,15 @@
+---
+import CategoryPill from './CategoryPill.astro';
+const { entry, type = 'guide' } = Astro.props;
+const href = `/${type === 'procedure' ? 'procedures' : 'guides'}/${entry.slug}/`;
+---
+<article class="card guide-card" data-title={entry.data.title.toLowerCase()} data-category={entry.data.category} data-tags={entry.data.tags.join(' ').toLowerCase()}>
+  <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+    <CategoryPill label={entry.data.category} />
+    {entry.data.difficulty && <span class="meta">{entry.data.difficulty}</span>}
+  </div>
+  <h3><a href={href}>{entry.data.title}</a></h3>
+  <p>{entry.data.description}</p>
+  <p class="meta">Last updated: {entry.data.updatedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</p>
+  <a class="button secondary" href={href}>{type === 'procedure' ? 'Open procedure' : 'Read guide'}</a>
+</article>

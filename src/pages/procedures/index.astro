@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import GuideCard from '../../components/GuideCard.astro';
+import { getCollection } from 'astro:content';
+
+const procedures = await getCollection('procedures');
+---
+<BaseLayout title="Korea Tax Procedures for Foreigners" description="Step-by-step Hometax and Korean tax procedures for foreigners, including filing, certificates, refund status, and payment.">
+  <main class="section container">
+    <p class="eyebrow">Procedures</p>
+    <h1>Korea Tax Procedures for Foreigners</h1>
+    <p class="meta">Use these pages to understand the usual sequence of Hometax tasks. Menu names and screen layouts may change, so always confirm with official sources.</p>
+    <div class="grid cards">
+      {procedures.map((entry) => <GuideCard entry={entry} type="procedure" />)}
+    </div>
+  </main>
+</BaseLayout>

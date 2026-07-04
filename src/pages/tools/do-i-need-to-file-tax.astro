@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const questions = [
+  'Are you an employee in Korea?',
+  'Did your employer complete year-end settlement?',
+  'Did you receive freelance income with 3.3% tax withheld?',
+  'Did you have income from more than one employer?',
+  'Did you run a business in Korea?',
+  'Do you need tax documents for visa extension?',
+  'Did you have income from outside Korea?',
+  'Are you unsure whether you are a Korean tax resident?'
+];
+const links = [
+  ['Korea Income Tax Filing Guide for Foreigners', '/guides/korea-income-tax-filing-foreigners/'],
+  ['How to File Income Tax on Hometax as a Foreigner', '/procedures/how-to-file-income-tax-on-hometax/'],
+  ['Korea Tax Residency Rules for Foreigners', '/guides/korea-tax-residency-foreigners/'],
+  ['Tax Documents Needed for Visa Extension in Korea', '/guides/tax-documents-visa-extension-korea/']
+];
+---
+<BaseLayout title="Do I Need to File Tax in Korea?" description="A general checklist for foreigners in Korea who are unsure whether they may need to review income tax filing, Hometax, refund, or document steps.">
+  <main class="section narrow">
+    <p class="eyebrow">General checklist</p>
+    <h1>Do I Need to File Tax in Korea?</h1>
+    <p>This tool is not a legal or tax decision tool. It gives general next-step guidance based on common situations for foreigners in Korea.</p>
+    <form class="grid" data-tax-tool>
+      {questions.map((question, index) => (
+        <label class="card"><input type="checkbox" name={`q${index}`} /> {question}</label>
+      ))}
+    </form>
+    <section class="summary-box" data-result>
+      <h2>Suggested next step</h2>
+      <p>Select any situation above to see general guidance.</p>
+    </section>
+    <section class="card">
+      <h2>Related links</h2>
+      <ul>{links.map(([label, href]) => <li><a href={href}>{label}</a></li>)}</ul>
+    </section>
+  </main>
+  <script is:inline>
+    const form = document.querySelector('[data-tax-tool]');
+    const result = document.querySelector('[data-result] p');
+    const messages = {
+      default: 'You may not have enough information yet. Start by checking your income type, whether tax was withheld, and whether you need documents for another purpose.',
+      filing: 'You may need to check whether you should file Global Income Tax in May. Start with the Global Income Tax Guide and Hometax filing procedure.',
+      documents: 'If you need documents for visa extension, banking, employment, or income proof, start with the tax document guide and income certificate procedure.',
+      residency: 'If tax residency or overseas income is unclear, review the tax residency guide and consider asking a qualified tax professional.'
+    };
+    form?.addEventListener('change', () => {
+      const checked = Array.from(form.querySelectorAll('input')).map((input) => input.checked);
+      let message = messages.default;
+      if (checked[2] || checked[3] || checked[4]) message = messages.filing;
+      if (checked[5]) message = messages.documents;
+      if (checked[6] || checked[7]) message = messages.residency;
+      result.textContent = message;
+    });
+  </script>
+</BaseLayout>

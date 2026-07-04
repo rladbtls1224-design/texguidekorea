@@ -1,0 +1,17 @@
+---
+const nav = [
+  ['Guides', '/guides/'],
+  ['Procedures', '/procedures/'],
+  ['Tools', '/tools/do-i-need-to-file-tax/'],
+  ['Glossary', '/glossary/'],
+  ['About', '/about/']
+];
+---
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="/">Korea Tax Guide for Foreigners</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      {nav.map(([label, href]) => <a href={href}>{label}</a>)}
+    </nav>
+  </div>
+</header>

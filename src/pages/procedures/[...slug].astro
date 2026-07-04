@@ -1,0 +1,15 @@
+---
+import { getCollection, render } from 'astro:content';
+import ProcedureLayout from '../../layouts/ProcedureLayout.astro';
+
+export async function getStaticPaths() {
+  const procedures = await getCollection('procedures');
+  return procedures.map((entry) => ({ params: { slug: entry.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+<ProcedureLayout entry={entry}>
+  <Content />
+</ProcedureLayout>

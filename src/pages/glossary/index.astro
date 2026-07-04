@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { glossaryTerms } from '../../data/glossary';
+---
+<BaseLayout title="Korean Tax Glossary in Simple English" description="Simple English definitions for common Korean tax terms including Hometax, Global Income Tax, 3.3% tax, certificates, ARC, and tax residency.">
+  <main class="section container">
+    <p class="eyebrow">Glossary</p>
+    <h1>Korean Tax Glossary in Simple English</h1>
+    <div class="grid cards">
+      {glossaryTerms.map((item) => (
+        <article class="card">
+          <h2>{item.term}</h2>
+          <p>{item.definition}</p>
+          <ul>{item.links.map((link) => <li><a href={link.href}>{link.title}</a></li>)}</ul>
+        </article>
+      ))}
+    </div>
+  </main>
+</BaseLayout>

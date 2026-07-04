@@ -1,0 +1,19 @@
+---
+const { placeholder = 'Search by topic, visa type, or keyword', target = '[data-search-card]' } = Astro.props;
+---
+<div class="card">
+  <label for="site-search"><strong>Search guides</strong></label>
+  <input id="site-search" type="search" placeholder={placeholder} data-search-input />
+  <p class="meta">Try: freelancer, 3.3%, Hometax, year-end settlement, E-2, D-2, tax refund, income certificate, visa extension, flat tax, tax residency.</p>
+</div>
+<script is:inline define:vars={{ target }}>
+  const input = document.querySelector('[data-search-input]');
+  const cards = Array.from(document.querySelectorAll(target));
+  input?.addEventListener('input', () => {
+    const query = input.value.trim().toLowerCase();
+    cards.forEach((card) => {
+      const text = card.textContent.toLowerCase() + ' ' + (card.dataset.tags || '') + ' ' + (card.dataset.category || '');
+      card.classList.toggle('hidden', Boolean(query) && !text.includes(query));
+    });
+  });
+</script>

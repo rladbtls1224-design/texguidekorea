@@ -1,0 +1,95 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CategoryPill from '../components/CategoryPill.astro';
+import QuickAnswerBox from '../components/QuickAnswerBox.astro';
+import RelatedGuides from '../components/RelatedGuides.astro';
+import FaqSection from '../components/FaqSection.astro';
+import DisclaimerBox from '../components/DisclaimerBox.astro';
+
+type Faq = { question: string; answer: string };
+const { entry } = Astro.props as { entry: any };
+const url = `/guides/${entry.slug}/`;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: entry.data.title,
+    description: entry.data.description,
+    datePublished: entry.data.pubDate.toISOString(),
+    dateModified: entry.data.updatedDate.toISOString(),
+    articleSection: entry.data.category,
+    keywords: entry.data.tags.join(', '),
+    mainEntityOfPage: `https://taxguidekorea.com${url}`,
+    publisher: { '@type': 'Organization', name: 'Korea Tax Guide for Foreigners' }
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: entry.data.faqs.map((faq: Faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: { '@type': 'Answer', text: faq.answer }
+    }))
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://taxguidekorea.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://taxguidekorea.com/guides/' },
+      { '@type': 'ListItem', position: 3, name: entry.data.title, item: `https://taxguidekorea.com${url}` }
+    ]
+  }
+];
+---
+<BaseLayout title={entry.data.title} description={entry.data.description} canonical={url} type="article" jsonLd={jsonLd}>
+  <main class="article narrow">
+    <Breadcrumbs items={[{ label: 'Guides', href: '/guides/' }, { label: entry.data.title }]} />
+    <p class="eyebrow">Korea tax guide</p>
+    <h1>{entry.data.title}</h1>
+    <p class="meta">Last updated: {entry.data.updatedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+    <p><CategoryPill label={entry.data.category} /> <span class="meta">{entry.data.difficulty}</span></p>
+    <div class="summary-box"><strong>Summary:</strong> {entry.data.description}</div>
+    <nav class="toc" aria-label="Table of contents">
+      <strong>Table of contents</strong>
+      <a href="#who-this-guide-is-for">Who this guide is for</a>
+      <a href="#quick-answer">Quick answer</a>
+      <a href="#key-points">Key points</a>
+      <a href="#step-by-step">Step-by-step explanation</a>
+      <a href="#documents">Documents you may need</a>
+      <a href="#common-mistakes">Common mistakes</a>
+      <a href="#professional-help">When to ask a tax professional</a>
+      <a href="#faq">FAQ</a>
+      <a href="#related-guides">Related guides</a>
+    </nav>
+    <section id="who-this-guide-is-for">
+      <h2>Who this guide is for</h2>
+      <ul>{entry.data.audience.map((item: string) => <li>{item}</li>)}</ul>
+    </section>
+    <QuickAnswerBox text={entry.data.quickAnswer} />
+    <section id="key-points">
+      <h2>Key points</h2>
+      <ul>{entry.data.keyPoints.map((item: string) => <li>{item}</li>)}</ul>
+    </section>
+    <section id="step-by-step">
+      <h2>Step-by-step explanation</h2>
+      <slot />
+    </section>
+    <section id="documents">
+      <h2>Documents you may need</h2>
+      <ul>{entry.data.documents.map((item: string) => <li>{item}</li>)}</ul>
+    </section>
+    <section id="common-mistakes">
+      <h2>Common mistakes</h2>
+      <ul>{entry.data.mistakes.map((item: string) => <li>{item}</li>)}</ul>
+    </section>
+    <section id="professional-help">
+      <h2>When should you ask a tax professional?</h2>
+      <p>Ask a qualified tax professional if you have income from several countries, business income, unclear tax residency, treaty questions, missing documents, late filing concerns, or a visa situation that depends on tax records. This site explains general patterns only and cannot review your personal facts.</p>
+    </section>
+    <FaqSection faqs={entry.data.faqs} />
+    <RelatedGuides links={entry.data.related} />
+    <DisclaimerBox />
+  </main>
+</BaseLayout>

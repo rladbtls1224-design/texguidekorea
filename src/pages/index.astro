@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBox from '../components/SearchBox.astro';
+import GuideCard from '../components/GuideCard.astro';
+import { categories, startCards } from '../data/categories';
+import { getCollection } from 'astro:content';
+
+const guides = await getCollection('guides');
+const procedures = await getCollection('procedures');
+const featured = [...guides.slice(0, 6), ...procedures.slice(0, 2)];
+---
+<BaseLayout>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Simple English tax guidance in Korea</p>
+        <h1>Korea Tax Guide for Foreigners</h1>
+        <p>Simple guides for income tax, year-end settlement, 3.3% freelancer tax refunds, Hometax, and tax documents in Korea.</p>
+        <div class="actions">
+          <a class="button" href="/guides/">Find Your Tax Guide</a>
+          <a class="button secondary" href="/procedures/">Check Filing Steps</a>
+        </div>
+      </div>
+    </section>
+    <section class="section container">
+      <SearchBox target="[data-search-card]" />
+      <div class="grid cards" style="margin-top:18px;">
+        {featured.map((entry) => (
+          <div data-search-card data-tags={entry.data.tags.join(' ')}>
+            <GuideCard entry={entry} type={entry.collection === 'procedures' ? 'procedure' : 'guide'} />
+          </div>
+        ))}
+      </div>
+    </section>
+    <section class="section container">
+      <p class="eyebrow">Main categories</p>
+      <h2>Start by tax topic</h2>
+      <div class="grid cards">
+        {categories.map((category) => (
+          <a class="card" href={category.href}>
+            <h3>{category.name}</h3>
+            <p>{category.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+    <section class="section container">
+      <p class="eyebrow">Not sure where to start?</p>
+      <h2>Choose the situation closest to yours</h2>
+      <div class="grid cards">
+        {startCards.map((card) => <a class="card" href={card.href}><strong>{card.label}</strong></a>)}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

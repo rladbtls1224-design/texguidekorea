@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import GuideCard from '../../components/GuideCard.astro';
+import { getCollection } from 'astro:content';
+
+const guides = (await getCollection('guides')).sort((a, b) => b.data.updatedDate.valueOf() - a.data.updatedDate.valueOf());
+const categories = [...new Set(guides.map((guide) => guide.data.category))];
+---
+<BaseLayout title="Korea Tax Guides for Foreigners" description="Browse Korea tax guides for foreign employees, freelancers, students, and expats. Filter by topic, difficulty, and keyword.">
+  <main class="section container">
+    <p class="eyebrow">Guides</p>
+    <h1>Korea Tax Guides for Foreigners</h1>
+    <p class="meta">Browse practical guides for income tax filing, year-end settlement, 3.3% freelancer withholding, tax residency, flat tax, and visa documents.</p>
+    <div class="filterbar">
+      <input type="search" placeholder="Search guides" data-list-search />
+      <select data-category-filter>
+        <option value="">All categories</option>
+        {categories.map((category) => <option value={category}>{category}</option>)}
+      </select>
+    </div>
+    <div class="grid cards">
+      {guides.map((guide) => (
+        <div data-list-card data-category={guide.data.category} data-tags={guide.data.tags.join(' ').toLowerCase()}>
+          <GuideCard entry={guide} />
+        </div>
+      ))}
+    </div>
+  </main>
+  <script is:inline>
+    const search = document.querySelector('[data-list-search]');
+    const category = document.querySelector('[data-category-filter]');
+    const cards = Array.from(document.querySelectorAll('[data-list-card]'));
+    function applyFilters() {
+      const query = search.value.trim().toLowerCase();
+      const selected = category.value;
+      cards.forEach((card) => {
+        const text = card.textContent.toLowerCase() + ' ' + card.dataset.tags;
+        const matchesQuery = !query || text.includes(query);
+        const matchesCategory = !selected || card.dataset.category === selected;
+        card.classList.toggle('hidden', !(matchesQuery && matchesCategory));
+      });
+    }
+    search?.addEventListener('input', applyFilters);
+    category?.addEventListener('change', applyFilters);
+  </script>
+</BaseLayout>

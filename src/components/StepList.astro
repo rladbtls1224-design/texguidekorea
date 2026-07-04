@@ -1,0 +1,12 @@
+---
+type Step = { title: string; text: string };
+const { steps = [] } = Astro.props as { steps?: Step[] };
+---
+<ol class="grid">
+  {steps.map((step) => (
+    <li class="card">
+      <h3>{step.title}</h3>
+      <p>{step.text}</p>
+    </li>
+  ))}
+</ol>

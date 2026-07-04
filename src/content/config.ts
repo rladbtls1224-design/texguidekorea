@@ -1,0 +1,52 @@
+import { defineCollection, z } from 'astro:content';
+
+const relatedSchema = z.object({
+  title: z.string(),
+  href: z.string()
+});
+
+const faqSchema = z.object({
+  question: z.string(),
+  answer: z.string()
+});
+
+const guideSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  pubDate: z.coerce.date(),
+  updatedDate: z.coerce.date(),
+  category: z.string(),
+  difficulty: z.enum(['Beginner', 'Intermediate']),
+  tags: z.array(z.string()),
+  quickAnswer: z.string(),
+  audience: z.array(z.string()),
+  keyPoints: z.array(z.string()),
+  documents: z.array(z.string()),
+  mistakes: z.array(z.string()),
+  related: z.array(relatedSchema),
+  faqs: z.array(faqSchema)
+});
+
+const procedureSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  pubDate: z.coerce.date(),
+  updatedDate: z.coerce.date(),
+  category: z.string(),
+  tags: z.array(z.string()),
+  quickAnswer: z.string(),
+  beforeYouStart: z.array(z.string()),
+  whatYouNeed: z.array(z.string()),
+  steps: z.array(z.object({
+    title: z.string(),
+    text: z.string()
+  })),
+  stuck: z.array(z.string()),
+  mistakes: z.array(z.string()),
+  related: z.array(relatedSchema)
+});
+
+export const collections = {
+  guides: defineCollection({ type: 'content', schema: guideSchema }),
+  procedures: defineCollection({ type: 'content', schema: procedureSchema })
+};

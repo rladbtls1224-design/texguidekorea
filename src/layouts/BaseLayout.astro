@@ -1,0 +1,40 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const {
+  title = 'Korea Tax Guide for Foreigners',
+  description = 'Simple English guides for income tax, year-end settlement, 3.3% freelancer tax refunds, Hometax, and tax documents in Korea.',
+  canonical = Astro.url.pathname,
+  type = 'website',
+  jsonLd
+} = Astro.props;
+
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://taxguidekorea.com';
+const canonicalUrl = canonical.startsWith('http') ? canonical : `${siteUrl}${canonical}`;
+const fullTitle = title.includes('Korea Tax Guide') ? title : `${title} | Korea Tax Guide for Foreigners`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content="Korea Tax Guide for Foreigners" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="alternate" type="application/rss+xml" title="Korea Tax Guide for Foreigners RSS" href="/rss.xml" />
+    {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <Footer />
+  </body>
+</html>
