@@ -3,6 +3,7 @@ title: "Korea 3.3% Tax Refund Guide for Foreign Freelancers"
 description: "Understand Korean 3.3% withholding tax for foreign freelancers, refund checks, filing steps, Hometax records, and common mistakes."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "3.3% Freelancer Tax"
 difficulty: "Beginner"
 tags: ["freelancer", "3.3%", "tax refund", "withholding tax", "Hometax"]
@@ -21,6 +22,9 @@ faqs:
   - { question: "Am I guaranteed a refund?", answer: "No. A refund depends on the final calculation, total income, withholding, deductions, and current rules." }
   - { question: "Can foreign freelancers use Hometax?", answer: "Many can, but login and identity verification can be the first challenge." }
   - { question: "Should I include all clients?", answer: "You should review all income records, especially if multiple Korean clients withheld tax." }
+sources:
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
 ---
 
 ### What is the Korean 3.3% tax?

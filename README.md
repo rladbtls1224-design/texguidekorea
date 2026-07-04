@@ -19,7 +19,7 @@ Static Astro MVP for an English-language Korea tax guide site for foreigners, fr
 - `/procedures/[slug]/` step-by-step procedure pages
 - `/tools/do-i-need-to-file-tax/` general filing checklist
 - `/glossary/` simple English Korean tax glossary
-- `/about/`, `/privacy/`, `/contact/`
+- `/about/`, `/editorial-policy/`, `/disclaimer/`, `/privacy/`, `/contact/`
 - `/rss.xml`, `/robots.txt`, `/sitemap.xml`
 
 ## Local development

@@ -3,6 +3,7 @@ title: "How to File Income Tax on Hometax as a Foreigner"
 description: "A general step-by-step Hometax filing procedure for foreigners who need to review Korean income tax filing."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Hometax Guides"
 tags: ["Hometax", "income tax filing", "foreigner", "global income tax"]
 quickAnswer: "Use this procedure as a general navigation map for filing income tax on Hometax. It does not decide whether you must file or what numbers to enter. Menu names and screen layouts may change, so always verify with official Hometax or National Tax Service information."
@@ -20,6 +21,9 @@ related:
   - { title: "How to Sign Up for Hometax as a Foreigner", href: "/guides/hometax-sign-up-foreigner/" }
   - { title: "Korea 3.3% Tax Refund Guide for Foreign Freelancers", href: "/guides/freelancer-3-3-tax-refund-korea/" }
   - { title: "How to Check Your Korean Tax Refund Status", href: "/procedures/how-to-check-tax-refund-status/" }
+sources:
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
 ---
 
 ### What should you review before pressing submit?

@@ -3,6 +3,7 @@ title: "Korea Income Tax Filing Guide for Foreigners"
 description: "Learn how foreigners can approach Korean income tax filing, including employees, freelancers, mixed income, Hometax, and documents."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Income Tax"
 difficulty: "Beginner"
 tags: ["income tax filing", "global income tax", "Hometax", "foreigner", "tax refund"]
@@ -21,6 +22,9 @@ faqs:
   - { question: "Can filing create a refund?", answer: "A refund may happen in some situations, but it depends on withheld tax, deductions, income type, and final calculation." }
   - { question: "Can foreigners use Hometax?", answer: "Many foreigners can use Hometax if identity verification and login setup are available." }
   - { question: "Should I file if I left Korea?", answer: "Departure can affect timing and documents, so check official guidance or ask a professional before leaving if possible." }
+sources:
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
 ---
 
 ### How do foreigners file taxes in Korea?

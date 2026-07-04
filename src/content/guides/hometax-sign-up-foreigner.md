@@ -3,6 +3,7 @@ title: "How to Sign Up for Hometax as a Foreigner"
 description: "A practical guide for foreigners who need Hometax access for Korean tax filing, certificates, refund checks, and payment records."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Hometax Guides"
 difficulty: "Beginner"
 tags: ["Hometax", "sign up", "foreigner", "ARC", "certificate", "tax refund"]
@@ -21,6 +22,9 @@ faqs:
   - { question: "Do I need Korean phone verification?", answer: "It may be one possible route, but available methods can change. Check Hometax directly." }
   - { question: "Is Hometax the same as Sontax?", answer: "Hometax is the web portal, while Sontax is the mobile app. Some tasks may be available in both." }
   - { question: "What if my name does not match?", answer: "Check the spelling and order used in official registration records before trying again." }
+sources:
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
 ---
 
 ### Why does Hometax access matter?

@@ -29,6 +29,9 @@ const fullTitle = title.includes('Korea Tax Guide') ? title : `${title} | Korea 
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:site_name" content="Korea Tax Guide for Foreigners" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:url" content={canonicalUrl} />
     <link rel="alternate" type="application/rss+xml" title="Korea Tax Guide for Foreigners RSS" href="/rss.xml" />
     {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>

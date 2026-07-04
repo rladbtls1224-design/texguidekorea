@@ -1,0 +1,22 @@
+---
+type Source = {
+  title: string;
+  url: string;
+  type?: string;
+};
+
+const { sources = [] } = Astro.props as { sources?: Source[] };
+---
+{sources.length > 0 && (
+  <section class="official-sources" id="official-sources">
+    <h2>Official Sources to Verify</h2>
+    <p>Tax rules and filing procedures in Korea may change depending on your visa status, income type, tax residency, and the tax year. Before making a tax decision, always verify your situation with official sources or a qualified professional.</p>
+    <ul>
+      {sources.map((source) => (
+        <li>
+          <a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

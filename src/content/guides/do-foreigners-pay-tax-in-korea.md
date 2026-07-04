@@ -3,6 +3,7 @@ title: "Do Foreigners Have to Pay Taxes in Korea?"
 description: "A simple guide to when foreigners in Korea may need to pay or file income tax, based on income type, residency, and work situation."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Income Tax"
 difficulty: "Beginner"
 tags: ["foreigners", "income tax", "employee", "freelancer", "E-2", "D-2", "tax residency"]
@@ -21,6 +22,9 @@ faqs:
   - { question: "Is tax handled automatically by my employer?", answer: "Often salary withholding and year-end settlement are handled by an employer, but other income or special circumstances may require separate review." }
   - { question: "Can students owe tax in Korea?", answer: "Students with part-time or freelance income may need to check withholding, reporting, and visa conditions." }
   - { question: "Where should I verify the latest rules?", answer: "Check the National Tax Service, Hometax, or a qualified Korean tax professional." }
+sources:
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
 ---
 
 ### Who needs to think about Korean tax?

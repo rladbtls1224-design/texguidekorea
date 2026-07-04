@@ -3,6 +3,7 @@ title: "Korea Flat Tax Rate for Foreign Workers"
 description: "A cautious guide to Korea's flat tax option for some foreign workers, including eligibility checks, tradeoffs, and professional review."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Income Tax"
 difficulty: "Intermediate"
 tags: ["flat tax", "foreign worker", "income tax", "tax residency", "employee"]
@@ -21,6 +22,9 @@ faqs:
   - { question: "Can freelancers use it?", answer: "This option is generally discussed for foreign workers, but your exact income classification should be checked." }
   - { question: "Can I decide after filing?", answer: "Timing and process rules may apply, so check before relying on a later choice." }
   - { question: "Should my employer decide for me?", answer: "Employers can explain payroll process, but the personal tax effect should be reviewed carefully." }
+sources:
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
 ---
 
 ### What is the flat tax option?

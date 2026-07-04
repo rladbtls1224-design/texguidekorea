@@ -3,6 +3,7 @@ title: "How to Pay Korean Taxes Online"
 description: "A general procedure for foreigners who need to pay Korean tax online through official payment channels after checking Hometax records."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Hometax Guides"
 tags: ["tax payment", "Hometax", "local income tax", "online payment"]
 quickAnswer: "Foreigners may be able to pay Korean taxes online through Hometax or connected official payment services after checking the amount and tax type. Always confirm whether the payment is national tax, local income tax, or another item. Save proof of payment because it may be needed for records or documents."
@@ -20,6 +21,10 @@ related:
   - { title: "Tax Documents Needed for Visa Extension in Korea", href: "/guides/tax-documents-visa-extension-korea/" }
   - { title: "How to Get a Certificate of Income in Korea", href: "/procedures/how-to-get-income-certificate/" }
   - { title: "How to Sign Up for Hometax as a Foreigner", href: "/guides/hometax-sign-up-foreigner/" }
+sources:
+  - { title: "Wetax – Local Tax Services", url: "https://www.wetax.go.kr/", type: "official" }
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
 ---
 
 ### What should you check after payment?

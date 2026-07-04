@@ -3,6 +3,7 @@ title: "Tax Documents Needed for Visa Extension in Korea"
 description: "Learn which Korean tax and income documents foreigners may need for visa extension, banking, employment, or income proof."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Tax Documents"
 difficulty: "Beginner"
 tags: ["visa extension", "income certificate", "tax payment certificate", "Hometax", "ARC"]
@@ -21,6 +22,10 @@ faqs:
   - { question: "Can I use a payslip instead?", answer: "Sometimes supporting documents help, but official certificates may still be required." }
   - { question: "What if my income does not appear?", answer: "Check whether income was reported and ask the payer or a professional for help." }
   - { question: "Should freelancers prepare earlier?", answer: "Yes. Freelance records can take more checking because payer reporting may vary." }
+sources:
+  - { title: "Hi Korea – Immigration and Visa Information", url: "https://www.hikorea.go.kr/", type: "official" }
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
+  - { title: "Government24 – Government Services and Certificates", url: "https://www.gov.kr/", type: "official" }
 ---
 
 ### Why tax documents matter for foreigners

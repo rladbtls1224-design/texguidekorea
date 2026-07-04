@@ -77,6 +77,16 @@ img { max-width: 100%; }
 .summary-box { background: var(--surface-soft); border: 1px solid #cce2f7; }
 .quick-answer { background: #f1fbf9; border: 1px solid #bfe4df; }
 .disclaimer { background: var(--warning); border: 1px solid var(--warning-line); }
+.official-sources {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin: 22px 0;
+}
+.official-sources h2 { margin-top: 0; }
+.official-sources a { font-weight: 700; }
 .toc { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; }
 .toc a { display: block; padding: 3px 0; }
 .filterbar { display: grid; gap: 12px; grid-template-columns: 1fr 220px; margin: 24px 0; }

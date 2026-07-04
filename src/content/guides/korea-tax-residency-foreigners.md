@@ -3,6 +3,7 @@ title: "Korea Tax Residency Rules for Foreigners"
 description: "A cautious overview of Korean tax residency for foreigners, including stay period, living base, income source, and treaty questions."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Visa & Tax"
 difficulty: "Intermediate"
 tags: ["tax residency", "tax treaty", "foreign income", "resident", "foreigner"]
@@ -21,6 +22,9 @@ faqs:
   - { question: "Does overseas income matter?", answer: "It may matter depending on residency and treaty issues. Get advice before ignoring it." }
   - { question: "Can a tax treaty change the result?", answer: "A treaty may affect certain cases, but application depends on facts and documents." }
   - { question: "Should remote workers be careful?", answer: "Yes. Cross-border work and payment sources can create complex questions." }
+sources:
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
+  - { title: "Korean Law Information Center – Korean Laws and Regulations", url: "https://www.law.go.kr/", type: "official" }
 ---
 
 ### Why tax residency matters

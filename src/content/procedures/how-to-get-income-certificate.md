@@ -3,6 +3,7 @@ title: "How to Get a Certificate of Income in Korea"
 description: "A step-by-step guide for foreigners who need a Korean certificate of income for visa, banking, employment, or proof of income."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Tax Documents"
 tags: ["income certificate", "Hometax", "visa extension", "tax documents"]
 quickAnswer: "A certificate of income can often be issued through Hometax, Sontax, a tax office, or other official channels depending on the current system. Foreigners should confirm the exact document name, year, and issue method requested by the institution. Records shown on the certificate depend on reported income."
@@ -20,6 +21,10 @@ related:
   - { title: "How to Sign Up for Hometax as a Foreigner", href: "/guides/hometax-sign-up-foreigner/" }
   - { title: "Korea Income Tax Filing Guide for Foreigners", href: "/guides/korea-income-tax-filing-foreigners/" }
   - { title: "How to Pay Korean Taxes Online", href: "/procedures/how-to-pay-korean-tax-online/" }
+sources:
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
+  - { title: "Government24 – Government Services and Certificates", url: "https://www.gov.kr/", type: "official" }
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
 ---
 
 ### What if the certificate is blank or incomplete?

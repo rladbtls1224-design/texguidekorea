@@ -3,6 +3,7 @@ title: "Year-End Tax Settlement in Korea for Foreign Workers"
 description: "A practical overview of Korea year-end tax settlement for foreign employees, including employer roles, documents, and separate filing checks."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Year-End Settlement"
 difficulty: "Beginner"
 tags: ["year-end settlement", "employee", "foreign worker", "E-2", "E-7", "income tax"]
@@ -21,6 +22,9 @@ faqs:
   - { question: "What if I changed jobs?", answer: "You may need documents from the previous employer so the current employer can review the year correctly." }
   - { question: "Can foreign employees claim deductions?", answer: "Possible deductions depend on eligibility, documents, and current rules, so verify with official guidance." }
   - { question: "Do E-2 teachers use this process?", answer: "Many salary-based teachers do, but contract type and payer reporting should be checked." }
+sources:
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
 ---
 
 ### What is year-end settlement?

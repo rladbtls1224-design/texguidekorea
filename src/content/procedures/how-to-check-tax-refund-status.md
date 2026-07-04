@@ -3,6 +3,7 @@ title: "How to Check Your Korean Tax Refund Status"
 description: "A general Hometax procedure for checking Korean tax refund status after filing or after tax office processing."
 pubDate: 2026-07-04
 updatedDate: 2026-07-04
+lastReviewed: 2026-07-05
 category: "Hometax Guides"
 tags: ["tax refund", "Hometax", "3.3%", "freelancer", "refund status"]
 quickAnswer: "You may be able to check Korean tax refund status through Hometax or Sontax after filing or processing. A refund shown in one screen is not the same as a guaranteed payment until official processing is complete. Check official notices and bank account details carefully."
@@ -20,6 +21,9 @@ related:
   - { title: "How to File Income Tax on Hometax as a Foreigner", href: "/procedures/how-to-file-income-tax-on-hometax/" }
   - { title: "Korea Income Tax Filing Guide for Foreigners", href: "/guides/korea-income-tax-filing-foreigners/" }
   - { title: "How to Sign Up for Hometax as a Foreigner", href: "/guides/hometax-sign-up-foreigner/" }
+sources:
+  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
+  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
 ---
 
 ### Why refund status can be confusing
