@@ -7,6 +7,7 @@ import RelatedGuides from '../components/RelatedGuides.astro';
 import FaqSection from '../components/FaqSection.astro';
 import OfficialSources from '../components/OfficialSources.astro';
 import DisclaimerBlock from '../components/DisclaimerBlock.astro';
+import { formatKoreaDate } from '../utils/date';
 
 type Faq = { question: string; answer: string };
 const { entry } = Astro.props as { entry: any };
@@ -50,7 +51,7 @@ const jsonLd = [
     <Breadcrumbs items={[{ label: 'Guides', href: '/guides/' }, { label: entry.data.title }]} />
     <p class="eyebrow">Korea tax guide</p>
     <h1>{entry.data.title}</h1>
-    <p class="meta">By {entry.data.author} | Last reviewed: {entry.data.lastReviewed.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} | Last updated: {entry.data.updatedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+    <p class="meta">By {entry.data.author} | Last reviewed: {formatKoreaDate(entry.data.lastReviewed)} | Last updated: {formatKoreaDate(entry.data.updatedDate)}</p>
     <p><CategoryPill label={entry.data.category} /> <span class="meta">{entry.data.difficulty}</span></p>
     <div class="summary-box"><strong>Summary:</strong> {entry.data.description}</div>
     <nav class="toc" aria-label="Table of contents">
