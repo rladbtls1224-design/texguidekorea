@@ -10,6 +10,7 @@ import { categories as categoryCards } from '../../data/categories';
 const guides = (await getCollection('guides')).sort((a, b) => b.data.updatedDate.valueOf() - a.data.updatedDate.valueOf());
 const categories = [...new Set(guides.map((guide) => guide.data.category))];
 const expandedGuideSlugs = [
+  'why-income-missing-hometax',
   'korean-visa-types-tax-documents',
   'korea-tax-refund-e2-teachers',
   'korea-year-end-settlement-documents-foreign-workers',
