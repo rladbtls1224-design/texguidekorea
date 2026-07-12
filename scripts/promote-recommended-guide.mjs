@@ -1,16 +1,22 @@
-import { copyFile, mkdir, stat } from 'node:fs/promises';
+import { mkdir, readFile, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 
 const guides = {
-  '1': 'f2-7-visa-income-proof-tax-records-korea.md',
-  '2': 'e7-visa-tax-documents-income-proof-korea.md',
-  '3': 'korea-tax-filing-side-income-foreigners.md',
-  '4': 'missed-may-tax-filing-deadline-korea.md',
-  '5': 'leaving-korea-tax-checklist-foreigners.md',
-  '6': 'korea-tax-treaty-exemption-foreign-teachers.md',
-  '7': 'overseas-income-tax-korea-foreigners.md',
-  '8': 'korean-tax-vs-pension-health-insurance-foreigners.md'
+  '1': 'korea-tax-payment-certificate-foreigners.md',
+  '2': 'hometax-fact-certificate-foreigners.md',
+  '3': 'visit-korean-tax-office-foreigners.md',
+  '4': 'multiple-employers-tax-filing-korea-foreigners.md',
+  '5': 'job-change-year-end-settlement-korea-foreigners.md',
+  '6': 'severance-pay-tax-korea-foreigners.md',
+  '7': 'monthly-rent-tax-deduction-korea-foreigners.md',
+  '8': 'cash-receipt-credit-card-deductions-korea-foreigners.md',
+  '9': 'dependent-deductions-foreign-workers-korea.md',
+  '10': 'insurance-pension-deductions-year-end-settlement-foreigners.md',
+  '11': 'business-registration-foreign-freelancers-korea.md',
+  '12': 'vat-guide-foreign-freelancers-korea.md',
+  '13': 'creator-youtuber-tax-korea-foreigners.md',
+  '14': 'korean-tax-notices-letters-foreigners.md'
 };
 
 const number = process.argv[2];
@@ -18,14 +24,33 @@ const fileName = guides[number];
 
 if (!fileName) {
   console.error('Usage: npm run promote:guide -- <number>');
-  console.error('Available numbers: 1, 2, 3, 4, 5, 6, 7, 8');
+  console.error(`Available numbers: ${Object.keys(guides).join(', ')}`);
   process.exit(1);
 }
 
 const root = process.cwd();
-const source = path.join(root, 'drafts', 'recommended-guides', fileName);
+const source = path.join(root, 'drafts', 'recommended-guides-2026-07-12', fileName);
 const targetDir = path.join(root, 'src', 'content', 'guides');
 const target = path.join(targetDir, fileName);
+
+function koreaDate() {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Seoul',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  }).formatToParts(new Date());
+
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function applyDeploymentDate(markdown, date) {
+  return markdown
+    .replace(/^pubDate:\s*.*$/m, `pubDate: ${date}`)
+    .replace(/^updatedDate:\s*.*$/m, `updatedDate: ${date}`)
+    .replace(/^lastReviewed:\s*.*$/m, `lastReviewed: ${date}`);
+}
 
 try {
   await stat(source);
@@ -46,7 +71,10 @@ try {
 }
 
 await mkdir(targetDir, { recursive: true });
-await copyFile(source, target);
+const draft = await readFile(source, 'utf8');
+const deploymentDate = koreaDate();
+await writeFile(target, applyDeploymentDate(draft, deploymentDate), 'utf8');
 
 console.log(`Promoted guide ${number}: ${fileName}`);
 console.log(`Target: ${target}`);
+console.log(`Deployment date applied: ${deploymentDate}`);
