@@ -8,12 +8,15 @@ const {
   description = 'Simple English guides for income tax, year-end settlement, 3.3% freelancer tax refunds, Hometax, and tax documents in Korea.',
   canonical = Astro.url.pathname,
   type = 'website',
-  jsonLd
+  jsonLd,
+  appendSiteName = true
 } = Astro.props;
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://taxguidekorea.com';
 const canonicalUrl = canonical.startsWith('http') ? canonical : `${siteUrl}${canonical}`;
-const fullTitle = title.includes('Korea Tax Guide') ? title : `${title} | Korea Tax Guide for Foreigners`;
+const fullTitle = appendSiteName && !title.includes('Korea Tax Guide')
+  ? `${title} | Korea Tax Guide for Foreigners`
+  : title;
 const globalJsonLd = [
   {
     '@context': 'https://schema.org',

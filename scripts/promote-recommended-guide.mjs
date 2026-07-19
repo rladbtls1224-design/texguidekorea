@@ -1,35 +1,20 @@
 import { mkdir, readFile, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
-
-const guides = {
-  '1': 'korea-tax-payment-certificate-foreigners.md',
-  '2': 'hometax-fact-certificate-foreigners.md',
-  '3': 'visit-korean-tax-office-foreigners.md',
-  '4': 'multiple-employers-tax-filing-korea-foreigners.md',
-  '5': 'job-change-year-end-settlement-korea-foreigners.md',
-  '6': 'severance-pay-tax-korea-foreigners.md',
-  '7': 'monthly-rent-tax-deduction-korea-foreigners.md',
-  '8': 'cash-receipt-credit-card-deductions-korea-foreigners.md',
-  '9': 'dependent-deductions-foreign-workers-korea.md',
-  '10': 'insurance-pension-deductions-year-end-settlement-foreigners.md',
-  '11': 'business-registration-foreign-freelancers-korea.md',
-  '12': 'vat-guide-foreign-freelancers-korea.md',
-  '13': 'creator-youtuber-tax-korea-foreigners.md',
-  '14': 'korean-tax-notices-letters-foreigners.md'
-};
+import { draftFolder, recommendedGuides } from './recommended-guides.mjs';
 
 const number = process.argv[2];
-const fileName = guides[number];
+const fileName = recommendedGuides[number];
+const dryRun = process.argv.includes('--dry-run');
 
 if (!fileName) {
   console.error('Usage: npm run promote:guide -- <number>');
-  console.error(`Available numbers: ${Object.keys(guides).join(', ')}`);
+  console.error(`Available numbers: ${Object.keys(recommendedGuides).join(', ')}`);
   process.exit(1);
 }
 
 const root = process.cwd();
-const source = path.join(root, 'drafts', 'recommended-guides-2026-07-12', fileName);
+const source = path.join(root, 'drafts', draftFolder, fileName);
 const targetDir = path.join(root, 'src', 'content', 'guides');
 const target = path.join(targetDir, fileName);
 
@@ -73,6 +58,15 @@ try {
 await mkdir(targetDir, { recursive: true });
 const draft = await readFile(source, 'utf8');
 const deploymentDate = koreaDate();
+
+if (dryRun) {
+  console.log(`Dry run for guide ${number}: ${fileName}`);
+  console.log(`Source: ${source}`);
+  console.log(`Target: ${target}`);
+  console.log(`Deployment date that would be applied: ${deploymentDate}`);
+  process.exit(0);
+}
+
 await writeFile(target, applyDeploymentDate(draft, deploymentDate), 'utf8');
 
 console.log(`Promoted guide ${number}: ${fileName}`);
