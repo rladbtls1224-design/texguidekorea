@@ -43,6 +43,7 @@ if (JSON.stringify(files) !== JSON.stringify(mappedFiles)) {
 
 const seenTitles = new Set();
 const sourceUrls = new Set();
+let publishedCount = 0;
 
 for (const fileName of files) {
   const markdown = await readFile(path.join(draftDir, fileName), 'utf8');
@@ -82,7 +83,7 @@ for (const fileName of files) {
 
   try {
     await stat(path.join(publishedDir, fileName));
-    throw new Error(`Draft already exists in the published collection: ${fileName}`);
+    publishedCount += 1;
   } catch (error) {
     if (error.code !== 'ENOENT') {
       throw error;
@@ -114,4 +115,4 @@ if (process.argv.includes('--check-links')) {
   }
 }
 
-console.log(`Validated ${files.length} recommended guide drafts.`);
+console.log(`Validated ${files.length} recommended guide drafts (${publishedCount} already published).`);

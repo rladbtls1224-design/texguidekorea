@@ -3,9 +3,9 @@ title: "Remote Work in Korea for a Foreign Company: Tax Guide"
 seoTitle: "Remote Work in Korea for a Foreign Company"
 thumbnailSuggestion: "Split-screen remote worker, overseas employer building, Korea location pin, and payroll and tax arrows."
 description: "How remote work from Korea for an overseas employer can affect tax residency, Korean-source salary, payroll, treaties, foreign tax credits, and records."
-pubDate: 2026-07-20
-updatedDate: 2026-07-20
-lastReviewed: 2026-07-20
+pubDate: 2026-07-21
+updatedDate: 2026-07-21
+lastReviewed: 2026-07-21
 category: "Income Tax"
 difficulty: "Intermediate"
 tags: ["remote work Korea", "foreign employer", "overseas company", "foreign salary", "digital nomad tax", "tax treaty"]
