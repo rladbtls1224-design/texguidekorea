@@ -3,9 +3,9 @@ title: "Foreign Tax Credit in Korea for Foreign Residents"
 seoTitle: "Foreign Tax Credit in Korea for Foreigners"
 thumbnailSuggestion: "Two tax receipts from different countries connected by a shield and checkmark to show double-tax relief."
 description: "How Korea's foreign tax credit can reduce double taxation for foreign residents, including qualifying tax, credit limits, exchange rates, and documents."
-pubDate: 2026-07-20
-updatedDate: 2026-07-20
-lastReviewed: 2026-07-20
+pubDate: 2026-07-22
+updatedDate: 2026-07-22
+lastReviewed: 2026-07-22
 category: "Income Tax"
 difficulty: "Intermediate"
 tags: ["foreign tax credit Korea", "double taxation", "foreign residents", "overseas income", "tax paid abroad"]
