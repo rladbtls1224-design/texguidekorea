@@ -3,9 +3,9 @@ title: "Simplified vs General VAT Taxpayer in Korea"
 seoTitle: "Korea Simplified vs General VAT Taxpayer"
 thumbnailSuggestion: "Two VAT registration paths branching from a Korean business certificate with invoice and calculator icons."
 description: "How foreign business owners in Korea should compare simplified and general VAT taxpayer status, invoices, input tax, filing, and business customers."
-pubDate: 2026-07-20
-updatedDate: 2026-07-20
-lastReviewed: 2026-07-20
+pubDate: 2026-07-24
+updatedDate: 2026-07-24
+lastReviewed: 2026-07-24
 category: "3.3% Freelancer Tax"
 difficulty: "Intermediate"
 tags: ["simplified VAT taxpayer", "general VAT taxpayer", "Korea VAT", "foreign business owner", "tax invoice"]

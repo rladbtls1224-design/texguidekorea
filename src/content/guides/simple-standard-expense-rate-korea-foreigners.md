@@ -3,9 +3,9 @@ title: "Simple vs Standard Expense Rate in Korea for Freelancers"
 seoTitle: "Korea Simple vs Standard Expense Rate Guide"
 thumbnailSuggestion: "Side-by-side comparison cards labelled Simple and Standard with calculator, receipts, and decision arrows."
 description: "A guide to Korea's simple and standard expense-rate methods for foreign freelancers, including eligibility, differences, records, and filing cautions."
-pubDate: 2026-07-20
-updatedDate: 2026-07-20
-lastReviewed: 2026-07-20
+pubDate: 2026-07-24
+updatedDate: 2026-07-24
+lastReviewed: 2026-07-24
 category: "3.3% Freelancer Tax"
 difficulty: "Intermediate"
 tags: ["simple expense rate", "standard expense rate", "Korea freelancer tax", "estimated expenses", "global income tax"]
