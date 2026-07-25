@@ -3,9 +3,9 @@ title: "Interest and Dividend Tax in Korea for Foreigners"
 seoTitle: "Korea Interest and Dividend Tax for Foreigners"
 thumbnailSuggestion: "Korean bank account and stock dividend statement feeding into a tax summary with restrained finance styling."
 description: "How Korean and overseas interest and dividends may be taxed for foreign residents and non-residents, including withholding, aggregation, and treaties."
-pubDate: 2026-07-20
-updatedDate: 2026-07-20
-lastReviewed: 2026-07-20
+pubDate: 2026-07-25
+updatedDate: 2026-07-25
+lastReviewed: 2026-07-25
 category: "Income Tax"
 difficulty: "Intermediate"
 tags: ["Korea dividend tax", "interest tax", "financial income", "foreign investors", "withholding tax", "tax treaty"]
