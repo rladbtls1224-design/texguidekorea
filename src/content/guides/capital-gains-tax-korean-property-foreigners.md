@@ -3,9 +3,9 @@ title: "Capital Gains Tax on Korean Property for Foreigners"
 seoTitle: "Korean Property Capital Gains Tax for Foreigners"
 thumbnailSuggestion: "Korean apartment sale contract, before-and-after price chart, calculator, and two-month deadline calendar."
 description: "A practical guide to Korean capital gains tax when a foreigner sells Korean property, including residence, basis, deductions, withholding, and deadlines."
-pubDate: 2026-07-20
-updatedDate: 2026-07-20
-lastReviewed: 2026-07-20
+pubDate: 2026-07-26
+updatedDate: 2026-07-26
+lastReviewed: 2026-07-26
 category: "Income Tax"
 difficulty: "Intermediate"
 tags: ["Korea capital gains tax", "foreign property owner", "real estate sale", "non-resident", "property tax return"]
