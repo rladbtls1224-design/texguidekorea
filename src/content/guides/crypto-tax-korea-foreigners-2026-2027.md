@@ -3,9 +3,9 @@ title: "Korea Crypto Tax for Foreigners: 2026 and 2027 Guide"
 seoTitle: "Korea Crypto Tax for Foreigners (2026-2027)"
 thumbnailSuggestion: "Bitcoin-style coin and exchange ledger crossing a 2026-to-2027 calendar with a Korean tax document motif; avoid exchange logos."
 description: "What foreign residents should know about Korea crypto tax in 2026, the planned 2027 start, cost records, overseas accounts, and reporting."
-pubDate: 2026-07-20
-updatedDate: 2026-07-20
-lastReviewed: 2026-07-20
+pubDate: 2026-07-27
+updatedDate: 2026-07-27
+lastReviewed: 2026-07-27
 category: "Income Tax"
 difficulty: "Intermediate"
 tags: ["Korea crypto tax", "virtual assets", "cryptocurrency", "2027 tax", "foreign residents", "overseas accounts"]

@@ -4,8 +4,9 @@ import SearchBox from '../components/SearchBox.astro';
 import GuideCard from '../components/GuideCard.astro';
 import { categories, startCards } from '../data/categories';
 import { getCollection } from 'astro:content';
+import { isGuidePublic } from '../data/recommendedGuidePublication';
 
-const guides = await getCollection('guides');
+const guides = await getCollection('guides', (entry) => isGuidePublic(entry.slug));
 const procedures = await getCollection('procedures');
 const featured = [...guides.slice(0, 6), ...procedures.slice(0, 2)];
 ---

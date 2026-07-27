@@ -6,8 +6,9 @@ import OfficialSources from '../../components/OfficialSources.astro';
 import DisclaimerBlock from '../../components/DisclaimerBlock.astro';
 import { getCollection } from 'astro:content';
 import { categories as categoryCards } from '../../data/categories';
+import { isGuidePublic } from '../../data/recommendedGuidePublication';
 
-const guides = (await getCollection('guides')).sort((a, b) => b.data.updatedDate.valueOf() - a.data.updatedDate.valueOf());
+const guides = (await getCollection('guides', (entry) => isGuidePublic(entry.slug))).sort((a, b) => b.data.updatedDate.valueOf() - a.data.updatedDate.valueOf());
 const categories = [...new Set(guides.map((guide) => guide.data.category))];
 const expandedGuideSlugs = [
   'why-income-missing-hometax',

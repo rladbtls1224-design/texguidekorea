@@ -3,9 +3,9 @@ title: "Digital Nomad Visa Tax in Korea: 2026 Guide"
 seoTitle: "Digital Nomad Visa Tax in Korea (2026)"
 thumbnailSuggestion: "16:9 editorial illustration of a remote worker in Korea with a laptop, passport, Korean skyline, and tax checklist; navy, teal, and warm red; no tiny text."
 description: "A practical 2026 tax guide for Korea digital nomad visa holders, including tax residency, foreign salary, treaties, and records to keep."
-pubDate: 2026-07-20
-updatedDate: 2026-07-20
-lastReviewed: 2026-07-20
+pubDate: 2026-07-27
+updatedDate: 2026-07-27
+lastReviewed: 2026-07-27
 category: "Visa & Tax"
 difficulty: "Intermediate"
 tags: ["digital nomad visa", "workation visa", "F-1-D", "remote work", "tax residency", "foreign income"]

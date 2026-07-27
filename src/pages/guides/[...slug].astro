@@ -1,9 +1,10 @@
 ---
 import { getCollection, render } from 'astro:content';
 import GuideLayout from '../../layouts/GuideLayout.astro';
+import { isGuidePublic } from '../../data/recommendedGuidePublication';
 
 export async function getStaticPaths() {
-  const guides = await getCollection('guides');
+  const guides = await getCollection('guides', (entry) => isGuidePublic(entry.slug));
   return guides.map((entry) => ({ params: { slug: entry.slug }, props: { entry } }));
 }
 

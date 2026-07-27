@@ -17,6 +17,8 @@ const root = process.cwd();
 const source = path.join(root, 'drafts', draftFolder, fileName);
 const targetDir = path.join(root, 'src', 'content', 'guides');
 const target = path.join(targetDir, fileName);
+const publicationState = path.join(root, 'src', 'data', 'recommendedGuidePublication.ts');
+const slug = fileName.replace(/\.md$/, '');
 
 function koreaDate() {
   const parts = new Intl.DateTimeFormat('en-CA', {
@@ -44,31 +46,42 @@ try {
   process.exit(1);
 }
 
+await mkdir(targetDir, { recursive: true });
+const deploymentDate = koreaDate();
+
+let guideMarkdown;
 try {
-  await stat(target);
-  console.error(`Target already exists: ${target}`);
-  console.error('Refusing to overwrite an existing guide.');
-  process.exit(1);
+  guideMarkdown = await readFile(target, 'utf8');
 } catch (error) {
-  if (error.code !== 'ENOENT') {
-    throw error;
-  }
+  if (error.code !== 'ENOENT') throw error;
+  guideMarkdown = await readFile(source, 'utf8');
 }
 
-await mkdir(targetDir, { recursive: true });
-const draft = await readFile(source, 'utf8');
-const deploymentDate = koreaDate();
+const publicationSource = await readFile(publicationState, 'utf8');
+const listMatch = publicationSource.match(/publishedRecommendedGuideSlugs: string\[\] = \[([\s\S]*?)\];/);
+if (!listMatch) {
+  throw new Error('Could not read the recommended-guide publication list.');
+}
+const publishedSlugs = [...listMatch[1].matchAll(/'([^']+)'/g)].map((match) => match[1]);
+const nextPublishedSlugs = [...new Set([...publishedSlugs, slug])];
+const nextPublicationSource = publicationSource.replace(
+  /publishedRecommendedGuideSlugs: string\[\] = \[[\s\S]*?\];/,
+  `publishedRecommendedGuideSlugs: string[] = [${nextPublishedSlugs.map((item) => `\n  '${item}'`).join(',')}\n];`
+);
 
 if (dryRun) {
   console.log(`Dry run for guide ${number}: ${fileName}`);
-  console.log(`Source: ${source}`);
+  console.log(`Draft source: ${source}`);
   console.log(`Target: ${target}`);
+  console.log(`Public route: /guides/${slug}/`);
   console.log(`Deployment date that would be applied: ${deploymentDate}`);
   process.exit(0);
 }
 
-await writeFile(target, applyDeploymentDate(draft, deploymentDate), 'utf8');
+await writeFile(target, applyDeploymentDate(guideMarkdown, deploymentDate), 'utf8');
+await writeFile(publicationState, nextPublicationSource, 'utf8');
 
 console.log(`Promoted guide ${number}: ${fileName}`);
 console.log(`Target: ${target}`);
+console.log(`Public route enabled: /guides/${slug}/`);
 console.log(`Deployment date applied: ${deploymentDate}`);

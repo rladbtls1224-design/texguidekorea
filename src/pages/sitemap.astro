@@ -2,8 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
+import { isGuidePublic } from '../data/recommendedGuidePublication';
 
-const guides = (await getCollection('guides')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const guides = (await getCollection('guides', (entry) => isGuidePublic(entry.slug))).sort((a, b) => a.data.title.localeCompare(b.data.title));
 const procedures = (await getCollection('procedures')).sort((a, b) => a.data.title.localeCompare(b.data.title));
 const corePages = [
   { title: 'Home', href: '/' },

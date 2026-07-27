@@ -1,8 +1,9 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
+import { isGuidePublic } from '../data/recommendedGuidePublication';
 
 export async function GET(context) {
-  const guides = await getCollection('guides');
+  const guides = await getCollection('guides', (entry) => isGuidePublic(entry.slug));
   const procedures = await getCollection('procedures');
   const items = [...guides, ...procedures].map((entry) => ({
     title: entry.data.title,

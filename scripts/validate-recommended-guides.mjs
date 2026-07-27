@@ -115,4 +115,4 @@ if (process.argv.includes('--check-links')) {
   }
 }
 
-console.log(`Validated ${files.length} recommended guide drafts (${publishedCount} already published).`);
+console.log(`Validated ${files.length} recommended guide drafts (${publishedCount} content copies ready for numbered release).`);
