@@ -22,7 +22,9 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'digital-nomad-visa-tax-korea',
   'crypto-tax-korea-foreigners-2026-2027',
   'korea-income-tax-rates-brackets-foreigners',
-  'remote-work-foreign-company-tax-korea'
+  'remote-work-foreign-company-tax-korea',
+  'foreign-financial-account-reporting-korea',
+  'foreign-tax-credit-korea-foreigners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);

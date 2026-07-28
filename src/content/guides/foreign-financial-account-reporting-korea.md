@@ -3,9 +3,9 @@ title: "Foreign Financial Account Reporting in Korea"
 seoTitle: "Korea Foreign Financial Account Reporting Guide"
 thumbnailSuggestion: "World map with overseas bank, brokerage, and crypto account icons flowing into a June filing checklist."
 description: "A 2026 guide to Korea's foreign financial account report, including the KRW 500 million threshold, foreign-resident exemptions, crypto, and June filing."
-pubDate: 2026-07-22
-updatedDate: 2026-07-22
-lastReviewed: 2026-07-22
+pubDate: 2026-07-29
+updatedDate: 2026-07-29
+lastReviewed: 2026-07-29
 category: "Income Tax"
 difficulty: "Intermediate"
 tags: ["foreign financial account", "overseas account", "Korea reporting", "KRW 500 million", "crypto account", "June filing"]
