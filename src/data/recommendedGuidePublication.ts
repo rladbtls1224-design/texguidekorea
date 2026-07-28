@@ -20,7 +20,9 @@ export const controlledRecommendedGuideSlugs = [
 // The promotion script replaces this list when a numbered guide is released.
 export const publishedRecommendedGuideSlugs: string[] = [
   'digital-nomad-visa-tax-korea',
-  'crypto-tax-korea-foreigners-2026-2027'
+  'crypto-tax-korea-foreigners-2026-2027',
+  'korea-income-tax-rates-brackets-foreigners',
+  'remote-work-foreign-company-tax-korea'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);

@@ -3,9 +3,9 @@ title: "Korea Income Tax Rates and Brackets for Foreigners"
 seoTitle: "Korea Income Tax Rates for Foreigners (2026)"
 thumbnailSuggestion: "Clean progressive tax-bracket staircase in Korean won with a calculator and foreign resident card silhouette."
 description: "A plain-English guide to Korea's progressive income tax rates, taxable income, local income tax, withholding, and the foreign-worker flat tax option."
-pubDate: 2026-07-21
-updatedDate: 2026-07-21
-lastReviewed: 2026-07-21
+pubDate: 2026-07-28
+updatedDate: 2026-07-28
+lastReviewed: 2026-07-28
 category: "Income Tax"
 difficulty: "Intermediate"
 tags: ["Korea income tax rates", "tax brackets", "foreigners", "progressive tax", "local income tax", "flat tax"]
