@@ -3,9 +3,9 @@ title: "Korea Tax Treaties and Double Taxation for Foreigners"
 seoTitle: "Korea Tax Treaty and Double Taxation Guide"
 thumbnailSuggestion: "Korea and another country linked by treaty pages with income arrows and one crossed-out duplicate tax symbol."
 description: "A practical guide to Korea tax treaties, treaty residence, income articles, exemption and reduced-rate claims, and relief from double taxation."
-pubDate: 2026-07-23
-updatedDate: 2026-07-23
-lastReviewed: 2026-07-23
+pubDate: 2026-07-30
+updatedDate: 2026-07-30
+lastReviewed: 2026-07-30
 category: "Income Tax"
 difficulty: "Intermediate"
 tags: ["Korea tax treaty", "double taxation", "treaty relief", "certificate of residence", "foreigners"]

@@ -3,9 +3,9 @@ title: "Deductible Business Expenses for Foreign Freelancers in Korea"
 seoTitle: "Freelancer Business Expenses in Korea"
 thumbnailSuggestion: "Freelancer desk with categorized receipts, laptop, camera, phone, and a Korean expense ledger."
 description: "How foreign freelancers in Korea should identify, document, and separate deductible business expenses for global income tax filing."
-pubDate: 2026-07-23
-updatedDate: 2026-07-23
-lastReviewed: 2026-07-23
+pubDate: 2026-07-30
+updatedDate: 2026-07-30
+lastReviewed: 2026-07-30
 category: "3.3% Freelancer Tax"
 difficulty: "Intermediate"
 tags: ["freelancer expenses Korea", "deductible expenses", "necessary expenses", "3.3% tax", "business income"]

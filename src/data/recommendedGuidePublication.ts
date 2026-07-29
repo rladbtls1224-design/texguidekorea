@@ -24,7 +24,9 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'korea-income-tax-rates-brackets-foreigners',
   'remote-work-foreign-company-tax-korea',
   'foreign-financial-account-reporting-korea',
-  'foreign-tax-credit-korea-foreigners'
+  'foreign-tax-credit-korea-foreigners',
+  'korea-tax-treaty-double-taxation-foreigners',
+  'deductible-business-expenses-foreign-freelancers-korea'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
