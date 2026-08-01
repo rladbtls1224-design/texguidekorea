@@ -30,7 +30,9 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'simple-standard-expense-rate-korea-foreigners',
   'simplified-general-vat-taxpayer-korea-foreigners',
   'korean-tax-id-tin-foreigners',
-  'interest-dividend-tax-korea-foreigners'
+  'interest-dividend-tax-korea-foreigners',
+  'inheritance-gift-tax-korea-foreigners',
+  'capital-gains-tax-korean-property-foreigners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);

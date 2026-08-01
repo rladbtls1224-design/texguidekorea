@@ -3,9 +3,9 @@ title: "Inheritance and Gift Tax in Korea for Foreigners"
 seoTitle: "Korea Inheritance and Gift Tax for Foreigners"
 thumbnailSuggestion: "Family transfer scene with home, cash, and share certificate moving through a Korean filing calendar."
 description: "A cautious guide to Korean inheritance and gift tax for foreigners, including residence, asset location, valuation, filing deadlines, and cross-border records."
-pubDate: 2026-07-26
-updatedDate: 2026-07-26
-lastReviewed: 2026-07-26
+pubDate: 2026-08-02
+updatedDate: 2026-08-02
+lastReviewed: 2026-08-02
 category: "Income Tax"
 difficulty: "Intermediate"
 tags: ["Korea inheritance tax", "Korea gift tax", "foreigners", "cross-border estate", "gift filing"]
