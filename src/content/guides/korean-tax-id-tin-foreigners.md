@@ -3,9 +3,9 @@ title: "Korean Tax ID (TIN) for Foreigners"
 seoTitle: "Korean Tax ID (TIN) for Foreigners"
 thumbnailSuggestion: "Passport, foreigner registration card silhouette, business registration certificate, and highlighted ID-number field."
 description: "Which number can serve as a Korean taxpayer identification number for a foreigner, including foreigner registration, business registration, and passport cases."
-pubDate: 2026-07-25
-updatedDate: 2026-07-25
-lastReviewed: 2026-07-25
+pubDate: 2026-08-01
+updatedDate: 2026-08-01
+lastReviewed: 2026-08-01
 category: "Tax Documents"
 difficulty: "Beginner"
 tags: ["Korean TIN", "tax ID", "foreigner registration number", "business registration number", "taxpayer identification"]

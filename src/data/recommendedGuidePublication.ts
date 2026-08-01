@@ -28,7 +28,9 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'korea-tax-treaty-double-taxation-foreigners',
   'deductible-business-expenses-foreign-freelancers-korea',
   'simple-standard-expense-rate-korea-foreigners',
-  'simplified-general-vat-taxpayer-korea-foreigners'
+  'simplified-general-vat-taxpayer-korea-foreigners',
+  'korean-tax-id-tin-foreigners',
+  'interest-dividend-tax-korea-foreigners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
