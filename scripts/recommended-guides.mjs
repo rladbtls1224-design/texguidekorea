@@ -1,18 +1,18 @@
-export const draftFolder = 'recommended-guides-2026-07-20';
+export const draftFolder = 'recommended-guides-2026-08-03';
 
 export const recommendedGuides = {
-  '1': 'digital-nomad-visa-tax-korea.md',
-  '2': 'crypto-tax-korea-foreigners-2026-2027.md',
-  '3': 'korea-income-tax-rates-brackets-foreigners.md',
-  '4': 'remote-work-foreign-company-tax-korea.md',
-  '5': 'foreign-financial-account-reporting-korea.md',
-  '6': 'foreign-tax-credit-korea-foreigners.md',
-  '7': 'korea-tax-treaty-double-taxation-foreigners.md',
-  '8': 'deductible-business-expenses-foreign-freelancers-korea.md',
-  '9': 'simple-standard-expense-rate-korea-foreigners.md',
-  '10': 'simplified-general-vat-taxpayer-korea-foreigners.md',
-  '11': 'korean-tax-id-tin-foreigners.md',
-  '12': 'interest-dividend-tax-korea-foreigners.md',
-  '13': 'inheritance-gift-tax-korea-foreigners.md',
-  '14': 'capital-gains-tax-korean-property-foreigners.md'
+  '1': 'non-resident-income-tax-korea-foreigners.md',
+  '2': 'medical-expense-tax-credit-korea-foreigners.md',
+  '3': 'certificate-tax-residence-korea-foreigners.md',
+  '4': 'education-expense-tax-credit-korea-foreigners.md',
+  '5': 'pension-savings-irp-tax-credit-korea-foreigners.md',
+  '6': 'donation-tax-credit-korea-foreigners.md',
+  '7': 'housing-loan-mortgage-tax-deduction-korea-foreigners.md',
+  '8': 'amend-korean-tax-return-refund-claim.md',
+  '9': 'korean-stock-capital-gains-tax-foreigners.md',
+  '10': 'korean-pension-income-tax-foreigners.md',
+  '11': 'korea-vat-filing-deadlines-foreign-business.md',
+  '12': 'electronic-tax-invoice-korea-foreign-business.md',
+  '13': 'bookkeeping-requirements-korea-foreign-freelancers.md',
+  '14': 'korean-tax-audit-preparation-foreigners.md'
 };

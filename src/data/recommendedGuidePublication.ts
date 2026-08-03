@@ -1,38 +1,26 @@
 // These guides are intentionally kept out of the public build until released
 // one at a time through `npm run promote:guide -- <number>`.
 export const controlledRecommendedGuideSlugs = [
-  'digital-nomad-visa-tax-korea',
-  'crypto-tax-korea-foreigners-2026-2027',
-  'korea-income-tax-rates-brackets-foreigners',
-  'remote-work-foreign-company-tax-korea',
-  'foreign-financial-account-reporting-korea',
-  'foreign-tax-credit-korea-foreigners',
-  'korea-tax-treaty-double-taxation-foreigners',
-  'deductible-business-expenses-foreign-freelancers-korea',
-  'simple-standard-expense-rate-korea-foreigners',
-  'simplified-general-vat-taxpayer-korea-foreigners',
-  'korean-tax-id-tin-foreigners',
-  'interest-dividend-tax-korea-foreigners',
-  'inheritance-gift-tax-korea-foreigners',
-  'capital-gains-tax-korean-property-foreigners'
+  'non-resident-income-tax-korea-foreigners',
+  'medical-expense-tax-credit-korea-foreigners',
+  'certificate-tax-residence-korea-foreigners',
+  'education-expense-tax-credit-korea-foreigners',
+  'pension-savings-irp-tax-credit-korea-foreigners',
+  'donation-tax-credit-korea-foreigners',
+  'housing-loan-mortgage-tax-deduction-korea-foreigners',
+  'amend-korean-tax-return-refund-claim',
+  'korean-stock-capital-gains-tax-foreigners',
+  'korean-pension-income-tax-foreigners',
+  'korea-vat-filing-deadlines-foreign-business',
+  'electronic-tax-invoice-korea-foreign-business',
+  'bookkeeping-requirements-korea-foreign-freelancers',
+  'korean-tax-audit-preparation-foreigners'
 ] as const;
 
 // The promotion script replaces this list when a numbered guide is released.
 export const publishedRecommendedGuideSlugs: string[] = [
-  'digital-nomad-visa-tax-korea',
-  'crypto-tax-korea-foreigners-2026-2027',
-  'korea-income-tax-rates-brackets-foreigners',
-  'remote-work-foreign-company-tax-korea',
-  'foreign-financial-account-reporting-korea',
-  'foreign-tax-credit-korea-foreigners',
-  'korea-tax-treaty-double-taxation-foreigners',
-  'deductible-business-expenses-foreign-freelancers-korea',
-  'simple-standard-expense-rate-korea-foreigners',
-  'simplified-general-vat-taxpayer-korea-foreigners',
-  'korean-tax-id-tin-foreigners',
-  'interest-dividend-tax-korea-foreigners',
-  'inheritance-gift-tax-korea-foreigners',
-  'capital-gains-tax-korean-property-foreigners'
+  'non-resident-income-tax-korea-foreigners',
+  'medical-expense-tax-credit-korea-foreigners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);

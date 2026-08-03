@@ -1,0 +1,22 @@
+# Recommended guide deployment map - 2026-08-03
+
+These 14 guides are unpublished drafts. The order prioritizes uncovered search intent, topical authority, year-end-settlement seasonality, internal-link potential, and answer-engine-friendly questions.
+
+Use `npm run promote:guide -- <number>` to promote one guide. The promotion script applies the deployment date in the `Asia/Seoul` timezone to `pubDate`, `updatedDate`, and `lastReviewed`. Before pushing, verify time-sensitive facts against the official sources and run `npm run build`.
+
+| No. | Article title | Meta title | Target slug | Thumbnail recommendation |
+| --- | --- | --- | --- | --- |
+| 1 | Non-Resident Income Tax in Korea for Foreigners | Korea Non-Resident Income Tax Guide | `/guides/non-resident-income-tax-korea-foreigners/` | Split residence-status decision graphic with a Korea map, overseas globe, income arrows, and a clear “Resident / Non-Resident” fork; no flags or tiny text. |
+| 2 | Medical Expense Tax Credit in Korea for Foreign Workers | Korea Medical Expense Tax Credit for Foreigners | `/guides/medical-expense-tax-credit-korea-foreigners/` | Hospital receipt, pharmacy bag, calculator, and year-end settlement checklist in a clean navy and teal editorial style. |
+| 3 | How to Get a Korean Certificate of Tax Residence | Korean Certificate of Tax Residence for Foreigners | `/guides/certificate-tax-residence-korea-foreigners/` | Korean tax certificate with globe, treaty document, official seal motif, and verified checkmark; avoid fake government logos. |
+| 4 | Education Expense Tax Credit in Korea for Foreign Workers | Korea Education Expense Tax Credit for Foreigners | `/guides/education-expense-tax-credit-korea-foreigners/` | Tuition receipt, school and university icons, pencil, calculator, and a family checklist. |
+| 5 | Pension Savings and IRP Tax Credit in Korea for Foreigners | Korea Pension Savings and IRP Tax Credit | `/guides/pension-savings-irp-tax-credit-korea-foreigners/` | Pension jar and IRP folder feeding into a year-end tax credit calculator, with a long-term timeline. |
+| 6 | Donation Tax Credit in Korea for Foreign Workers | Korea Donation Tax Credit for Foreigners | `/guides/donation-tax-credit-korea-foreigners/` | Donation receipt, heart and verified organization badge beside a tax credit checklist; no charity logos. |
+| 7 | Housing Loan and Mortgage Tax Deductions in Korea | Korea Housing Loan Tax Deductions for Foreigners | `/guides/housing-loan-mortgage-tax-deduction-korea-foreigners/` | Korean apartment, loan agreement, interest statement, and eligibility checklist with a lock/key motif. |
+| 8 | How to Amend a Korean Tax Return and Claim a Refund | Amend Korean Tax Return and Claim a Refund | `/guides/amend-korean-tax-return-refund-claim/` | Original tax return changing to a corrected return, refund arrow, calendar, and Hometax screen motif. |
+| 9 | Korean Stock Capital Gains Tax for Foreigners | Korea Stock Capital Gains Tax for Foreigners | `/guides/korean-stock-capital-gains-tax-foreigners/` | Korean brokerage statement, stock chart, sale ledger, residence-status card, and tax calculator. |
+| 10 | Korean Pension Income Tax for Foreigners | Korea Pension Income Tax Guide for Foreigners | `/guides/korean-pension-income-tax-foreigners/` | Pension payment statement crossing Korea and overseas locations, with withholding and filing checkboxes. |
+| 11 | Korea VAT Filing Deadlines for Foreign Business Owners | Korea VAT Filing Deadlines for Foreign Businesses | `/guides/korea-vat-filing-deadlines-foreign-business/` | Four-quarter VAT calendar with January, April, July, and October markers, invoice stack, and calculator. |
+| 12 | Electronic Tax Invoices in Korea for Foreign Businesses | Korea Electronic Tax Invoice Guide for Foreigners | `/guides/electronic-tax-invoice-korea-foreign-business/` | E-tax invoice moving from seller to buyer through Hometax, with issue-date and transmission checkmarks. |
+| 13 | Bookkeeping Requirements in Korea for Foreign Freelancers | Korea Bookkeeping Guide for Foreign Freelancers | `/guides/bookkeeping-requirements-korea-foreign-freelancers/` | Organized sales ledger, expense receipts, bank statement, and simple-versus-double-entry comparison. |
+| 14 | Korean Tax Audit Preparation for Foreigners | Korea Tax Audit Preparation Guide for Foreigners | `/guides/korean-tax-audit-preparation-foreigners/` | Calm document-review desk with notice letter, timeline, records archive, and adviser checklist; avoid alarmist imagery. |
