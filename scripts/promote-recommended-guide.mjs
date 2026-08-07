@@ -6,11 +6,26 @@ import { draftFolder, recommendedGuides } from './recommended-guides.mjs';
 const number = process.argv[2];
 const fileName = recommendedGuides[number];
 const dryRun = process.argv.includes('--dry-run');
+const dateFlagIndex = process.argv.indexOf('--date');
+const requestedDate = dateFlagIndex === -1 ? undefined : process.argv[dateFlagIndex + 1];
 
 if (!fileName) {
-  console.error('Usage: npm run promote:guide -- <number>');
+  console.error('Usage: npm run promote:guide -- <number> [--date YYYY-MM-DD]');
   console.error(`Available numbers: ${Object.keys(recommendedGuides).join(', ')}`);
   process.exit(1);
+}
+
+if (dateFlagIndex !== -1 && (!requestedDate || !/^\d{4}-\d{2}-\d{2}$/.test(requestedDate))) {
+  console.error('Use --date with a valid date in YYYY-MM-DD format.');
+  process.exit(1);
+}
+
+if (requestedDate) {
+  const parsedDate = new Date(`${requestedDate}T00:00:00Z`);
+  if (Number.isNaN(parsedDate.getTime()) || parsedDate.toISOString().slice(0, 10) !== requestedDate) {
+    console.error('Use --date with a real calendar date in YYYY-MM-DD format.');
+    process.exit(1);
+  }
 }
 
 const root = process.cwd();
@@ -47,7 +62,7 @@ try {
 }
 
 await mkdir(targetDir, { recursive: true });
-const deploymentDate = koreaDate();
+const deploymentDate = requestedDate ?? koreaDate();
 
 let guideMarkdown;
 try {

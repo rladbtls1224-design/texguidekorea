@@ -20,7 +20,11 @@ export const controlledRecommendedGuideSlugs = [
 // The promotion script replaces this list when a numbered guide is released.
 export const publishedRecommendedGuideSlugs: string[] = [
   'non-resident-income-tax-korea-foreigners',
-  'medical-expense-tax-credit-korea-foreigners'
+  'medical-expense-tax-credit-korea-foreigners',
+  'pension-savings-irp-tax-credit-korea-foreigners',
+  'donation-tax-credit-korea-foreigners',
+  'housing-loan-mortgage-tax-deduction-korea-foreigners',
+  'amend-korean-tax-return-refund-claim'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
