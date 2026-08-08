@@ -24,7 +24,9 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'pension-savings-irp-tax-credit-korea-foreigners',
   'donation-tax-credit-korea-foreigners',
   'housing-loan-mortgage-tax-deduction-korea-foreigners',
-  'amend-korean-tax-return-refund-claim'
+  'amend-korean-tax-return-refund-claim',
+  'korean-stock-capital-gains-tax-foreigners',
+  'korean-pension-income-tax-foreigners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
