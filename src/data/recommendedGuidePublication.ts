@@ -28,7 +28,9 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'korean-stock-capital-gains-tax-foreigners',
   'korean-pension-income-tax-foreigners',
   'korea-vat-filing-deadlines-foreign-business',
-  'electronic-tax-invoice-korea-foreign-business'
+  'electronic-tax-invoice-korea-foreign-business',
+  'bookkeeping-requirements-korea-foreign-freelancers',
+  'korean-tax-audit-preparation-foreigners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
