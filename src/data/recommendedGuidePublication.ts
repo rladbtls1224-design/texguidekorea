@@ -20,7 +20,9 @@ export const controlledRecommendedGuideSlugs = [
   'stock-options-rsu-tax-korea-foreign-employees',
   'rental-income-tax-korea-foreign-property-owners',
   'property-acquisition-tax-korea-foreign-buyers',
-  'convert-foreign-income-krw-korean-tax'
+  'convert-foreign-income-krw-korean-tax',
+  'korea-vat-zero-rating-exported-services-freelancers',
+  'korea-tax-penalties-late-filing-payment'
 ] as const;
 
 // The promotion script replaces this list when a numbered guide is released.
@@ -42,7 +44,9 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'stock-options-rsu-tax-korea-foreign-employees',
   'rental-income-tax-korea-foreign-property-owners',
   'property-acquisition-tax-korea-foreign-buyers',
-  'convert-foreign-income-krw-korean-tax'
+  'convert-foreign-income-krw-korean-tax',
+  'korea-vat-zero-rating-exported-services-freelancers',
+  'korea-tax-penalties-late-filing-payment'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
