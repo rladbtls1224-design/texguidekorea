@@ -3,9 +3,9 @@ title: "Foreign Engineer Tax Reduction in Korea: 2026 Guide"
 seoTitle: "Korea Foreign Engineer Tax Reduction Guide (2026)"
 thumbnailSuggestion: "16:9 professional editorial graphic of a foreign engineer entering a Korean R&D workplace, with qualification documents, a 50% tax-reduction shield, a ten-year timeline, and a December 31, 2026 start-date marker; no corporate logos or dense text."
 description: "A 2026 guide to Korea's foreign engineer income tax reduction, including the statutory engineer test, first-service deadline, ten-year period, payroll application, and records."
-pubDate: 2026-08-24
-updatedDate: 2026-08-24
-lastReviewed: 2026-08-24
+pubDate: 2026-08-25
+updatedDate: 2026-08-25
+lastReviewed: 2026-08-25
 category: "Year-End Settlement"
 difficulty: "Intermediate"
 tags: ["foreign engineer", "tax reduction", "2026 deadline", "R&D employee", "foreign worker tax"]
