@@ -59,7 +59,9 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'employer-paid-housing-tax-korea-foreign-workers',
   'd8-investor-visa-tax-business-records-korea',
   'korea-tax-filing-by-proxy-power-of-attorney',
-  'can-foreigners-claim-korea-earned-income-tax-credit-2026'
+  'can-foreigners-claim-korea-earned-income-tax-credit-2026',
+  'foreign-engineer-tax-reduction-korea-2026',
+  'korea-property-holding-tax-foreign-owners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
