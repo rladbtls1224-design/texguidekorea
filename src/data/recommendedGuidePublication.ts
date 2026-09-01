@@ -31,7 +31,8 @@ export const controlledRecommendedGuideSlugs = [
   'foreign-engineer-tax-reduction-korea-2026',
   'korea-property-holding-tax-foreign-owners',
   'korea-payroll-withholding-tax-foreign-employees',
-  'employee-vs-independent-contractor-korea-tax'
+  'employee-vs-independent-contractor-korea-tax',
+  'korea-tax-treaty-exemption-application-nonresidents'
 ] as const;
 
 // The promotion script replaces this list when a numbered guide is released.
@@ -64,7 +65,8 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'foreign-engineer-tax-reduction-korea-2026',
   'korea-property-holding-tax-foreign-owners',
   'korea-payroll-withholding-tax-foreign-employees',
-  'employee-vs-independent-contractor-korea-tax'
+  'employee-vs-independent-contractor-korea-tax',
+  'korea-tax-treaty-exemption-application-nonresidents'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
