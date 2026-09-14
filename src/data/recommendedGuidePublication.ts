@@ -35,7 +35,8 @@ export const controlledRecommendedGuideSlugs = [
   'korea-tax-treaty-exemption-application-nonresidents',
   'korea-tax-invoice-cash-receipt-credit-card-receipt',
   'korea-tax-payment-installments-deadline-extension',
-  'korea-permanent-establishment-foreign-company'
+  'korea-permanent-establishment-foreign-company',
+  'korea-mutual-agreement-procedure-double-tax'
 ] as const;
 
 // The promotion script replaces this list when a numbered guide is released.
@@ -72,7 +73,8 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'korea-tax-treaty-exemption-application-nonresidents',
   'korea-tax-invoice-cash-receipt-credit-card-receipt',
   'korea-tax-payment-installments-deadline-extension',
-  'korea-permanent-establishment-foreign-company'
+  'korea-permanent-establishment-foreign-company',
+  'korea-mutual-agreement-procedure-double-tax'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
