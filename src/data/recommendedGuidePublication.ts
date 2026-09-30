@@ -38,7 +38,8 @@ export const controlledRecommendedGuideSlugs = [
   'korea-permanent-establishment-foreign-company',
   'korea-mutual-agreement-procedure-double-tax',
   'salary-paid-abroad-work-in-korea-foreign-employees',
-  'f5-visa-income-proof-tax-documents-korea'
+  'f5-visa-income-proof-tax-documents-korea',
+  'private-tutoring-income-tax-korea-foreigners'
 ] as const;
 
 // The promotion script replaces this list when a numbered guide is released.
@@ -78,7 +79,8 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'korea-permanent-establishment-foreign-company',
   'korea-mutual-agreement-procedure-double-tax',
   'salary-paid-abroad-work-in-korea-foreign-employees',
-  'f5-visa-income-proof-tax-documents-korea'
+  'f5-visa-income-proof-tax-documents-korea',
+  'private-tutoring-income-tax-korea-foreigners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
