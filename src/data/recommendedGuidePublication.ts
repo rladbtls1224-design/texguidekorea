@@ -41,7 +41,8 @@ export const controlledRecommendedGuideSlugs = [
   'f5-visa-income-proof-tax-documents-korea',
   'private-tutoring-income-tax-korea-foreigners',
   'airbnb-short-term-rental-tax-korea-foreign-hosts',
-  'expat-allowances-reimbursements-tax-korea'
+  'expat-allowances-reimbursements-tax-korea',
+  'selling-used-goods-online-korea-tax-foreigners'
 ] as const;
 
 // The promotion script replaces this list when a numbered guide is released.
@@ -84,7 +85,8 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'f5-visa-income-proof-tax-documents-korea',
   'private-tutoring-income-tax-korea-foreigners',
   'airbnb-short-term-rental-tax-korea-foreign-hosts',
-  'expat-allowances-reimbursements-tax-korea'
+  'expat-allowances-reimbursements-tax-korea',
+  'selling-used-goods-online-korea-tax-foreigners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
