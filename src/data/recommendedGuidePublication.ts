@@ -42,7 +42,8 @@ export const controlledRecommendedGuideSlugs = [
   'private-tutoring-income-tax-korea-foreigners',
   'airbnb-short-term-rental-tax-korea-foreign-hosts',
   'expat-allowances-reimbursements-tax-korea',
-  'selling-used-goods-online-korea-tax-foreigners'
+  'selling-used-goods-online-korea-tax-foreigners',
+  'royalty-licensing-income-tax-korea-foreigners'
 ] as const;
 
 // The promotion script replaces this list when a numbered guide is released.
@@ -86,7 +87,8 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'private-tutoring-income-tax-korea-foreigners',
   'airbnb-short-term-rental-tax-korea-foreign-hosts',
   'expat-allowances-reimbursements-tax-korea',
-  'selling-used-goods-online-korea-tax-foreigners'
+  'selling-used-goods-online-korea-tax-foreigners',
+  'royalty-licensing-income-tax-korea-foreigners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
