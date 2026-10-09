@@ -16,7 +16,7 @@ documents: ["Assignment letter and employment agreement", "Company travel and re
 mistakes: ["Treating every reimbursement as non-taxable", "Leaving overseas-paid benefits out of Korean payroll", "Using a company policy without evidence of the actual expense", "Confusing home leave with initial arrival or final departure airfare", "Electing a flat-tax method without comparing the full compensation package"]
 related:
   - { title: "Is Employer-Paid Housing Taxable in Korea?", href: "/guides/employer-paid-housing-tax-korea-foreign-workers/" }
-  - { title: "Korean Payroll Withholding Tax", href: "/guides/korea-payroll-withholding-tax-foreign-employees/" }
+  - { title: "Year-End Tax Settlement for Foreigners", href: "/guides/year-end-tax-settlement-foreigners/" }
   - { title: "Korea Flat Tax Rate for Foreign Workers", href: "/guides/flat-tax-rate-foreign-workers-korea/" }
   - { title: "Stock Options and RSUs Tax in Korea", href: "/guides/stock-options-rsu-tax-korea-foreign-employees/" }
 faqs:

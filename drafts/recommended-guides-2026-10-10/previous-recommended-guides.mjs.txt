@@ -1,0 +1,12 @@
+export const draftFolder = 'recommended-guides-2026-09-28';
+
+export const recommendedGuides = {
+  '1': 'salary-paid-abroad-work-in-korea-foreign-employees.md',
+  '2': 'f5-visa-income-proof-tax-documents-korea.md',
+  '3': 'private-tutoring-income-tax-korea-foreigners.md',
+  '4': 'airbnb-short-term-rental-tax-korea-foreign-hosts.md',
+  '5': 'expat-allowances-reimbursements-tax-korea.md',
+  '6': 'selling-used-goods-online-korea-tax-foreigners.md',
+  '7': 'royalty-licensing-income-tax-korea-foreigners.md',
+  '8': 'prize-money-awards-contest-winnings-tax-korea.md'
+};

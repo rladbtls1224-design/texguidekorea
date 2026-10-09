@@ -16,7 +16,7 @@ documents: ["Electronic tax invoice", "Expense-proof cash receipt", "Credit or d
 mistakes: ["Using a personal cash-receipt identifier for a business purchase", "Requesting a second tax invoice for the same card transaction without checking the rule", "Confusing an estimate or simple receipt with qualified evidence", "Failing to verify the buyer's business number", "Recording the same purchase twice"]
 related:
   - { title: "Electronic Tax Invoices in Korea for Foreign Businesses", href: "/guides/electronic-tax-invoice-korea-foreign-business/" }
-  - { title: "VAT Input Tax Deductions in Korea for Foreign Business Owners", href: "/guides/korea-vat-input-tax-deduction-foreign-business/" }
+  - { title: "VAT Guide for Foreign Freelancers in Korea", href: "/guides/vat-guide-foreign-freelancers-korea/" }
   - { title: "Bookkeeping Requirements in Korea for Foreign Freelancers", href: "/guides/bookkeeping-requirements-korea-foreign-freelancers/" }
   - { title: "Deductible Business Expenses for Foreign Freelancers in Korea", href: "/guides/deductible-business-expenses-foreign-freelancers-korea/" }
 faqs:

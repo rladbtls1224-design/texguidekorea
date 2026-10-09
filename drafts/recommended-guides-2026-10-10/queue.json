@@ -1,0 +1,170 @@
+[
+  {
+    "number": 1,
+    "slug": "korea-vat-preliminary-payment-notice-foreign-business",
+    "title": "Korea VAT Preliminary Payment Notices: A Guide for Foreign Business Owners",
+    "seoTitle": "Korea VAT Preliminary Payment Notice: What to Do",
+    "topicKo": "10월 부가세 예정고지서 대응",
+    "reason": "10월 시의성. 기존 VAT 신고 달력과 달리 고지서 수령 후 판단과 납부에 집중.",
+    "thumbnailSuggestion": "1200x630 editorial illustration, navy and teal: October calendar beside a VAT notice, branching into pay notice and review return eligibility; headline VAT NOTICE; no government seals.",
+    "category": "Hometax Guides",
+    "description": "Received a Korean VAT preliminary payment notice? Check your taxpayer type, payment details, exceptions, and how the amount connects to your final VAT return.",
+    "quickAnswer": "A VAT preliminary payment notice (예정고지) is different from a preliminary return (예정신고). Check the business type, period, amount and payment instructions before deciding whether to pay the notice or review eligibility to file instead.",
+    "documents": ["VAT notice and delivery date", "Business registration", "Previous final VAT return", "Current sales and purchase records", "Payment confirmation"],
+    "sections": [
+      ["Identify the notice", "Confirm that the notice is for VAT, not global income tax or local tax. Match the registration number and taxable period to your business. A notice does not necessarily mean that you missed a return."],
+      ["Choose the correct next action", "NTS distinguishes preliminary notice payments from preliminary returns. Certain individual general taxpayers and small corporations receive notices based on the previous period. Review current exceptions and eligibility for a return when business conditions change; do not substitute an estimated payment without checking the rules."],
+      ["Keep the credit trail", "Save the notice, payment receipt and relevant prior return together. Reconcile any preliminary payment when preparing the final VAT return, so that you do not overlook the prepaid amount. Use the current notice for the actual payment deadline."]
+    ],
+    "faqs": [["Is a VAT notice the same as a return?", "No. A preliminary notice and a preliminary return are different compliance routes."], ["Can I ignore it because sales fell?", "No. Review the applicable exception or filing route before changing the action requested in the notice."]],
+    "relatedSlugs": ["korea-vat-filing-deadlines-foreign-business", "simplified-general-vat-taxpayer-korea-foreigners"],
+    "sources": [["NTS - VAT overview", "https://s.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2401"]]
+  },
+  {
+    "number": 2,
+    "slug": "korea-income-tax-interim-prepayment-foreigners",
+    "title": "Korea Income Tax Interim Prepayment: November Notices for Foreigners",
+    "seoTitle": "Korea Income Tax Interim Prepayment: November Guide",
+    "topicKo": "11월 종합소득세 중간예납",
+    "reason": "11월 사전 수요. 5월 확정신고 및 납부기한 연장 글과 구분되는 중간예납 판단.",
+    "thumbnailSuggestion": "1200x630 navy and teal illustration: November calendar, income tax notice, first-half ledger and a later annual-return credit arrow; headline NOVEMBER TAX.",
+    "category": "Income Tax",
+    "description": "Understand Korean income tax interim prepayment notices, first-half estimated reporting, exemptions, and the records foreign business owners should prepare.",
+    "quickAnswer": "Korean global income tax interim prepayment (중간예납) is separate from May annual filing and VAT. Check whether a notice applies, whether an exemption is available, and whether first-half estimated reporting is permitted or required.",
+    "documents": ["Interim income tax notice", "Prior annual return", "January-June books", "Withholding receipts", "Payment records"],
+    "sections": [
+      ["Separate the tax and period", "Read the tax name before making a payment. November income tax interim prepayment is not October VAT. Identify the taxpayer, calculation basis and instructions on the current notice."],
+      ["Review the first-half reporting route", "A lower current-year profit does not automatically cancel a notice. The NTS interim-prepayment guidance explains estimated reporting using first-half results and the conditions for that route. Some bookkeeping taxpayers without a prior payment base may also have a reporting obligation. Check the applicable category before relying on the absence of a notice."],
+      ["Reconcile at annual filing", "Retain the payment confirmation and calculation papers for the following annual return. Interim prepayment is part of the income tax settlement process; it is not evidence that all annual income has already been reported. Confirm current deadlines and any extension in the latest NTS guidance."]
+    ],
+    "faqs": [["Does paying this replace May filing?", "No. Review annual filing separately and reconcile eligible prepaid tax."], ["What if I did not receive a notice?", "Check your taxpayer category; the absence of a notice alone does not resolve every estimated-reporting obligation."]],
+    "relatedSlugs": ["global-income-tax-filing-korea-foreigners", "bookkeeping-requirements-korea-foreign-freelancers"],
+    "sources": [["NTS - Interim prepayment guide", "https://s.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7675&mi=2238"]]
+  },
+  {
+    "number": 3,
+    "slug": "overseas-stock-capital-gains-tax-korea-foreign-residents",
+    "title": "Overseas Stock Capital Gains Tax in Korea for Foreign Residents",
+    "seoTitle": "Overseas Stock Capital Gains Tax in Korea for Foreigners",
+    "topicKo": "외국인 거주자의 해외주식 매도세금",
+    "reason": "기존 한국 주식 매도세금과 발행국·거주기간 판단이 다름. 연말 매도 전 검토 수요.",
+    "thumbnailSuggestion": "1200x630 navy and teal illustration: overseas brokerage statement, residence-history timeline, KRW gain worksheet; headline OVERSEAS STOCKS; no broker logos or guaranteed tax-saving claims.",
+    "category": "Income Tax",
+    "description": "Selling overseas shares while living in Korea? Review residence history, overseas-share tax rules, KRW gain records, losses, and filing preparation.",
+    "quickAnswer": "Foreign nationality alone does not determine Korea's tax treatment of overseas share gains. Review Korean tax residence, the relevant continuous residence history, security classification and current law before calculating a taxable gain.",
+    "documents": ["Residence history", "Trade confirmations", "Acquisition costs and fees", "Corporate action records", "KRW conversion worksheet"],
+    "sections": [
+      ["Check residence history before calculating", "Do not apply a universal overseas-share tax answer to every foreign resident. The NTS has published an interpretation addressing overseas shares sold before five years of continuous Korean residence. Confirm the facts and current rule for your own transaction rather than confusing that test with other foreign-income rules."],
+      ["Identify the asset", "Separate overseas shares from Korean-listed securities, dividends and employment income arising from stock awards. An investment labelled an ETF by a broker still needs a classification check. A later sale and an earlier employment benefit are separate events."],
+      ["Build a Korean reporting worksheet", "Collect each acquisition and disposal, fees, corporate actions and supporting exchange-rate records. Review any permitted loss aggregation, deduction and filing timetable in the current NTS overseas-stock guide. A foreign broker's profit display is not a substitute for a Korean tax computation."]
+    ],
+    "faqs": [["Are foreign residents always taxed on overseas stock sales?", "No single nationality-based answer works. Residence history, asset classification and the current rules must be checked."], ["Can I use only my broker's dollar profit?", "Keep transaction and KRW conversion evidence; a foreign-currency summary may not match the Korean calculation."]],
+    "relatedSlugs": ["korean-stock-capital-gains-tax-foreigners", "convert-foreign-income-krw-korean-tax", "stock-options-rsu-tax-korea-foreign-employees"],
+    "sources": [["NTS - 2026 Overseas stocks and tax", "https://t.nts.go.kr/nts/na/ntt/selectNttInfo.do?mi=13452&nttSn=1350977"], ["NTS - Overseas shares and continuous residence interpretation", "https://taxlaw.nts.go.kr/qt/USEQTA002P.do?ntstDcmId=200000000000007791"]]
+  },
+  {
+    "number": 4,
+    "slug": "business-loss-carryforward-korea-foreign-freelancers",
+    "title": "Business Losses and Loss Carryforwards in Korea for Foreign Freelancers",
+    "seoTitle": "Korea Business Loss Carryforward for Foreign Freelancers",
+    "topicKo": "프리랜서 사업 적자와 이월결손금",
+    "reason": "일반 필요경비 안내와 달리 적자 발생 후 공제·이월 관리에 집중.",
+    "thumbnailSuggestion": "1200x630 editorial illustration: loss ledger flowing into a multi-year carryforward schedule, with salary and business columns; headline BUSINESS LOSSES; navy and teal, no guaranteed refund badge.",
+    "category": "3.3% Freelancer Tax",
+    "description": "Made a business loss in Korea? Learn what foreign freelancers should check about loss offsets, carryforwards, bookkeeping evidence, and rental-business exceptions.",
+    "quickAnswer": "A business cash shortfall is not automatically a deductible tax loss. Establish the loss through qualifying books and review the statutory offset order, restrictions and carryforward rules for the income and year involved.",
+    "documents": ["Annual income and expense books", "Qualified expense evidence", "Prior returns", "Loss-by-year schedule", "Prior loss deductions"],
+    "sections": [
+      ["Establish the tax loss", "Reconcile revenue and allowable costs first. Loan principal, owner withdrawals and cash spent buying assets do not automatically become current expenses. Keep the books and evidence supporting the calculation."],
+      ["Apply the correct restriction", "Income Tax Act Article 45 governs losses and carryforwards. It contains distinctions for property rental businesses and different income categories. Do not assume that every loss can offset any salary, dividend or future gain."],
+      ["Maintain a year-by-year schedule", "Record the originating tax year, original loss, amounts used, remaining balance and applicable expiry. Verify the rules for that loss year, including transitional provisions. Preserve supporting books for the period required to substantiate a carryforward claim, rather than deleting them after an ordinary short retention period."]
+    ],
+    "faqs": [["Does a loss guarantee a refund?", "No. The permitted offset, other income, prepaid tax and filing facts determine the result."], ["Are rental losses identical to freelance losses?", "No. Article 45 includes specific restrictions, so identify the business category first."]],
+    "relatedSlugs": ["deductible-business-expenses-foreign-freelancers-korea", "bookkeeping-requirements-korea-foreign-freelancers"],
+    "sources": [["Income Tax Act - Article 45", "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000383641"], ["NTS - Books and supporting record retention", "https://g.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=239004&mi=40574"]]
+  },
+  {
+    "number": 5,
+    "slug": "dispute-korean-tax-assessment-foreigners",
+    "title": "How to Dispute a Korean Tax Assessment: A Guide for Foreigners",
+    "seoTitle": "Dispute a Korean Tax Assessment: Foreigner Guide",
+    "topicKo": "잘못된 세금 부과에 대한 불복 절차",
+    "reason": "기존 세금 안내문 해석·수정신고 글과 달리 과세처분에 대한 권리구제에 집중.",
+    "thumbnailSuggestion": "1200x630 navy and teal illustration: notice received, pre-assessment review and post-assessment appeal decision path; headline TAX APPEAL; document and deadline icons, no courtroom victory claims.",
+    "category": "Tax Documents",
+    "description": "Disagree with a Korean tax assessment? Identify the notice stage, preserve service evidence, and compare pre-assessment review with post-assessment remedies.",
+    "quickAnswer": "The appropriate Korean tax remedy depends on whether you received a proposed assessment or a final assessment. Identify the document and delivery date promptly, then confirm the correct procedure and its filing deadline.",
+    "documents": ["Complete notice and envelope", "Electronic delivery evidence", "Tax return and calculation", "Supporting contracts and receipts", "Representative authority if applicable"],
+    "sections": [
+      ["Identify the procedural stage", "A proposed assessment and an issued tax assessment use different review routes. The NTS distinguishes pre-assessment review from remedies available after assessment. Do not choose a form based only on an English translation of the letter."],
+      ["Preserve the deadline evidence", "Record when and how the document was received. Keep the full notice, attachments and delivery evidence. Confirm the applicable deadline immediately; do not assume that a phone enquiry or an informal complaint preserves appeal rights."],
+      ["Prepare a focused case file", "Describe the disputed item, the tax office's reasoning, your requested correction and the evidence supporting it. Review the available route with a qualified representative when needed. A refund correction request, an appeal against an assessment and a payment arrangement address different problems. Confirm collection and payment consequences separately."]
+    ],
+    "faqs": [["Is amending my return always the correct remedy?", "No. First determine whether the issue is your own filing or a tax authority assessment."], ["Does calling the tax office count as an appeal?", "Do not rely on a call to meet formal filing requirements. Confirm the required submission and deadline."]],
+    "relatedSlugs": ["korean-tax-notices-letters-foreigners", "amend-korean-tax-return-refund-claim", "korean-tax-audit-preparation-foreigners"],
+    "sources": [["NTS Taxpayer Advocate - Pre-assessment review", "https://s.nts.go.kr/taxpayer_advocate/cm/cntnts/cntntsView.do?cntntsId=8346&mi=11809"], ["NTS - Taxpayer remedies guide", "https://www.nts.go.kr/tax_inquiry/guide_04.html"]]
+  },
+  {
+    "number": 6,
+    "slug": "vat-exempt-business-status-report-korea-foreigners",
+    "title": "Korea Business Status Reports for VAT-Exempt Foreign Business Owners",
+    "seoTitle": "Korea VAT-Exempt Business Status Report Guide",
+    "topicKo": "면세사업자 사업장현황신고",
+    "reason": "VAT 면세를 신고 면제로 오해하는 독자를 위한 별도 의무 안내. 다음 연초 신고 준비.",
+    "thumbnailSuggestion": "1200x630 illustration: VAT EXEMPT card beside annual revenue ledger and a separate business-status report folder; headline EXEMPT? STILL REPORT; navy and teal, no official seals.",
+    "category": "Hometax Guides",
+    "description": "VAT-exempt business in Korea? Check whether an annual business status report applies, what revenue records to prepare, and why income tax filing is separate.",
+    "quickAnswer": "VAT exemption does not automatically remove reporting duties. Certain VAT-exempt individual businesses must submit an annual business status report (사업장현황신고), with exclusions and industry-specific requirements to check.",
+    "documents": ["Business registration and activity code", "Annual revenue ledger", "Sales and purchase statements", "Card and cash receipt data", "Closure or suspension records"],
+    "sections": [
+      ["Check the actual exemption", "Confirm whether the activity is VAT-exempt rather than zero-rated or merely operated by a simplified taxpayer. These classifications have different compliance consequences."],
+      ["Review the annual report", "NTS describes business status reporting for VAT-exempt individual businesses, including certain businesses closed or suspended during the reporting year. Check exclusions, industry schedules and required statement summaries before assuming the rule applies identically to every exempt operator."],
+      ["Reconcile revenue once", "Match annual receipts to the ledger and supporting statements. Save the submitted report for the later income tax return. Business status reporting and annual income tax filing serve different purposes; completing one does not automatically complete the other. Verify the current reporting window and any special industry requirements before submission."]
+    ],
+    "faqs": [["Is VAT-exempt the same as zero-rated?", "No. Confirm the activity's classification before choosing a reporting route."], ["Does this replace annual income tax filing?", "No. Assess the income tax return obligation separately."]],
+    "relatedSlugs": ["vat-guide-foreign-freelancers-korea", "private-tutoring-income-tax-korea-foreigners", "global-income-tax-filing-korea-foreigners"],
+    "sources": [["NTS - Business status report overview", "https://ems.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7699&mi=2283"]]
+  },
+  {
+    "number": 7,
+    "slug": "daily-worker-income-tax-korea-foreigners",
+    "title": "Daily Worker Income Tax in Korea: Filing Rules for Foreigners",
+    "seoTitle": "Daily Worker Income Tax in Korea for Foreigners",
+    "topicKo": "일용근로소득과 신고 여부",
+    "reason": "기존 3.3% 사업소득·일반 근로소득과 다른 일용근로 분리과세 검색 의도.",
+    "thumbnailSuggestion": "1200x630 illustration: shift timesheet and payslip comparing daily wages, regular wages and freelance payments; headline DAILY WORK TAX; navy and teal, no visa permission implication.",
+    "category": "Income Tax",
+    "description": "Paid by the day in Korea? Distinguish qualifying daily-worker wages from regular employment and 3.3% freelance income before deciding how tax filing works.",
+    "quickAnswer": "A short job or daily payment does not automatically qualify as daily-worker income (일용근로소득). For correctly classified qualifying daily wages, NTS explains that withholding completes the tax obligation for that income, rather than regular year-end settlement.",
+    "documents": ["Employment contract", "Employment dates and shift records", "Daily pay calculation", "Withholding statement", "Payer-reported income classification"],
+    "sections": [
+      ["Verify the classification", "Check the working arrangement, payment method, duration and applicable industry rules. A monthly fixed wage or a short contract should not be labelled daily-worker income merely because the work was temporary."],
+      ["Separate the filing paths", "NTS distinguishes regular wages, which may require year-end settlement, from qualifying daily wages whose withholding is final for that income. A freelance payment reported as business income follows another path. Other income you earn can still create a separate annual filing question."],
+      ["Correct evidence before filing", "Ask the payer for the relevant withholding or payment record and compare the classification with the contract and shifts. If they disagree, request an explanation or correction rather than forcing the payment into a freelance refund claim. Tax classification does not establish immigration permission to do the work."]
+    ],
+    "faqs": [["Is every one-day job daily-worker income?", "No. The actual arrangement and statutory classification must be checked."], ["Does daily-worker income mean I never file any tax return?", "No. Other income and your wider circumstances must be reviewed separately."]],
+    "relatedSlugs": ["employee-vs-independent-contractor-korea-tax", "what-is-33-tax-korea", "withholding-tax-receipt-korea"],
+    "sources": [["NTS - Regular and daily-worker wage comparison", "https://j.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7863&mi=6427"], ["NTS - Correct payment statement classifications", "https://g.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=239047&mi=41003"]]
+  },
+  {
+    "number": 8,
+    "slug": "joint-business-income-tax-korea-foreign-partners",
+    "title": "Joint Business Income Tax in Korea for Foreign Partners",
+    "seoTitle": "Joint Business Income Tax in Korea for Foreign Partners",
+    "topicKo": "공동사업자의 소득 배분과 개인 신고",
+    "reason": "기존 단독 사업자등록 글과 달리 공동사업장 계산·동업자별 소득배분에 집중.",
+    "thumbnailSuggestion": "1200x630 editorial illustration: one business ledger splitting into two partner tax folders, with agreement and allocation worksheet; headline JOINT BUSINESS; navy and teal.",
+    "category": "Income Tax",
+    "description": "Running a joint business in Korea? Understand business-level income records, partner allocation evidence, and the separate tax questions foreign partners should review.",
+    "quickAnswer": "A Korean joint business is not automatically taxed like a corporation. Income Tax Act Article 43 provides for income calculation at the joint-business level; partners must then review the applicable allocation and individual tax treatment.",
+    "documents": ["Joint-business agreement", "Business registration", "Capital and ownership records", "Agreed profit and loss allocation", "Annual business accounts", "Partner distribution records"],
+    "sections": [
+      ["Identify the legal structure", "Separate a jointly operated individual business from a corporation, an ordinary service contract or a passive investment. The partners' foreign nationality does not by itself choose the structure or determine its tax treatment."],
+      ["Calculate the business result", "Article 43 establishes a joint-business-level income calculation. Reconcile the business's revenue and costs before preparing partner information. Money withdrawn by a partner is not automatically a wage expense or a complete measure of that person's taxable share."],
+      ["Document the allocation", "Retain the agreement, ownership evidence and calculation supporting each partner's share. Review the applicable allocation rules, changes during the year, related-party arrangements and passive-investor distinctions under current law. Each partner should separately check residence and annual filing obligations. Confirm registration and immigration requirements before beginning operations."]
+    ],
+    "faqs": [["Can each partner report only cash withdrawn?", "Do not assume so. Reconcile the business result and applicable allocation first."], ["Is this the same as owning shares in a company?", "No. Confirm the legal structure before applying corporate or joint-business rules."]],
+    "relatedSlugs": ["business-registration-foreign-freelancers-korea", "bookkeeping-requirements-korea-foreign-freelancers", "global-income-tax-filing-korea-foreigners"],
+    "sources": [["Income Tax Act - Article 43", "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026641873"], ["NTS - Joint business interpretation", "https://taxlaw.nts.go.kr/qt/USEQTA002P.do?ntstDcmId=010000000000574904"]]
+  }
+]

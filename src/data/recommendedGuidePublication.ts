@@ -1,6 +1,14 @@
 // These guides are intentionally kept out of the public build until released
 // one at a time through `npm run promote:guide -- <number>`.
 export const controlledRecommendedGuideSlugs = [
+  'korea-vat-preliminary-payment-notice-foreign-business',
+  'korea-income-tax-interim-prepayment-foreigners',
+  'overseas-stock-capital-gains-tax-korea-foreign-residents',
+  'business-loss-carryforward-korea-foreign-freelancers',
+  'dispute-korean-tax-assessment-foreigners',
+  'vat-exempt-business-status-report-korea-foreigners',
+  'daily-worker-income-tax-korea-foreigners',
+  'joint-business-income-tax-korea-foreign-partners',
   'non-resident-income-tax-korea-foreigners',
   'medical-expense-tax-credit-korea-foreigners',
   'certificate-tax-residence-korea-foreigners',
@@ -49,6 +57,7 @@ export const controlledRecommendedGuideSlugs = [
 
 // The promotion script replaces this list when a numbered guide is released.
 export const publishedRecommendedGuideSlugs: string[] = [
+  'korea-vat-preliminary-payment-notice-foreign-business',
   'non-resident-income-tax-korea-foreigners',
   'medical-expense-tax-credit-korea-foreigners',
   'pension-savings-irp-tax-credit-korea-foreigners',

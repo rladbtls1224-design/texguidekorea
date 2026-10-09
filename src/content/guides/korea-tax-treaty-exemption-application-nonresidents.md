@@ -16,7 +16,7 @@ documents: ["Certificate of residence from the foreign tax authority", "Contract
 mistakes: ["Using nationality instead of treaty residence", "Selecting a form for the wrong income type", "Quoting a treaty rate without checking conditions", "Submitting only after payment without reviewing the refund procedure", "Ignoring beneficial ownership or intermediary entities"]
 related:
   - { title: "Korea Tax Treaties and Double Taxation for Foreigners", href: "/guides/korea-tax-treaty-double-taxation-foreigners/" }
-  - { title: "Certificate of Tax Residence in Korea for Foreigners", href: "/guides/certificate-tax-residence-korea-foreigners/" }
+  - { title: "Korea Tax Residency Rules for Foreigners", href: "/guides/korea-tax-residency-foreigners/" }
   - { title: "Non-Resident Income Tax in Korea for Foreigners", href: "/guides/non-resident-income-tax-korea-foreigners/" }
   - { title: "Foreign Tax Credit in Korea for Foreign Residents", href: "/guides/foreign-tax-credit-korea-foreigners/" }
 faqs:

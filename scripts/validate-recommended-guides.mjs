@@ -32,11 +32,11 @@ const files = (await readdir(draftDir))
   .filter((name) => name.endsWith('.md') && name !== 'README.md')
   .sort();
 
-if (files.length !== 14) {
-  throw new Error(`Expected 14 recommended guides, found ${files.length}.`);
+const mappedFiles = Object.values(recommendedGuides).sort();
+if (files.length !== mappedFiles.length) {
+  throw new Error(`Expected ${mappedFiles.length} recommended guides, found ${files.length}.`);
 }
 
-const mappedFiles = Object.values(recommendedGuides).sort();
 if (JSON.stringify(files) !== JSON.stringify(mappedFiles)) {
   throw new Error('Draft files do not match the numbered deployment map.');
 }
