@@ -102,7 +102,8 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'prize-money-awards-contest-winnings-tax-korea',
   'korea-income-tax-interim-prepayment-foreigners',
   'overseas-stock-capital-gains-tax-korea-foreign-residents',
-  'business-loss-carryforward-korea-foreign-freelancers'
+  'business-loss-carryforward-korea-foreign-freelancers',
+  'dispute-korean-tax-assessment-foreigners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
