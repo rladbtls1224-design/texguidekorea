@@ -7,9 +7,9 @@ thumbnailSuggestion: "1200x630 illustration: shift timesheet and payslip
 description: Paid by the day in Korea? Distinguish qualifying daily-worker wages
   from regular employment and 3.3% freelance income before deciding how tax
   filing works.
-pubDate: 2026-10-10
-updatedDate: 2026-10-10
-lastReviewed: 2026-10-10
+pubDate: 2026-10-22
+updatedDate: 2026-10-22
+lastReviewed: 2026-10-22
 category: Income Tax
 difficulty: Intermediate
 tags:
@@ -21,7 +21,8 @@ quickAnswer: A short job or daily payment does not automatically qualify as
   NTS explains that withholding completes the tax obligation for that income,
   rather than regular year-end settlement.
 audience:
-  - Foreign residents in Korea reviewing this tax obligation
+  - Foreign workers paid for short shifts or temporary jobs in Korea
+  - Workers comparing payer records with their employment arrangement
 keyPoints:
   - Verify the classification
   - Separate the filing paths
@@ -33,8 +34,10 @@ documents:
   - Withholding statement
   - Payer-reported income classification
 mistakes:
-  - Using the wrong income or taxpayer classification
-  - Relying on an old deadline without checking current official instructions
+  - Assuming every temporary job is daily-worker income
+  - Treating the amount withheld as proof of the correct classification
+  - Including final-taxed daily wages in a freelance refund calculation
+  - Ignoring other income when reviewing annual filing duties
 related:
   - title: "Employee vs Independent Contractor in Korea: Tax and 3.3%"
     href: /guides/employee-vs-independent-contractor-korea-tax/
@@ -54,20 +57,56 @@ sources:
   - title: NTS - Correct payment statement classifications
     url: https://g.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=239047&mi=41003
     type: official
+  - title: NTS - Wage income totals and year-end settlement
+    url: https://d.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7871&mi=6435
+    type: official
+
 ---
 
-### Verify the classification
 
-Check the working arrangement, payment method, duration and applicable industry rules. A monthly fixed wage or a short contract should not be labelled daily-worker income merely because the work was temporary.
+### Start with the work arrangement
 
-### Separate the filing paths
+Keep the contract and actual work history together. The label on a job advertisement, bank transfer or translated payslip is a starting point for questions, not enough evidence to choose a tax-return category.
 
-NTS distinguishes regular wages, which may require year-end settlement, from qualifying daily wages whose withholding is final for that income. A freelance payment reported as business income follows another path. Other income you earn can still create a separate annual filing question.
+NTS describes daily-worker classification by reference to the pay basis and employment duration: generally less than three months with the same employer, with separate construction rules. Fixed monthly contractual pay is ordinary wage income regardless of a short employment period. A contract originally requiring at least three months does not become daily work merely because the worker leaves early. Check special industry rules rather than applying a simple shift count.
 
-### Correct evidence before filing
+### Compare the reporting paths
 
-Ask the payer for the relevant withholding or payment record and compare the classification with the contract and shifts. If they disagree, request an explanation or correction rather than forcing the payment into a freelance refund claim. Tax classification does not establish immigration permission to do the work.
+| Payment record | Next check |
+| --- | --- |
+| Daily-worker wages (일용근로소득) | Confirm that the contract and work history support this classification |
+| Ordinary wages (근로소득) | Review year-end settlement records and any remaining filing question |
+| Business income (사업소득), often described as 3.3% payments | Compare the reported category with the actual working arrangement |
+| A bank payment with no clear income label | Obtain a payment statement before choosing a return category |
 
-### Before you submit
+NTS explains that withholding on qualifying daily wages settles tax on that income. Its wage-income guidance also excludes those daily wages from ordinary annual salary totals and year-end settlement. Review other income separately; a daily job does not answer every annual filing question.
 
-Confirm the rules and forms for the relevant tax year using the official sources below. This guide is general information; complex residence, classification or disputed-assessment questions need individual review.
+For the broader distinction, see [employee versus independent contractor](/guides/employee-vs-independent-contractor-korea-tax/) and [what 3.3% tax means](/guides/what-is-33-tax-korea/).
+
+### Build a record for each payer
+
+Before asking for a correction or preparing a return, gather:
+
+1. The original contract, including the intended start and end dates and any extension.
+2. A calendar showing actual shifts and breaks in the arrangement.
+3. Payslips showing the gross amount, deductions and net payment.
+4. Bank records that identify which payslip each payment belongs to.
+5. The payer's reported income category and the relevant withholding or payment statement.
+
+Use one row per payment in your own worksheet. Keep the payment date separate from the dates worked, and record a combined payment without losing the underlying shift details. This makes a question to payroll more precise and avoids counting the same amount twice.
+
+### If the records disagree
+
+NTS payment-statement guidance emphasizes accurate reporting details. Ask the payer to explain the category used, compare it with the employment evidence, and request correction where appropriate. Keep the original and corrected records so that any change remains traceable.
+
+A useful written request identifies the payer, payment date, gross amount and disputed category, then attaches the relevant contract or payslip. Ask which statement will be corrected and how you can obtain confirmation. If the payer disagrees, take that evidence to the tax office or a qualified tax representative before submitting inconsistent figures.
+
+See [how to obtain a withholding tax receipt](/guides/withholding-tax-receipt-korea/) for the supporting document workflow. Do not assume the amount withheld alone proves whether the payer selected the right category.
+
+### Review your wider filing position
+
+Make a separate list of other salary, business and other income for the year. Match each item with its own documents before deciding whether an annual return is required. Keep a note of unresolved classification questions and who is handling them.
+
+Do not move correctly classified daily wages into a freelance refund claim simply because another job used business-income withholding. If a category changes, reassess the affected return with the corrected evidence.
+
+Tax classification does not establish immigration permission to do the work. Confirm work authorization separately where relevant.
