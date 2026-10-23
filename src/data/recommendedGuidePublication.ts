@@ -105,7 +105,8 @@ export const publishedRecommendedGuideSlugs: string[] = [
   'business-loss-carryforward-korea-foreign-freelancers',
   'dispute-korean-tax-assessment-foreigners',
   'vat-exempt-business-status-report-korea-foreigners',
-  'daily-worker-income-tax-korea-foreigners'
+  'daily-worker-income-tax-korea-foreigners',
+  'joint-business-income-tax-korea-foreign-partners'
 ];
 
 const controlledSlugs = new Set<string>(controlledRecommendedGuideSlugs);
