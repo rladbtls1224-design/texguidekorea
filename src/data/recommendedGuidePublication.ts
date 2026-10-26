@@ -1,6 +1,7 @@
 // These guides are intentionally kept out of the public build until released
 // one at a time through `npm run promote:guide -- <number>`.
 export const controlledRecommendedGuideSlugs = [
+  'korea-childbirth-parental-leave-pay-tax-foreigners',
   'korea-sme-employee-income-tax-reduction-foreigners',
   'korea-year-end-tax-preview-foreigners',
   'korea-vat-preliminary-payment-notice-foreign-business',
@@ -59,6 +60,7 @@ export const controlledRecommendedGuideSlugs = [
 
 // The promotion script replaces this list when a numbered guide is released.
 export const publishedRecommendedGuideSlugs: string[] = [
+  'korea-childbirth-parental-leave-pay-tax-foreigners',
   'korea-sme-employee-income-tax-reduction-foreigners',
   'korea-year-end-tax-preview-foreigners',
   'korea-vat-preliminary-payment-notice-foreign-business',
