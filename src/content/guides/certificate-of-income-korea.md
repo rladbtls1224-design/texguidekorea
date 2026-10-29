@@ -1,9 +1,10 @@
 ---
-title: "How to Get a Certificate of Income in Korea"
+title: "Certificate of Income in Korea: What Foreigners Need to Know"
+seoTitle: "Certificate of Income in Korea for Foreigners"
 description: "Learn what a Korean certificate of income is, when foreigners may need it, and how it connects to Hometax, visas, and income proof."
 pubDate: 2026-07-05
-updatedDate: 2026-07-05
-lastReviewed: 2026-07-05
+updatedDate: 2026-08-29
+lastReviewed: 2026-08-29
 category: "Tax Documents"
 difficulty: "Beginner"
 tags: ["certificate of income", "income proof", "Hometax", "visa extension", "tax documents"]
@@ -29,43 +30,47 @@ sources:
   - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
 ---
 
-### What is a certificate of income?
+### What does a certificate of income show?
 
-A certificate of income is used to show income that has been reported through official tax channels. Foreigners may be asked for it when extending a visa, applying for financial services, proving income to an employer, or preparing housing documents. It is not the same as a payslip, employment certificate, or bank statement.
+A Korean certificate of income is evidence of income recorded through official tax reporting channels for a selected period. It can help an institution verify reported income, but it does not prove every payment you received and it does not replace a tax payment certificate, withholding receipt, payslip, employment certificate, or bank statement.
 
-The most important limitation is that the certificate depends on official records. If income was not reported, was reported under a different period, or was not yet available, the certificate may not show what you expect.
+This distinction matters when a bank, employer, immigration office, school, or housing provider asks for a specific document. Confirm the requested Korean document name instead of relying only on an informal English translation.
 
-### What should you check before issuing it?
-
-Ask the requesting office for the exact document name, year, and accepted issue method. Some offices may want a specific period or a recently issued document. If your Korean is limited, compare the requested Korean document name with the English explanation before issuing the wrong certificate.
+### How is it different from similar documents?
 
 <table>
   <thead>
     <tr>
-      <th>Check</th>
-      <th>Why it matters</th>
+      <th>Document</th>
+      <th>What it generally supports</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Document name</td>
-      <td>Similar certificates can have different purposes</td>
+      <td>Certificate of income</td>
+      <td>Income recorded for the selected reporting period</td>
     </tr>
     <tr>
-      <td>Year or period</td>
-      <td>The wrong year may be rejected</td>
+      <td>Tax payment certificate</td>
+      <td>Tax payment or outstanding-tax status, depending on the document requested</td>
     </tr>
     <tr>
-      <td>Reported income</td>
-      <td>Missing income may require payer or tax office follow-up</td>
+      <td>Withholding receipt</td>
+      <td>Income and tax withheld by a particular payer or employer</td>
     </tr>
     <tr>
-      <td>Issue route</td>
-      <td>Online issue may not work if login fails</td>
+      <td>Payslip or bank statement</td>
+      <td>Payment evidence that may not match official tax records</td>
     </tr>
   </tbody>
 </table>
 
-### What if you cannot use Hometax?
+### Why might expected income be missing?
 
-Start with the [Hometax sign-up guide](/guides/hometax-sign-up-foreigner/). If access still fails, check whether a tax office, Government24, or another official channel can help under current procedures. Avoid sending personal documents to unofficial helpers unless you understand the privacy and representation risks.
+The certificate depends on the requested year, reporting timing, payer reporting, and income classification. Recent or corrected income may not appear immediately. Income reported under a different category or period may also differ from what you expect based on deposits or payslips.
+
+If the missing amount affects a deadline, compare the selected period with your payer records and ask the relevant official office what supporting document or correction route it accepts.
+
+### Where can you get the certificate?
+
+Online and in-person options can change. For the practical issuance sequence, use the separate [step-by-step certificate procedure](/procedures/how-to-get-income-certificate/). If Hometax access fails, start with the [Hometax sign-up guide](/guides/hometax-sign-up-foreigner/) and confirm current alternatives through an official channel. Avoid sending identity or tax documents to unofficial helpers unless you understand the privacy and representation risks.

@@ -42,7 +42,7 @@ The current rules include a special basis rule for assets already held before th
 
 Tax on crypto gains and foreign financial account reporting are separate. A person may have no dedicated 2026 virtual-asset gain tax under the delayed start date but still need to examine whether overseas exchange or custody accounts are reportable.
 
-### Re-check before publication and filing
+### Confirm the rules before a transaction or filing
 
 Crypto legislation can change quickly. Confirm the start date, deduction, rate, valuation method, residency treatment, and reporting forms against the NTS immediately before relying on them.
 

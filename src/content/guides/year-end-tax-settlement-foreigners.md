@@ -2,8 +2,8 @@
 title: "Year-End Tax Settlement in Korea for Foreign Workers"
 description: "A practical overview of Korea year-end tax settlement for foreign employees, including employer roles, documents, and separate filing checks."
 pubDate: 2026-07-04
-updatedDate: 2026-07-04
-lastReviewed: 2026-07-05
+updatedDate: 2026-10-26
+lastReviewed: 2026-10-26
 category: "Year-End Settlement"
 difficulty: "Beginner"
 tags: ["year-end settlement", "employee", "foreign worker", "E-2", "E-7", "income tax"]
@@ -23,7 +23,8 @@ faqs:
   - { question: "Can foreign employees claim deductions?", answer: "Possible deductions depend on eligibility, documents, and current rules, so verify with official guidance." }
   - { question: "Do E-2 teachers use this process?", answer: "Many salary-based teachers do, but contract type and payer reporting should be checked." }
 sources:
-  - { title: "National Tax Service – English Website", url: "https://www.nts.go.kr/english/main.do", type: "official" }
+  - { title: "NTS - Wage income: year-end settlement timing and calculation", url: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7870&mi=6591", type: "official" }
+  - { title: "NTS - Easy Guide for Foreigners' Year-End Tax Settlement 2025 (published January 2026)", url: "https://www.nts.go.kr/english/na/ntt/selectNttInfo.do?mi=10790&nttSn=1347686", type: "official" }
   - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
 ---
 
@@ -36,6 +37,35 @@ The process can feel automatic, but it still depends on correct records. Your em
 ### What documents are usually involved?
 
 Your employer may provide instructions and deadlines. You may need identity details, proof of income from a previous employer, or deduction-related documents if you are claiming items allowed under current rules. Foreigners should avoid guessing about deductions. Rules may change, and some items may require specific Korean documents or eligibility.
+
+### Agree the income year and the payroll timetable
+
+The [NTS wage-income guidance](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7870&mi=6591) describes settlement for continuing employees when the following February's wages are paid, and settlement when wages for the month employment ends are paid for employees who leave their job during the year. Your employer needs documents before it completes that calculation, so ask for its submission deadline rather than using the payroll month as your personal document deadline.
+
+The linked [English Easy Guide](https://www.nts.go.kr/english/na/ntt/selectNttInfo.do?mi=10790&nttSn=1347686) covers **2025 income** and was published in January 2026. It is not a 2026-income deductions checklist. For settlement of 2026 pay, check the applicable year's official instructions and your employer's document request before choosing a deduction or special treatment.
+
+### Send payroll a complete question, not just a document bundle
+
+Use this worksheet to identify missing information. The questions are preparation prompts, not a claim that every employee must submit the same documents.
+
+| Your situation | Question for payroll | Record to keep |
+|---|---|---|
+| One employer all year | Which income year and employment months are included? | Employer's instructions and final receipt |
+| A job change | Did you include the previous employer's wage and withholding figures? | Previous receipt and confirmation of inclusion |
+| Deductions requested | Which claims are eligible for my circumstances, and what evidence is missing? | Claim list and submitted supporting documents |
+| Foreign-worker tax treatment | Which method was used, and was a separate application required? | Application and explanation of the chosen method |
+| Salary plus freelance work | Which income has this employer actually settled? | Separate freelance payment and withholding records |
+| Leaving Korea or changing contact details | How will I obtain the final receipt and any adjustment? | Payroll contact and delivery arrangements |
+
+A file appearing in a simplified-data download does not itself resolve eligibility for a claim. Flag uncertain items before submitting them. Payroll should be able to tell you what it included, what it excluded, and which evidence it relied on.
+
+### Read the final receipt before treating the process as complete
+
+Ask for the wage and salary withholding receipt, **근로소득 원천징수영수증**. Compare the employer, identity details, income year, pay, and included employment periods with your records. In the national-tax calculation, distinguish final tax (**결정세액**) from prepaid withholding (**기납부세액**) and the balance (**차감징수세액**).
+
+**Simplified arithmetic example:** final national tax of KRW 300,000 minus KRW 420,000 already withheld gives a KRW 120,000 refund balance. If final tax were KRW 500,000 instead, the balance would be KRW 80,000 to pay. These assumed final-tax figures illustrate the direction of the calculation; they do not establish deductions, a tax rate, or a local-tax amount for a reader.
+
+Compare the adjustment with your payslip and ask payroll about any unexplained difference. Store the final receipt with the documents you submitted. For a visa or bank request, check whether the recipient wants this receipt or a separate [certificate of income](/guides/certificate-of-income-korea/); the documents serve different purposes.
 
 <table>
   <thead>

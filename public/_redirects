@@ -1,1 +1,2 @@
-https://www.taxguidekorea.com/* https://taxguidekorea.com/:splat 301
+# Cloudflare Pages does not support domain-level redirects in this file.
+# The www-to-apex redirect is handled by functions/_middleware.js.

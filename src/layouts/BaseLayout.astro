@@ -7,13 +7,16 @@ const {
   title = 'Korea Tax Guide for Foreigners',
   description = 'Simple English guides for income tax, year-end settlement, 3.3% freelancer tax refunds, Hometax, and tax documents in Korea.',
   canonical = Astro.url.pathname,
+  robots,
   type = 'website',
   jsonLd,
   appendSiteName = true
 } = Astro.props;
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://taxguidekorea.com';
-const canonicalUrl = canonical.startsWith('http') ? canonical : `${siteUrl}${canonical}`;
+const canonicalUrl = canonical
+  ? (canonical.startsWith('http') ? canonical : `${siteUrl}${canonical}`)
+  : undefined;
 const fullTitle = appendSiteName && !title.includes('Korea Tax Guide')
   ? `${title} | Korea Tax Guide for Foreigners`
   : title;
@@ -33,7 +36,7 @@ const globalJsonLd = [
   }
 ];
 const pageJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
-const allJsonLd = [...globalJsonLd, ...pageJsonLd];
+const allJsonLd = robots?.includes('noindex') ? [] : [...globalJsonLd, ...pageJsonLd];
 ---
 <!doctype html>
 <html lang="en">
@@ -42,18 +45,19 @@ const allJsonLd = [...globalJsonLd, ...pageJsonLd];
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonicalUrl} />
+    {robots && <meta name="robots" content={robots} />}
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content={type} />
-    <meta property="og:url" content={canonicalUrl} />
+    {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
     <meta property="og:site_name" content="Korea Tax Guide for Foreigners" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:url" content={canonicalUrl} />
+    {canonicalUrl && <meta name="twitter:url" content={canonicalUrl} />}
     <link rel="alternate" type="application/rss+xml" title="Korea Tax Guide for Foreigners RSS" href="/rss.xml" />
-    <script is:inline type="application/ld+json" set:html={JSON.stringify(allJsonLd)} />
+    {allJsonLd.length > 0 && <script is:inline type="application/ld+json" set:html={JSON.stringify(allJsonLd)} />}
   </head>
   <body>
     <Header />

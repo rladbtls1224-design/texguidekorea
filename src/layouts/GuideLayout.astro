@@ -20,11 +20,11 @@ const jsonLd = [
     description: entry.data.description,
     datePublished: entry.data.pubDate.toISOString(),
     dateModified: entry.data.updatedDate.toISOString(),
-    author: { '@type': 'Organization', name: entry.data.author },
+    author: { '@type': 'Organization', name: entry.data.author, url: 'https://taxguidekorea.com/about/#publisher' },
     articleSection: entry.data.category,
     keywords: entry.data.tags.join(', '),
     mainEntityOfPage: `https://taxguidekorea.com${url}`,
-    publisher: { '@type': 'Organization', name: 'Korea Tax Guide for Foreigners' }
+    publisher: { '@type': 'Organization', name: 'Korea Tax Guide for Foreigners', url: 'https://taxguidekorea.com/about/#publisher' }
   },
   {
     '@context': 'https://schema.org',
@@ -58,7 +58,8 @@ const jsonLd = [
     <Breadcrumbs items={[{ label: 'Guides', href: '/guides/' }, { label: entry.data.title }]} />
     <p class="eyebrow">Korea tax guide</p>
     <h1>{entry.data.title}</h1>
-    <p class="meta">By {entry.data.author} | Last reviewed: {formatKoreaDate(entry.data.lastReviewed)} | Last updated: {formatKoreaDate(entry.data.updatedDate)}</p>
+    <p class="meta">Published by <a href="/about/#publisher">{entry.data.author}</a> | Last reviewed: {formatKoreaDate(entry.data.lastReviewed)} | Last updated: {formatKoreaDate(entry.data.updatedDate)}</p>
+    <p class="meta"><a href="/editorial-policy/#review-dates">What our review dates mean</a> · <a href="/contact/">Report a correction</a></p>
     <p><CategoryPill label={entry.data.category} /> <span class="meta">{entry.data.difficulty}</span></p>
     <div class="summary-box"><strong>Summary:</strong> {entry.data.description}</div>
     <nav class="toc" aria-label="Table of contents">
@@ -66,12 +67,13 @@ const jsonLd = [
       <a href="#who-this-guide-is-for">Who this guide is for</a>
       <a href="#quick-answer">Quick answer</a>
       <a href="#key-points">Key points</a>
-      <a href="#step-by-step">Step-by-step explanation</a>
+      <a href="#step-by-step">Detailed explanation</a>
       <a href="#documents">Documents you may need</a>
       <a href="#common-mistakes">Common mistakes</a>
       <a href="#professional-help">When to ask a tax professional</a>
       <a href="#faq">FAQ</a>
       <a href="#related-guides">Related guides</a>
+      <a href="#official-sources">Official sources</a>
     </nav>
     <section id="who-this-guide-is-for">
       <h2>Who this guide is for</h2>
@@ -83,7 +85,7 @@ const jsonLd = [
       <ul>{entry.data.keyPoints.map((item: string) => <li>{item}</li>)}</ul>
     </section>
     <section id="step-by-step">
-      <h2>Step-by-step explanation</h2>
+      <h2>Detailed explanation</h2>
       <slot />
     </section>
     <section id="documents">

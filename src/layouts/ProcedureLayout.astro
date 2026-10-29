@@ -20,11 +20,11 @@ const jsonLd = [
     description: entry.data.description,
     datePublished: entry.data.pubDate.toISOString(),
     dateModified: entry.data.updatedDate.toISOString(),
-    author: { '@type': 'Organization', name: entry.data.author },
+    author: { '@type': 'Organization', name: entry.data.author, url: 'https://taxguidekorea.com/about/#publisher' },
     articleSection: entry.data.category,
     keywords: entry.data.tags.join(', '),
     mainEntityOfPage: `https://taxguidekorea.com${url}`,
-    publisher: { '@type': 'Organization', name: 'Korea Tax Guide for Foreigners' }
+    publisher: { '@type': 'Organization', name: 'Korea Tax Guide for Foreigners', url: 'https://taxguidekorea.com/about/#publisher' }
   },
   {
     '@context': 'https://schema.org',
@@ -51,7 +51,8 @@ const jsonLd = [
     <Breadcrumbs items={[{ label: 'Procedures', href: '/procedures/' }, { label: entry.data.title }]} />
     <p class="eyebrow">Step-by-step procedure</p>
     <h1>{entry.data.title}</h1>
-    <p class="meta">By {entry.data.author} | Last reviewed: {formatKoreaDate(entry.data.lastReviewed)} | Last updated: {formatKoreaDate(entry.data.updatedDate)}</p>
+    <p class="meta">Published by <a href="/about/#publisher">{entry.data.author}</a> | Last reviewed: {formatKoreaDate(entry.data.lastReviewed)} | Last updated: {formatKoreaDate(entry.data.updatedDate)}</p>
+    <p class="meta"><a href="/editorial-policy/#review-dates">What our review dates mean</a> · <a href="/contact/">Report a correction</a></p>
     <p><CategoryPill label={entry.data.category} /></p>
     <div class="summary-box"><strong>Short summary:</strong> {entry.data.description}</div>
     <section class="quick-answer">

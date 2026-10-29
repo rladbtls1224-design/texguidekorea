@@ -7,10 +7,11 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
-    "postbuild": "node scripts/copy-sitemap.mjs",
+    "postbuild": "node scripts/copy-sitemap.mjs && node scripts/validate-seo.mjs",
     "preview": "astro preview",
     "promote:guide": "node scripts/promote-recommended-guide.mjs",
-    "validate:recommended": "node scripts/validate-recommended-guides.mjs"
+    "validate:recommended": "node scripts/validate-recommended-guides.mjs",
+    "validate:seo": "node scripts/validate-seo.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

@@ -1,72 +1,87 @@
 ---
-title: "Tax Documents Needed for Visa Extension in Korea"
-description: "Learn which Korean tax and income documents foreigners may need for visa extension, banking, employment, or income proof."
+title: "Choosing Tax Documents for Visa Extension in Korea"
+seoTitle: "Tax Documents for Visa Extension: Which Certificate?"
+description: "Choose the right Korean income, national tax clearance, payment-history, or local tax certificate from an immigration office's exact document request."
 pubDate: 2026-07-04
-updatedDate: 2026-07-04
-lastReviewed: 2026-07-05
+updatedDate: 2026-10-26
+lastReviewed: 2026-10-26
 category: "Tax Documents"
 difficulty: "Beginner"
-tags: ["visa extension", "income certificate", "tax payment certificate", "Hometax", "ARC"]
-quickAnswer: "Foreigners may be asked for Korean income or tax payment documents when extending a visa, opening banking services, changing jobs, or proving income. The exact document depends on the office, visa type, and purpose. Check the requesting institution's latest list and confirm records on Hometax before the deadline."
-audience: ["Foreigners preparing visa extension", "Employees or freelancers asked for income proof", "Students or residents dealing with immigration paperwork", "People who need tax certificates for banking or employment"]
-keyPoints: ["Document names can sound similar but serve different purposes.", "Income certificates and tax payment certificates are not always interchangeable.", "Hometax records may depend on reported income.", "Immigration requirements can change, so confirm with official sources."]
-documents: ["Certificate of income", "Tax payment certificate if requested", "Withholding receipt or salary record", "Foreigner registration card", "Employer or school request list"]
-mistakes: ["Requesting the wrong certificate", "Checking documents too close to the visa appointment", "Assuming payslips replace official certificates", "Not confirming the exact year or period requested"]
+tags: ["visa extension", "income certificate", "tax clearance", "payment history", "document selection"]
+quickAnswer: "Start with the requesting office's Korean document name. 소득금액증명 concerns taxable income, 납세증명서 concerns national tax arrears subject to statutory exceptions, and 납부내역증명 concerns tax payments. A local tax certificate is a separate document. Confirm the required person, income year or payment period, language, issue date, and submission format before ordering anything."
+audience: ["Foreigners choosing certificates from a visa-extension request", "Employees and freelancers comparing income and tax documents", "People asked for documents by a bank, employer, or immigration office"]
+keyPoints: ["Use the Korean document name to distinguish certificates with similar English translations.", "Income, tax clearance, and payment history answer different questions.", "National and local tax certificates are separate services.", "The receiving institution decides which document and period it accepts."]
+documents: ["The institution's current written request or visa-specific checklist", "Passport or residence-card details for matching the applicant", "Requested Korean certificate name and tax year or period", "Required language, issue-date limit, and delivery format"]
+mistakes: ["Ordering every document because the English names are unclear", "Submitting payment history when clearance was requested", "Treating a national tax certificate as local tax clearance", "Assuming an employer receipt automatically replaces an NTS certificate"]
 related:
+  - { title: "Visa Tax Document Checklist: Fixing Missing or Wrong Records", href: "/guides/korean-tax-documents-visa-extension/" }
   - { title: "How to Get a Certificate of Income in Korea", href: "/procedures/how-to-get-income-certificate/" }
-  - { title: "Korea Income Tax Filing Guide for Foreigners", href: "/guides/korea-income-tax-filing-foreigners/" }
-  - { title: "How to Sign Up for Hometax as a Foreigner", href: "/guides/hometax-sign-up-foreigner/" }
-  - { title: "How to Pay Korean Taxes Online", href: "/procedures/how-to-pay-korean-tax-online/" }
+  - { title: "Certificate of Income in Korea", href: "/guides/certificate-of-income-korea/" }
+  - { title: "Korea Tax Payment Certificate for Foreigners", href: "/guides/korea-tax-payment-certificate-foreigners/" }
 faqs:
-  - { question: "Which tax document do I need for visa extension?", answer: "It depends on visa type and the office request. Confirm the exact name, period, and issue date requirement." }
-  - { question: "Can I use a payslip instead?", answer: "Sometimes supporting documents help, but official certificates may still be required." }
-  - { question: "What if my income does not appear?", answer: "Check whether income was reported and ask the payer or a professional for help." }
-  - { question: "Should freelancers prepare earlier?", answer: "Yes. Freelance records can take more checking because payer reporting may vary." }
+  - { question: "Is there one tax-document list for every visa extension?", answer: "This guide does not establish a universal list. Use the current guidance for your status and application, then confirm any unclear document with the office handling it or Hi Korea's 1345 service." }
+  - { question: "Are tax clearance and tax payment history the same?", answer: "No. National tax clearance concerns arrears at issuance subject to legal exceptions; payment history records payments. Use the exact Korean document name in the request." }
+  - { question: "Does a withholding receipt replace a certificate of income?", answer: "They are different documents. Ask the receiving institution whether it accepts the employer or payer receipt for the requested purpose and year." }
+  - { question: "Where should I go after choosing the document?", answer: "Use the income-certificate procedure for issuance, or the visa packet troubleshooting guide if the year, identity, amounts, or certificate availability do not match the request." }
 sources:
-  - { title: "Hi Korea – Immigration and Visa Information", url: "https://www.hikorea.go.kr/", type: "official" }
-  - { title: "Hometax – Online Tax Filing and Certificates", url: "https://www.hometax.go.kr/", type: "official" }
-  - { title: "Government24 – Government Services and Certificates", url: "https://www.gov.kr/", type: "official" }
+  - { title: "Government24 – Certificate of Income: purpose and application", url: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000021", type: "official" }
+  - { title: "Government24 – National Tax Clearance Certificate", url: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000011", type: "official" }
+  - { title: "Government24 – National Tax Payment History Certificate", url: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000018", type: "official" }
+  - { title: "Government24 – Local Tax Clearance Certificate", url: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000056", type: "official" }
+  - { title: "NTS – Requesting certificates: separate certificate types", url: "https://www.nts.go.kr/english/cm/cntnts/cntntsView.do?cntntsId=238885&mi=40036", type: "official" }
+  - { title: "Hi Korea – Official immigration portal and 1345 contact center", url: "https://www.hikorea.go.kr/Main.pt?locale=en", type: "official" }
 ---
 
-### Why tax documents matter for foreigners
+### Start with the question the institution is asking
 
-Tax documents are often needed outside tax season. Immigration, banks, employers, housing providers, and schools may request proof of income or tax payment. For foreigners, this can become stressful because the document may be needed by a deadline, while Hometax login or income records may take time to resolve.
+A request for "tax documents" is incomplete. Before logging in to a certificate portal, identify whether the institution needs an income amount, current clearance of arrears, a history of payments, or proof from a particular employer. These are different checks, even when the English translations sound alike.
 
-The two documents people often hear about are a certificate of income and a tax payment certificate. The names may vary in English translation, and the exact Korean document requested should be checked carefully. A visa office may request a specific document for a specific year or period.
+This page helps you **choose a document**. If you already know which certificate is required and need to fix a wrong year, missing income, or an identity mismatch, use the [visa document packet troubleshooting guide](/guides/korean-tax-documents-visa-extension/).
 
-### What documents should you check first?
+For immigration, start from the current instructions for your status and application on [Hi Korea](https://www.hikorea.go.kr/Main.pt?locale=en). Its official portal lists the 1345 Immigration Contact Center for questions. The table below explains documents; it does not make every row a requirement for your visa.
 
-Ask the requesting office for the exact document name, issue period, and whether online issuance is accepted. Then check whether you can access Hometax and whether the records shown match your expected income.
+### Match the Korean name to the document's purpose
 
-<table>
-  <thead>
-    <tr>
-      <th>Document</th>
-      <th>Common purpose</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Certificate of income</td>
-      <td>Shows reported income for a period</td>
-    </tr>
-    <tr>
-      <td>Tax payment certificate</td>
-      <td>Shows tax payment or status information</td>
-    </tr>
-    <tr>
-      <td>Withholding receipt</td>
-      <td>Shows employer or payer withholding records</td>
-    </tr>
-    <tr>
-      <td>Employment certificate</td>
-      <td>May support income or job status, but is not a tax certificate</td>
-    </tr>
-  </tbody>
-</table>
+| Korean name | Practical English description | What to check in the request |
+| --- | --- | --- |
+| 소득금액증명 | Certificate of Income | Whose income, which income year, and which amount the institution will assess |
+| 납세증명서 | National Tax Clearance Certificate | Whether the request concerns national tax arrears and the required issue date |
+| 납부내역증명 | National Tax Payment History Certificate | Required tax type and payment period |
+| 지방세 납세증명서 | Local Tax Clearance Certificate | Whether local clearance is requested in addition to national clearance |
+| 근로소득 원천징수영수증 | Wage and salary income withholding receipt | Employer, income year, and whether that employer record is accepted |
 
-### What if the document does not show the expected income?
+[Government24 describes the income certificate](https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000021) as proof of taxable income amounts for comprehensive, year-end-settled, or daily employment income. It is not a live statement of this month's salary.
 
-This can happen if income was not reported yet, was reported under a different category, or belongs to a period not covered by the certificate. Ask the payer for records and check official guidance. If the document is needed for a visa deadline, start early and keep the requesting office informed where appropriate.
+[National tax clearance](https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000011) concerns the absence of national tax arrears at issuance, with specified legal exceptions. A certificate listing [tax payments](https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000018) answers a different question. Neither document establishes an annual income amount merely because it contains tax figures.
 
-Use the [income certificate procedure](/procedures/how-to-get-income-certificate/) and the [Hometax sign-up guide](/guides/hometax-sign-up-foreigner/) as your first practical steps.
+The NTS's [English certificate list](https://www.nts.go.kr/english/cm/cntnts/cntntsView.do?cntntsId=238885&mi=40036) also separates "Certificate of Tax Payment" from "Tax Clearance Certificate." If someone says only "tax payment certificate," ask them to confirm the Korean name.
+
+### Complete a request worksheet before issuance
+
+Copy these details from the institution's instructions. Where a field is missing, ask for clarification before choosing a substitute.
+
+| Field | Record for your application |
+| --- | --- |
+| Requesting institution and application | Office, visa/status or other service, reference number if provided |
+| Exact document | Korean name plus any required national/local distinction |
+| Person covered | Applicant, spouse, sponsor, business, or another specified person |
+| Period | Income year, payment dates, or status as of issuance |
+| Format | Korean/English, printed/electronic, and accepted delivery route |
+| Timing | Issue-date limit, printed expiry date where relevant, submission deadline |
+| Supporting records | Only the additional employer, business, or other records requested |
+
+Keep the request and the issued certificate together. A newly issued document can still cover the wrong income year; an older income year can be the correct one if that is what the institution requested.
+
+### Three examples of choosing the right next step
+
+**An employee is asked for 2025 소득금액증명.** The starting point is a 2025 income certificate, not a collection of 2026 payslips. If the certificate cannot be issued, ask the receiving office which temporary evidence it accepts and investigate the record separately.
+
+**A freelancer is asked for 납부내역증명 for a stated period.** Check the requested payment dates and tax type. Do not choose 납세증명서 simply because it looks like a more official version of the same English phrase.
+
+**A request specifies both national and local clearance.** Treat these as two items. [Government24 lists local tax clearance separately](https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000056). Do not assume that one document covers both authorities.
+
+These are document-selection examples, not sample visa approvals or a claim that any particular status requires these items.
+
+### Keep selection, issuance, and acceptance separate
+
+Once the name and period are clear, follow the [income certificate issuance procedure](/procedures/how-to-get-income-certificate/) where relevant. Then compare the result against the request before submitting it. Being able to download a certificate proves that issuance succeeded; the receiving institution still decides whether the document meets its application requirements.
